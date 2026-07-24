@@ -51,6 +51,7 @@ def _search_pixabay_video(keyword: str) -> str | None:
 
 
 def _download(url: str, out_path: str):
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with requests.get(url, stream=True, timeout=60) as r:
         r.raise_for_status()
         with open(out_path, "wb") as f:
@@ -69,6 +70,7 @@ def _fetch_clip_for_scene(keyword: str, orientation: str, out_path: str) -> bool
 
 def _make_fallback_clip(duration: float, resolution: tuple, out_path: str):
     """Solid dark background as a safety net if no stock clip is found."""
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
     w, h = resolution
     subprocess.run([
         "ffmpeg", "-y", "-f", "lavfi",
