@@ -128,7 +128,7 @@ def choose_best_niche(force=False) -> dict:
         time.sleep(1)  # be polite to free APIs / avoid rate limits
 
     results.sort(key=lambda r: r["opportunity_score"], reverse=True)
-    winner = results[0]
+    winner = dict(results[0])
     winner["chosen_at"] = datetime.utcnow().isoformat()
     winner["all_scores"] = results
 
