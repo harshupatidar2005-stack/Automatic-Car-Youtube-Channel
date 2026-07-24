@@ -14,6 +14,7 @@ fetch matching stock footage).
 import json
 import os
 import sys
+import time
 import uuid
 from datetime import datetime
 
@@ -28,7 +29,7 @@ strong hook in the first 3 seconds, punchy sentences, no fluff, a clear payoff.
 You always respond with STRICT JSON only, no markdown fences, no commentary."""
 
 
-def _call_llm(prompt: str) -> str:
+def _call_llm(prompt: str, max_retries: int = 5) -> str:
     headers = {
         "Authorization": f"Bearer {config.GROQ_API_KEY}",
         "Content-Type": "application/json",
@@ -42,10 +43,19 @@ def _call_llm(prompt: str) -> str:
         "temperature": 0.85,
         "max_tokens": 4000,
     }
-    resp = requests.post(f"{config.GROQ_BASE_URL}/chat/completions",
-                          headers=headers, json=body, timeout=60)
-    resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"]
+    for attempt in range(max_retries):
+        resp = requests.post(f"{config.GROQ_BASE_URL}/chat/completions",
+                              headers=headers, json=body, timeout=60)
+        if resp.status_code == 429:
+            wait = int(resp.headers.get("Retry-After", 20 * (attempt + 1)))
+            print(f"  [Groq rate limit hit, waiting {wait}s before retry "
+                  f"{attempt + 1}/{max_retries}]")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"]
+    raise RuntimeError("Groq API still rate-limited after all retries -- "
+                        "try again later or reduce SHORTS_PER_DAY / queue size.")
 
 
 LONGFORM_PROMPT_TEMPLATE = """
@@ -138,6 +148,7 @@ def refill_queue(niche: str, shorts_per_longform: int = 3):
     print(f"Generated long-form: {longform['title']}")
 
     for _ in range(shorts_per_longform):
+        time.sleep(5)  # small gap between calls to stay under free-tier rate limits
         short = generate_short(niche, longform["title"])
         queue.append(short)
         print(f"Generated short: {short['title']}")
