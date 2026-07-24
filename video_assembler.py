@@ -102,6 +102,7 @@ def _burn_caption(src_path: str, text: str, out_path: str):
 
 
 def assemble_video(content_item: dict, work_dir: str) -> str:
+    os.makedirs(work_dir, exist_ok=True)
     is_short = content_item["format"] == "short"
     resolution = config.SHORT_RESOLUTION if is_short else config.LONG_RESOLUTION
     orientation = "portrait" if is_short else "landscape"
