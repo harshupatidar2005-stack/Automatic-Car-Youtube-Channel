@@ -1,54 +1,5 @@
 [
   {
-    "id": "b4518644-d743-44b8-a5f9-9cac5c365e55",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Explore the bizarre properties of superfluids",
-    "tags": [
-      "superfluids",
-      "liquid helium",
-      "quantum mechanics",
-      "science experiments",
-      "zero viscosity",
-      "gravity defied",
-      "liquid behavior",
-      "physics"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a liquid that can flow uphill",
-        "visual_keyword": "liquid flowing uphill"
-      },
-      {
-        "narration": "This is the strange world of superfluids",
-        "visual_keyword": "superfluid experiment"
-      },
-      {
-        "narration": "Where gravity no longer applies",
-        "visual_keyword": "zero gravity simulation"
-      },
-      {
-        "narration": "Liquid helium becomes a superfluid at extremely low temperatures",
-        "visual_keyword": "helium cooling process"
-      },
-      {
-        "narration": "Allowing it to climb up walls and escape containers",
-        "visual_keyword": "superfluid escaping container"
-      },
-      {
-        "narration": "Defying the fundamental laws of physics",
-        "visual_keyword": "physics equations on blackboard"
-      },
-      {
-        "narration": "Superfluids are a mind-bending phenomenon",
-        "visual_keyword": "scientist observing experiment"
-      }
-    ],
-    "created_at": "2026-07-25T12:42:54.628255+00:00"
-  },
-  {
     "id": "ff48d658-adc8-464b-b7b1-5ed906e02ca6",
     "format": "short",
     "niche": "science experiments explained",
