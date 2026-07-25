@@ -1,0 +1,121 @@
+name: YouTube Automation Pipeline
+
+on:
+  schedule:
+    # Runs 3x/day, spaced out -- covers Shorts cadence and lets long-form
+    # slot in whenever the queue serves one up. Cron is UTC.
+    - cron: "0 6 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 19 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Produce the video but skip the YouTube upload"
+        type: boolean
+        default: false
+      force_niche:
+        description: "Re-run niche research even if the current pick is fresh"
+        type: boolean
+        default: false
+
+# The default GITHUB_TOKEN is read-only on most repos, so the state-commit
+# step at the end used to fail with a 403.
+permissions:
+  contents: write
+
+# Two overlapping runs would both pop the queue and fight over data/.
+concurrency:
+  group: youtube-automation
+  cancel-in-progress: false
+
+jobs:
+  produce-and-upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install ffmpeg + fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg fonts-dejavu-core
+          ffmpeg -version | head -1
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        # Catches dependency drift (e.g. a new urllib3 breaking pytrends)
+        # before it can waste API quota or publish a broken video.
+        run: python -m pytest tests/ -q
+
+      - name: Run pipeline
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          YOUTUBE_DATA_API_KEY: ${{ secrets.YOUTUBE_DATA_API_KEY }}
+        run: |
+          python orchestrator.py \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            ${{ inputs.force_niche && '--force-niche' || '' }}
+
+      - name: Commit updated state files
+        # Runs even if the pipeline failed, so a partially refilled queue and
+        # the niche pick aren't lost and re-generated (wasting API quota).
+        if: always()
+        run: |
+          git config user.name "channel-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/current_niche.json data/content_queue.json data/upload_log.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Automated content run [skip ci]"
+
+          # Another scheduled run may have pushed while this one was rendering.
+          pushed=false
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+               git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              pushed=true
+              break
+            fi
+            echo "push attempt $attempt failed, retrying..."
+            sleep 5
+          done
+
+          if [ "$pushed" != true ]; then
+            # Do NOT fail the job: the video was already produced and uploaded,
+            # and the pipeline is designed to run correctly without persisted
+            # state (deterministic niche + slot assignment). Losing the state
+            # commit is a degradation, not a failed run.
+            echo "::warning title=Pipeline state was not saved::Could not push \
+            data/ back to the repo, so this run's niche/queue/upload state is lost. \
+            The video was still produced and uploaded. Fix: Settings -> Actions -> \
+            General -> Workflow permissions -> 'Read and write permissions'."
+          fi
+
+      - name: Upload debug artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-run-${{ github.run_id }}
+          path: |
+            data/failed/
+            data/dry_run/
+          retention-days: 7
+          if-no-files-found: ignore

@@ -1,0 +1,2 @@
+Pipeline state lives here: current_niche.json, content_queue.json, upload_log.json.
+Generated audio/video/work subdirectories are gitignored.

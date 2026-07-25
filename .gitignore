@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OAuth secrets -- must never be committed
+client_secret.json
+*.client_secret.json
+.env
+
+# Generated media. These are large and regenerated every run; only the small
+# JSON state files in data/ belong in git (see .github/workflows/automation.yml).
+data/work/
+data/audio/
+data/video/
+data/dry_run/
+data/failed/
+*.mp4
+*.mp3
+*.jpg
+*.png
+
+# ...but the pipeline's state files are tracked on purpose.
+!data/current_niche.json
+!data/content_queue.json
+!data/upload_log.json
