@@ -1,55 +1,5 @@
 [
   {
-    "id": "ff48d658-adc8-464b-b7b1-5ed906e02ca6",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Frozen Chaos",
-    "description": "Understand the strange phenomenon of superfluids in under a minute",
-    "tags": [
-      "superfluids",
-      "science",
-      "experiments",
-      "physics",
-      "liquids",
-      "quantum",
-      "matter",
-      "states",
-      "chaos"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a liquid that defies gravity",
-        "visual_keyword": "liquid flowing upwards"
-      },
-      {
-        "narration": "Superfluids are a reality",
-        "visual_keyword": "helium flowing"
-      },
-      {
-        "narration": "They exhibit zero viscosity",
-        "visual_keyword": "viscosity experiment"
-      },
-      {
-        "narration": "And can even climb up walls",
-        "visual_keyword": "superfluid climbing wall"
-      },
-      {
-        "narration": "This strange behavior is due to quantum effects",
-        "visual_keyword": "quantum particles"
-      },
-      {
-        "narration": "Where the liquid becomes a single entity",
-        "visual_keyword": "superfluid entity"
-      },
-      {
-        "narration": "Leaving us with a frozen chaos",
-        "visual_keyword": "frozen superfluid"
-      }
-    ],
-    "created_at": "2026-07-25T12:43:00.545865+00:00"
-  },
-  {
     "id": "9ce22e51-97df-484e-b0ab-944211db40c1",
     "format": "short",
     "niche": "science experiments explained",
