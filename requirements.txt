@@ -1,7 +1,22 @@
-requests
-pytrends
-edge-tts
-Pillow
-google-auth
-google-auth-oauthlib
-google-api-python-client
+# Lower bounds are pinned deliberately: unpinned installs are what let
+# urllib3 2.x land next to pytrends 4.9.2, whose Retry(method_whitelist=...)
+# call was removed in urllib3 2.0 and broke niche research outright.
+# (niche_research.py now shims that, but keep versions visible here.)
+
+requests>=2.31,<3
+pytrends==4.9.2
+edge-tts>=7.0,<8
+Pillow>=10.2,<14
+google-auth>=2.28,<3
+google-auth-oauthlib>=1.2,<2
+google-api-python-client>=2.120,<3
+
+# pytrends pulls pandas in; 3.x changed enough defaults to be worth pinning.
+pandas>=2.2,<4
+
+# Fallback ffmpeg binary for environments where it isn't installed
+# system-wide (media.py prefers a real ffmpeg on PATH when present).
+imageio-ffmpeg>=0.5,<1
+
+# Test-only
+pytest>=8.0

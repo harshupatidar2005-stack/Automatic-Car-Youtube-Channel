@@ -47,7 +47,7 @@ prevents silent account takeover). Everything else after that is hands-off.
 ### 3. Get your one-time refresh token
 ```bash
 pip install google-auth-oauthlib
-python src/get_refresh_token.py
+python get_refresh_token.py
 ```
 A browser opens once — log in with the Google account that owns your
 channel, approve, and copy the three printed values.
@@ -75,7 +75,7 @@ automatically from then on, for free, using GitHub's own compute.
   engineering, but no one can guarantee a niche's real-world performance
   in advance — that's true for human creators too. Watch the first
   month's analytics; if the niche pick underperforms, force a
-  re-evaluation early with `python src/niche_research.py --force`.
+  re-evaluation early with `python niche_research.py --force`.
 - **Groq's free tier changes over time** — check
   console.groq.com/docs/models if `GROQ_MODEL` in `config.py` ever 404s.
 - **Voice/visual sameness**: to keep this at $0, all videos use one TTS
@@ -85,15 +85,63 @@ automatically from then on, for free, using GitHub's own compute.
 
 ## Repo layout
 ```
-config.py                  # cadence, resolutions, candidate niches
-src/niche_research.py      # picks the niche
-src/script_writer.py       # writes scripts via Groq
-src/tts_voiceover.py       # free TTS
-src/video_assembler.py     # stock footage + ffmpeg assembly
-src/thumbnail_gen.py       # thumbnail generation
-src/youtube_uploader.py    # scheduled upload
-src/get_refresh_token.py   # one-time OAuth helper (run locally)
-src/orchestrator.py        # ties it all together, called by GitHub Actions
-.github/workflows/         # the free scheduler
-data/                      # niche/queue/upload state (auto-committed)
+config.py               # cadence, resolutions, candidate niches
+media.py                # ffmpeg/font discovery, caption rendering, duration probing
+niche_research.py       # picks the niche
+script_writer.py        # writes scripts via Groq
+tts_voiceover.py        # free TTS
+video_assembler.py      # stock footage + ffmpeg assembly
+thumbnail_gen.py        # thumbnail generation
+youtube_uploader.py     # scheduled upload
+get_refresh_token.py    # one-time OAuth helper (run locally)
+orchestrator.py         # ties it all together, called by GitHub Actions
+tests/test_pipeline.py  # offline end-to-end + regression tests
+.github/workflows/      # the free scheduler
+data/                   # niche/queue/upload state (auto-committed)
 ```
+
+## Running it yourself
+
+```bash
+pip install -r requirements.txt
+
+# Render a real video end-to-end WITHOUT publishing anything.
+# Artifacts land in data/dry_run/<id>/ so you can watch them first.
+python orchestrator.py --dry-run
+
+# The real thing (needs the YouTube secrets set)
+python orchestrator.py
+
+# Re-pick the niche immediately instead of waiting for the 30-day cycle
+python orchestrator.py --force-niche
+
+# Offline test suite -- renders actual MP4s with ffmpeg, hits no network
+python -m pytest tests/ -q
+```
+
+`ffmpeg` is used for all rendering. If it isn't on your PATH the pipeline
+falls back to the `imageio-ffmpeg` wheel automatically; you can also point
+`FFMPEG_BINARY` / `CAPTION_FONT` at specific paths.
+
+Useful environment overrides: `TTS_VOICE` (any `edge-tts --list-voices`
+name) and `DISABLE_GOOGLE_TRENDS=1` (skip Trends when it rate-limits CI).
+
+## How it behaves when things break
+
+Free APIs fail constantly, so the pipeline degrades instead of dying:
+
+| Failure | Behaviour |
+|---|---|
+| Google Trends unavailable/rate-limited | Niches score on YouTube data alone |
+| YouTube quota exhausted for search | Neutral competition scores, run continues |
+| All niche scoring fails | Keeps the previously chosen niche |
+| Groq returns prose-wrapped or malformed JSON | Extracted/repaired, then retried |
+| Groq rate-limits or 5xx | Retried with backoff; partial queue is saved |
+| No stock footage for a keyword | Falls back to a generated gradient background |
+| A stock clip is corrupt | That scene re-renders on the fallback background |
+| edge-tts outage | Timed silent track keeps the run alive |
+| Custom thumbnails not enabled on channel | Video still uploads |
+| Production crashes mid-render | Item is quarantined to `data/failed/`, run exits non-zero |
+
+Videos are only removed from the queue after a successful upload, so a
+crash can never silently lose a generated script.
