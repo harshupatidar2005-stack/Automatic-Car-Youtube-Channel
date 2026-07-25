@@ -81,15 +81,32 @@ jobs:
           git add -f data/current_niche.json data/content_queue.json data/upload_log.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No state changes to commit."
-          else
-            git commit -m "Automated content run [skip ci]"
-            # Another scheduled run may have pushed while this one was rendering.
-            for attempt in 1 2 3; do
-              git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
-                git push origin "HEAD:${GITHUB_REF_NAME}" && break
-              echo "push attempt $attempt failed, retrying..."
-              sleep 5
-            done
+            exit 0
+          fi
+
+          git commit -m "Automated content run [skip ci]"
+
+          # Another scheduled run may have pushed while this one was rendering.
+          pushed=false
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+               git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              pushed=true
+              break
+            fi
+            echo "push attempt $attempt failed, retrying..."
+            sleep 5
+          done
+
+          if [ "$pushed" != true ]; then
+            # Do NOT fail the job: the video was already produced and uploaded,
+            # and the pipeline is designed to run correctly without persisted
+            # state (deterministic niche + slot assignment). Losing the state
+            # commit is a degradation, not a failed run.
+            echo "::warning title=Pipeline state was not saved::Could not push \
+            data/ back to the repo, so this run's niche/queue/upload state is lost. \
+            The video was still produced and uploaded. Fix: Settings -> Actions -> \
+            General -> Workflow permissions -> 'Read and write permissions'."
           fi
 
       - name: Upload debug artifacts on failure

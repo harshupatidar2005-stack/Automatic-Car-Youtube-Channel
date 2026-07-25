@@ -141,8 +141,44 @@ def _scheduled_times() -> set:
     return claimed
 
 
+# The cron hours that trigger this pipeline (see .github/workflows/automation.yml).
+# Each trigger is mapped to its own publish slot by position, so N runs per day
+# produce N distinct publish times with no shared state.
+RUN_TRIGGER_HOURS = [6, 12, 19]
+
+
+def _preferred_slot_for_run(now: datetime) -> int:
+    """Give this run its own Shorts slot, derived purely from the clock.
+
+    Runs are matched to slots *by index*: the 1st trigger of the day takes the
+    1st slot, the 2nd takes the 2nd, and so on. Matching by proximity instead
+    would map both the 06:00 and 12:00 runs onto the 13:00 slot, publishing
+    two videos at the same minute.
+    """
+    # Which trigger of the day is this? (nearest scheduled trigger at or before now)
+    index = 0
+    for i, hour in enumerate(RUN_TRIGGER_HOURS):
+        if now.hour >= hour:
+            index = i
+    # Manual/off-schedule runs before the first trigger start at slot 0.
+    if now.hour < RUN_TRIGGER_HOURS[0]:
+        index = 0
+    return SHORT_SLOT_HOURS[index % len(SHORT_SLOT_HOURS)]
+
+
 def next_available_slot(is_short: bool, now: datetime | None = None) -> datetime:
-    """Next free publishing slot, skipping ones already taken by earlier runs.
+    """Next free publishing slot for this run.
+
+    Two mechanisms keep runs from colliding, deliberately in this order:
+
+      1. Deterministic slot assignment from the run's own clock. This works
+         with NO shared state, which matters because data/upload_log.json is
+         only persisted if the Actions job can push back to the repo -- if
+         that push is blocked (read-only GITHUB_TOKEN), every run would
+         otherwise see an empty log and pick the same "next" slot, publishing
+         several videos at the identical minute.
+      2. The upload log, when it IS available, to skip slots already taken
+         (e.g. after a manual re-run in the same window).
 
     Extend this with real analytics-based best-time-to-post data once the
     channel has history.
@@ -153,10 +189,17 @@ def next_available_slot(is_short: bool, now: datetime | None = None) -> datetime
     earliest = now + timedelta(minutes=20)
 
     if is_short:
+        # Start from this run's own slot, then walk forward.
+        preferred = _preferred_slot_for_run(now)
+        start = SHORT_SLOT_HOURS.index(preferred)
+        ordered = SHORT_SLOT_HOURS[start:] + SHORT_SLOT_HOURS[:start]
         for day in range(0, 14):
             base = (now + timedelta(days=day)).replace(minute=0, second=0, microsecond=0)
-            for hour in SHORT_SLOT_HOURS:
+            for offset, hour in enumerate(ordered):
+                # Slots that wrapped past midnight belong to the following day.
                 candidate = base.replace(hour=hour)
+                if day == 0 and hour < preferred:
+                    candidate += timedelta(days=1)
                 if candidate >= earliest and candidate not in claimed:
                     return candidate
     else:

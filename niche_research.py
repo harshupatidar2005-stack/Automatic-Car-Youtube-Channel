@@ -90,6 +90,28 @@ def _parse_iso(value: str) -> datetime:
     return dt
 
 
+def _state_is_durable() -> bool:
+    """Whether data/ written by this run will still exist on the next one.
+
+    On GitHub Actions the workspace is thrown away after every job, so state
+    only survives if the workflow can commit it back to the repo. That push
+    needs a writable GITHUB_TOKEN; when it's read-only the commit step 403s
+    and every run starts from a blank data/ directory.
+
+    Outside CI (a normal local checkout) the directory is simply durable.
+    """
+    if os.environ.get("STATE_IS_DURABLE", "").lower() in ("1", "true", "yes"):
+        return True
+    if os.environ.get("CI", "").lower() != "true" and not os.environ.get("GITHUB_ACTIONS"):
+        return True
+    # In Actions, the runner exposes the token's permission set.
+    perms = os.environ.get("GITHUB_TOKEN_PERMISSIONS", "")
+    if "contents=write" in perms.replace(" ", "").lower():
+        return True
+    # Committed state from a previous run proves the push path works.
+    return os.path.exists(config.UPLOAD_LOG_FILE) or os.path.exists(config.CURRENT_NICHE_FILE)
+
+
 def _load_current_niche():
     if os.path.exists(config.CURRENT_NICHE_FILE):
         try:
@@ -216,12 +238,55 @@ def score_niche(keyword: str) -> dict:
     }
 
 
+def _pinned_niche() -> str:
+    """An explicitly pinned niche, bypassing research entirely.
+
+    Set CHANNEL_NICHE (env or Actions secret) to lock the channel's focus.
+    This also makes the pipeline fully deterministic when data/ can't be
+    persisted between runs -- see _fallback_niche_for_period().
+    """
+    return " ".join(os.environ.get("CHANNEL_NICHE", "").split())
+
+
+def _fallback_niche_for_period() -> str:
+    """Deterministic niche for the current re-evaluation window.
+
+    Persisting the chosen niche requires the Actions job to push data/ back to
+    the repo. If that push is blocked (read-only GITHUB_TOKEN), every run sees
+    no niche file and would otherwise re-run full research -- ~1500 YouTube
+    quota units per run, and a niche that can CHANGE between runs, which
+    destroys the channel focus the algorithm rewards.
+
+    Deriving the pick from the calendar keeps it stable across runs with no
+    state at all, and still rotates on the configured cadence.
+    """
+    period = int(_utcnow().timestamp() // (config.NICHE_REEVALUATE_DAYS * 86400))
+    return config.CANDIDATE_NICHES[period % len(config.CANDIDATE_NICHES)]
+
+
 def choose_best_niche(force: bool = False) -> dict:
+    pinned = _pinned_niche()
+    if pinned and not force:
+        print(f"Using pinned niche from CHANNEL_NICHE: '{pinned}'")
+        return {"niche": pinned, "chosen_at": _utcnow().isoformat(), "pinned": True}
+
     current = _load_current_niche()
     if not force and _is_fresh(current):
         print(f"Current niche '{current['niche']}' is still fresh "
               f"(chosen {current['chosen_at']}). Skipping re-research.")
         return current
+
+    # Without a persisted niche file, full research would run on EVERY run.
+    # Only pay that cost when the state directory is actually writable and
+    # durable; otherwise fall back to a stable, calendar-derived pick.
+    if current is None and not force and not _state_is_durable():
+        fallback = _fallback_niche_for_period()
+        print(f"No persisted niche and data/ is not durable -- using stable "
+              f"calendar-derived niche '{fallback}'. "
+              f"Set CHANNEL_NICHE to pin one explicitly, or enable "
+              f"'Read and write permissions' for Actions so the pick persists.")
+        return {"niche": fallback, "chosen_at": _utcnow().isoformat(),
+                "derived": True}
 
     print("Scoring candidate niches against live trend + competition data...")
     results = []

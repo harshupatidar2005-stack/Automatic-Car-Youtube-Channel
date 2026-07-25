@@ -148,6 +148,20 @@ class TestUploaderLogic(unittest.TestCase):
                     self.up._log_upload({"id": str(slot), "title": "t",
                                          "format": "short", "niche": "n"}, "vid", slot)
 
+    def test_slots_distinct_without_any_shared_state(self):
+        """Regression: when data/ can't be persisted (read-only GITHUB_TOKEN),
+        every run saw an empty upload log and the 06:00 and 12:00 crons both
+        scheduled at 13:00 -- two videos published at the same minute daily."""
+        with mock.patch.object(self.up, "_scheduled_times", lambda: set()):
+            slots = []
+            for hour in self.up.RUN_TRIGGER_HOURS:
+                now = datetime(2026, 7, 25, hour, 0, tzinfo=timezone.utc)
+                slot = self.up.next_available_slot(True, now=now)
+                self.assertGreater(slot, now, "publishAt must be in the future")
+                slots.append(slot)
+            self.assertEqual(len(set(slots)), len(slots),
+                             f"cron runs collided with no shared state: {slots}")
+
     def test_publish_at_is_utc_rfc3339(self):
         naive = datetime(2026, 7, 25, 18, 0)
         body = self.up._build_body({"title": "T", "description": "d", "tags": ["a"],
@@ -176,6 +190,41 @@ class TestNicheResearch(unittest.TestCase):
         retry = pr.Retry(total=2, backoff_factor=0.1,
                          method_whitelist=frozenset(["GET", "POST"]))
         self.assertEqual(retry.allowed_methods, frozenset(["GET", "POST"]))
+
+    def test_niche_stable_when_state_not_durable(self):
+        """Regression: with no persisted niche file, every run re-ran full
+        research (~1500 YouTube quota units each) and the niche could change
+        between runs, destroying the channel focus the algorithm rewards."""
+        import niche_research as nr
+        with tempfile.TemporaryDirectory() as tmp, \
+             mock.patch.dict(os.environ, {"CI": "true", "GITHUB_ACTIONS": "true"},
+                             clear=False), \
+             mock.patch.object(config, "DATA_DIR", tmp), \
+             mock.patch.object(config, "CURRENT_NICHE_FILE", os.path.join(tmp, "n.json")), \
+             mock.patch.object(config, "UPLOAD_LOG_FILE", os.path.join(tmp, "u.json")), \
+             mock.patch.object(nr, "score_niche",
+                               side_effect=AssertionError("must not call the API")):
+            os.environ.pop("CHANNEL_NICHE", None)
+            os.environ.pop("STATE_IS_DURABLE", None)
+            os.environ.pop("GITHUB_TOKEN_PERMISSIONS", None)
+            self.assertFalse(nr._state_is_durable())
+            picks = [nr.choose_best_niche()["niche"] for _ in range(3)]
+        self.assertEqual(len(set(picks)), 1, f"niche drifted between runs: {picks}")
+        self.assertIn(picks[0], config.CANDIDATE_NICHES)
+
+    def test_pinned_niche_overrides_research(self):
+        import niche_research as nr
+        with mock.patch.dict(os.environ, {"CHANNEL_NICHE": "space and astronomy facts"}), \
+             mock.patch.object(nr, "score_niche",
+                               side_effect=AssertionError("must not call the API")):
+            result = nr.choose_best_niche()
+        self.assertEqual(result["niche"], "space and astronomy facts")
+        self.assertTrue(result["pinned"])
+
+    def test_state_durable_outside_ci(self):
+        import niche_research as nr
+        with mock.patch.dict(os.environ, {}, clear=True):
+            self.assertTrue(nr._state_is_durable())
 
     def test_momentum_neutral_when_trends_unavailable(self):
         import niche_research as nr

@@ -124,7 +124,34 @@ falls back to the `imageio-ffmpeg` wheel automatically; you can also point
 `FFMPEG_BINARY` / `CAPTION_FONT` at specific paths.
 
 Useful environment overrides: `TTS_VOICE` (any `edge-tts --list-voices`
-name) and `DISABLE_GOOGLE_TRENDS=1` (skip Trends when it rate-limits CI).
+name), `DISABLE_GOOGLE_TRENDS=1` (skip Trends when it rate-limits CI), and
+`CHANNEL_NICHE="psychology facts"` to pin the niche and skip research
+entirely (saves ~1500 YouTube quota units per run).
+
+## If Actions can't save state (the `data/` 403)
+
+The workflow commits `data/*.json` back to the repo so runs remember the
+niche, queue and schedule. That push needs a writable token:
+
+**Settings → Actions → General → Workflow permissions → "Read and write
+permissions" → Save**
+
+Without it the commit step 403s and every run starts from a blank `data/`.
+**The pipeline still works correctly in that state** — it just can't learn
+from previous runs:
+
+- Publish slots are assigned **deterministically from each run's own cron
+  hour**, so the 06:00/12:00/19:00 runs get 13:00/17:00/21:00 with no shared
+  state. (Previously they'd all see an empty log and pick the same slot,
+  publishing several videos at the same minute.)
+- The niche falls back to a **stable calendar-derived pick** instead of
+  re-running research every time, which would burn ~4500 quota units/day and
+  let the niche drift between runs. Set `CHANNEL_NICHE` to pin it explicitly.
+- The state-commit failure is a **warning, not a job failure** — the video
+  was already produced and uploaded.
+
+Turning the setting on is still worth it: it enables real niche research,
+cross-run dedup, and the upload history.
 
 ## How it behaves when things break
 
