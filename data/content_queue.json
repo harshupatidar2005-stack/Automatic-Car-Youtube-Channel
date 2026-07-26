@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": "bdac6e72-6a41-4a14-ae8a-efc1623a9277",
+    "format": "short",
+    "niche": "science experiments explained",
+    "title": "Defy Gravity",
+    "description": "Learn how quantum levitation works in under a minute",
+    "tags": [
+      "Quantum Physics",
+      "Levitation",
+      "Science Experiments",
+      "Gravity",
+      "Magnetic Fields",
+      "Superconductors",
+      "Innovation",
+      "Technology"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Imagine a world where objects can float in mid-air",
+        "visual_keyword": "magnetic field animation"
+      },
+      {
+        "narration": "Welcome to quantum levitation",
+        "visual_keyword": "superconductor footage"
+      },
+      {
+        "narration": "Where superconductors and magnetic fields combine",
+        "visual_keyword": "magnetic track video"
+      },
+      {
+        "narration": "To create an upward force that counteracts gravity",
+        "visual_keyword": "levitating object"
+      },
+      {
+        "narration": "The result is a frictionless and gravity-free zone",
+        "visual_keyword": "superconductor in action"
+      },
+      {
+        "narration": "And objects can move at incredible speeds with zero resistance",
+        "visual_keyword": "fast moving levitated object"
+      }
+    ],
+    "created_at": "2026-07-25T20:13:16.471755+00:00"
+  }
+]
