@@ -1,47 +1,188 @@
 [
   {
-    "id": "bdac6e72-6a41-4a14-ae8a-efc1623a9277",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Learn how quantum levitation works in under a minute",
+    "id": "17470345-509a-4e4e-869c-2acc9a5af5b1",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Kranti",
+    "description": "India mein electric vehicle ki kranti kaise aayi? Hum is video mein batayenge ki Bharat mein EV ki badhati kaise ho rahi hai, aur iske peeche ke karan kya hain. Jankari ke liye humne Society of Manufacturers of Electric Vehicles, SMEV, aur Indian government ke data ka istemal kiya hai. Visuals AI-generated ho sakti hain. Agar aapko ye video pasand aaya to hamare channel ko subscribe karein aur apne vichar comments mein likhein.",
     "tags": [
-      "Quantum Physics",
-      "Levitation",
-      "Science Experiments",
-      "Gravity",
-      "Magnetic Fields",
-      "Superconductors",
+      "Electric Vehicles",
+      "EV India",
+      "SMEV",
+      "Indian Government",
+      "Automotive News",
+      "Car Launches",
+      "Future of Mobility",
+      "Motorsport Technology"
+    ],
+    "hook": "Bharat mein electric vehicle ki kranti shuru ho chuki hai, lekin kya hum taiyar hain iski zarooraton ko pura karne ke liye? Ab tak humne jo progress dekha hai, woh sirf shuruaat hai.",
+    "scenes": [
+      {
+        "narration": "Bharat mein electric vehicle ki kranti shuru ho chuki hai, lekin kya hum taiyar hain iski zarooraton ko pura karne ke liye? Ab tak humne jo progress dekha hai, woh sirf shuruaat hai. Electric vehicles ki demand badh rahi hai, aur iske peeche ke karan ko samajhna zaroori hai.",
+        "visual_keyword": "Electric cars on Indian roads"
+      },
+      {
+        "narration": "Society of Manufacturers of Electric Vehicles ke mutabiq, Bharat mein electric vehicle ki sales mein tezi se vriddhi ho rahi hai. Ye badhati kai karanon se ho rahi hai, jaise ki petrol-diesel ke daam mein irth, pollution ki samasya, aur sarkar ki incentives.",
+        "visual_keyword": "EV sales graph in India"
+      },
+      {
+        "narration": "Indian government ne electric vehicle ko badhava dene ke liye kai schemes shuru ki hain, jaise ki FAME scheme. Is scheme ke tahat, electric vehicle kharidne wale logo ko subsidy di ja rahi hai, jo ki unke liye bahut faydemand hai.",
+        "visual_keyword": "FAME scheme details on screen"
+      },
+      {
+        "narration": "Lekin electric vehicle ki zarooraton ko pura karne ke liye, humein charging infrastructure ko bhi sudharne ki zaroorat hai. Abhi ke liye, Bharat mein charging stations ki kami hai, jo ki logon ke liye ek bada challenge hai.",
+        "visual_keyword": "Charging stations in India"
+      },
+      {
+        "narration": "Motorsport technology bhi electric vehicle ki badhati mein bahut mahatvapoorna bhoomika nibha rahi hai. Formula E jaise events ne logon ko electric vehicle ki takat ka ehsaas karaya hai, aur isse logon ki ruchi badh rahi hai.",
+        "visual_keyword": "Formula E cars racing"
+      },
+      {
+        "narration": "Aane wale samay mein, Bharat mein electric vehicle ki kranti aur bhi tez hoga, kyunki sarkar aur companies milke iski zarooraton ko pura karne ke liye kaam kar rahe hain. Humen bas apne liye sahi faisla lena hai, aur electric vehicle ki or badhna hai.",
+        "visual_keyword": "Future of electric vehicles in India"
+      },
+      {
+        "narration": "Agar aapko ye video pasand aaya to hamare channel ko subscribe karein, aur apne vichar comments mein likhein. Hum aapki raay ka intezaar karenge, aur aage bhi aise hi informative videos banate rahenge.",
+        "visual_keyword": "Subscribe button on screen"
+      }
+    ],
+    "created_at": "2026-07-26T16:48:52.665148+00:00"
+  },
+  {
+    "id": "6dd19b69-4029-4abe-92f1-8b59249a4079",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electrify Now",
+    "description": "Explore the EV revolution with data-driven insights, sourced from EV Kranti. Watch now and discover the latest automotive trends with AI-generated visual explanations.",
+    "tags": [
+      "Electric Vehicles",
+      "Car Launches",
+      "Automotive News",
+      "EV Kranti",
+      "Sustainable Cars",
       "Innovation",
-      "Technology"
+      "Green Technology",
+      "Vehicle Trends"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "Imagine a world where objects can float in mid-air",
-        "visual_keyword": "magnetic field animation"
+        "narration": "The shift to electric is gaining momentum",
+        "visual_keyword": "Electric Car Charging"
       },
       {
-        "narration": "Welcome to quantum levitation",
-        "visual_keyword": "superconductor footage"
+        "narration": "With new models emerging every quarter",
+        "visual_keyword": "New Car Launch Event"
       },
       {
-        "narration": "Where superconductors and magnetic fields combine",
-        "visual_keyword": "magnetic track video"
+        "narration": "One key factor is driving this change",
+        "visual_keyword": "Increasing Fuel Prices"
       },
       {
-        "narration": "To create an upward force that counteracts gravity",
-        "visual_keyword": "levitating object"
+        "narration": "Government incentives are also playing a role",
+        "visual_keyword": "Government Subsidies Announcement"
       },
       {
-        "narration": "The result is a frictionless and gravity-free zone",
-        "visual_keyword": "superconductor in action"
+        "narration": "But what does this mean for the industry",
+        "visual_keyword": "Automotive Industry Trends"
       },
       {
-        "narration": "And objects can move at incredible speeds with zero resistance",
-        "visual_keyword": "fast moving levitated object"
+        "narration": "As the world electrifies, the future is now",
+        "visual_keyword": "Electric Vehicle Roadmap"
       }
     ],
-    "created_at": "2026-07-25T20:13:16.471755+00:00"
+    "created_at": "2026-07-26T16:48:58.555587+00:00"
+  },
+  {
+    "id": "845365bc-8db1-4ef2-9f41-def6ebb75dd0",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Revolutionizing EVs",
+    "description": "Discover the EV Kranti's impact on the automotive industry, based on recent EV trends from reputable sources like Car and Driver. Watch now and explore the future of electric vehicles, with AI-generated visuals for illustration purposes only.",
+    "tags": [
+      "Electric Vehicles",
+      "EV Kranti",
+      "New Car Launches",
+      "Automotive News",
+      "Car Technology",
+      "Sustainable Transport"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "The EV Kranti is leading the charge in electric vehicles.",
+        "visual_keyword": "Electric Car Charging"
+      },
+      {
+        "narration": "With its advanced battery technology, it's set to revolutionize the industry.",
+        "visual_keyword": "Battery Manufacturing"
+      },
+      {
+        "narration": "One key insight is its extended range, making long-distance travel possible.",
+        "visual_keyword": "Highway Driving"
+      },
+      {
+        "narration": "The EV Kranti's impact will be felt across the automotive sector.",
+        "visual_keyword": "Car Factory Production"
+      },
+      {
+        "narration": "As the world shifts towards sustainable transport, it's an exciting time for electric vehicles.",
+        "visual_keyword": "Green Energy"
+      },
+      {
+        "narration": "The future of driving is here, and it's electric.",
+        "visual_keyword": "Cityscape EVs"
+      }
+    ],
+    "created_at": "2026-07-26T16:49:04.920895+00:00"
+  },
+  {
+    "id": "1061b60e-e4ea-4592-82ab-f7b889ab660a",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Shock",
+    "description": "Learn how EVs are changing the automotive landscape, based on data from EV Kranti. Watch to discover the impact of electric vehicles on the car market and how AI-generated visuals enhance our explanation.",
+    "tags": [
+      "Electric Vehicles",
+      "Car News",
+      "EV Trends",
+      "Automotive Insights",
+      "Sustainable Cars",
+      "Future of Cars",
+      "Green Technology",
+      "Car Launches"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Electric vehicles are revolutionizing the car industry",
+        "visual_keyword": "Electric car charging"
+      },
+      {
+        "narration": "With many new models launching every year",
+        "visual_keyword": "New car showroom"
+      },
+      {
+        "narration": "They offer a cleaner alternative to traditional gas-powered cars",
+        "visual_keyword": "Pollution comparison"
+      },
+      {
+        "narration": "And some countries are even offering incentives to buy electric",
+        "visual_keyword": "Government subsidies"
+      },
+      {
+        "narration": "As a result, EV sales are skyrocketing globally",
+        "visual_keyword": "Sales chart rising"
+      },
+      {
+        "narration": "The electric revolution is here, and it's changing the road ahead",
+        "visual_keyword": "Highway with electric cars"
+      }
+    ],
+    "created_at": "2026-07-26T16:49:11.064430+00:00"
   }
 ]
