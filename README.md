@@ -172,3 +172,79 @@ Free APIs fail constantly, so the pipeline degrades instead of dying:
 
 Videos are only removed from the queue after a successful upload, so a
 crash can never silently lose a generated script.
+
+## Car channel edition: editorial brief and safe publishing
+
+This checkout is configured for a single **car/automotive education channel**.
+It covers automotive news and launches, EVs, engineering, supercars and
+hypercars, self-driving claims, Indian cars, industry comparisons and future
+mobility. The script generator rotates **English, Hindi and Hinglish** and
+writes a different documentary angle for every item rather than translating
+or repeating a template.
+
+The production target is **three Shorts per day** (45–59 seconds) and **three
+8–12 minute long-form videos per week**. This is an intentional quality-first
+cadence, not a promise that YouTube will allow unlimited uploads. The practical
+free YouTube Data API quota is the limiter: an upload costs quota, and retries,
+search and thumbnail calls also consume quota. Do not increase the cadence
+until the channel has been checked manually and the quota is measured.
+
+### Publishing to a different YouTube channel
+
+A YouTube Data API OAuth token belongs to the Google/YouTube channel selected
+on the Google consent screen. There is no `CHANNEL_ID` switch in this code.
+To publish to a different channel:
+
+1. Create or select the Google Cloud project that will be used for that
+   channel and enable **YouTube Data API v3**.
+2. Create an OAuth **Desktop app** client. Download its JSON as
+   `client_secret.json` (never commit it).
+3. Run `python get_refresh_token.py` locally and sign in with the Google
+   account/Brand Account that owns the destination channel. If Google offers
+   a channel selector, choose the destination channel.
+4. Replace the destination repository's `YOUTUBE_CLIENT_ID`,
+   `YOUTUBE_CLIENT_SECRET` and `YOUTUBE_REFRESH_TOKEN` Actions secrets. Do not
+   reuse a refresh token from the old channel.
+5. Confirm the destination channel in YouTube Studio, run
+   `python orchestrator.py --dry-run`, and only then run a real upload.
+
+The browser login is the one unavoidable human action. The OAuth refresh token
+is a credential: keep it only in GitHub Actions Secrets, revoke it in Google
+Account security if exposed, and never paste it into an issue, log, or commit.
+An API key is not an upload credential; it is only used for public-data search.
+
+### Required free secrets
+
+| Secret | Required for | Where it comes from |
+|---|---|---|
+| `GROQ_API_KEY` | Hindi/English/Hinglish scripts | Groq Console free tier |
+| `PEXELS_API_KEY` | Free stock video search | Pexels API |
+| `PIXABAY_API_KEY` | Free stock fallback | Pixabay API |
+| `YOUTUBE_CLIENT_ID` | OAuth upload client | Google Cloud OAuth Desktop client |
+| `YOUTUBE_CLIENT_SECRET` | OAuth upload client | Same client JSON |
+| `YOUTUBE_REFRESH_TOKEN` | Headless publishing | `get_refresh_token.py` for the destination channel |
+| `YOUTUBE_CHANNEL_ID` | Optional wrong-channel safety check | YouTube channel URL/Studio |
+| `YOUTUBE_DATA_API_KEY` | Optional public trend/competition research | Google Cloud API key |
+
+No paid AI image, music, video, or voice service is required. Voice is
+`edge-tts`; visuals use Pexels/Pixabay clips with a generated fallback; ffmpeg,
+Pillow, GitHub Actions, and the Groq free tier do the rest. Stock search terms
+are car-specific and scenes are varied to avoid a repetitive slideshow.
+
+### Copyright and AI-content checklist
+
+* Use only clips whose provider licence permits the intended use; retain the
+  Pexels/Pixabay item URL in your production notes when reviewing a run.
+* Never download movie/TV footage, race broadcasts, other creators' YouTube
+  videos, music videos, or manufacturer press footage unless you have explicit
+  permission. A brand name in a factual comparison does not grant permission
+  to copy its media.
+* Keep narration original, fact-check changing prices/ranges/launch dates,
+  avoid false “leaks”, and cite named sources in the description. The prompt
+  asks for evidence and the pipeline adds an AI-visual disclosure, but a human
+  must still review every video before publication.
+* Do not imitate a real person's voice or present AI reconstructions as real
+  footage. Label realistic synthetic scenes in YouTube Studio when applicable.
+* “Maximum allowed” is not a quality strategy: mass-produced, repetitive or
+  reused content can lose monetisation. The queue is deliberately capped and
+  failed/low-quality items should be quarantined instead of published.

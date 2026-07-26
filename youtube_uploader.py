@@ -225,7 +225,10 @@ def _build_body(content_item: dict, publish_at_utc: datetime) -> dict:
     niche = str(content_item.get("niche", "")).lower()
     education_like = any(w in niche for w in
                          ("education", "science", "history", "psychology",
-                          "facts", "space", "astronomy", "geography"))
+                          "facts", "space", "astronomy", "geography",
+                          "engineering", "technology", "automotive", "car", "ev"))
+    language_code = {"hindi": "hi", "hinglish": "en", "english": "en"}.get(
+        str(content_item.get("language", "English")).lower(), "en")
 
     return {
         "snippet": {
@@ -233,7 +236,7 @@ def _build_body(content_item: dict, publish_at_utc: datetime) -> dict:
             "description": description[:MAX_DESCRIPTION_CHARS],
             "tags": tags,
             "categoryId": "27" if education_like else "24",
-            "defaultLanguage": "en",
+            "defaultLanguage": language_code,
         },
         "status": {
             "privacyStatus": "private",
@@ -267,6 +270,16 @@ def upload_video(video_path: str, thumbnail_path: str, content_item: dict,
         raise UploadError(f"video file not found: {video_path}")
 
     youtube = _get_client()
+    # Optional guard for multi-channel/Brand Account setups. OAuth determines
+    # the destination; this check prevents a silently wrong-channel upload.
+    if config.YOUTUBE_CHANNEL_ID:
+        mine = youtube.channels().list(part="id", mine=True).execute().get("items", [])
+        actual = mine[0].get("id") if mine else None
+        if actual != config.YOUTUBE_CHANNEL_ID:
+            raise UploadError(
+                f"OAuth is connected to channel {actual or 'unknown'}, not "
+                f"YOUTUBE_CHANNEL_ID={config.YOUTUBE_CHANNEL_ID}. Re-authorise the destination channel."
+            )
     body = _build_body(content_item, publish_at_utc)
 
     media = MediaFileUpload(video_path, chunksize=4 * 1024 * 1024,

@@ -138,21 +138,27 @@ def _call_llm(prompt: str, max_retries: int = 5, expect_json: bool = True) -> st
 
 
 LONGFORM_PROMPT_TEMPLATE = """
-Niche: {niche}
+Channel: an evidence-led car documentary channel about cars, EVs, engineering,
+Indian and global auto markets, motorsport technology, and the future of mobility.
+Niche angle: {niche}
+Language: {language} (use natural native phrasing; Hinglish may mix Hindi and English)
 
-Write ONE long-form YouTube video script (~1100-1400 words, ~8 minutes spoken)
-on a specific, non-generic topic within this niche that has not been done to death.
-Pick the exact angle/topic yourself.
+Write ONE original 8–12 minute documentary-style video (1500–1900 spoken words)
+on a timely, specific car topic with a clear question or conflict. Choose a fresh
+angle yourself; never invent a launch, quote, statistic, test result, or source.
+Use careful language where facts may change and include named sources/links in
+the description when possible. Build a narrative: cold open, context, stakes,
+comparison, counterargument, and a useful conclusion. Be informative, not hype.
 
 Return STRICT JSON with this exact schema:
 {{
   "title": "clickable but not clickbait-lying title, under 70 chars",
-  "description": "2-3 sentence YouTube description with 1 natural keyword-rich sentence",
+  "description": "4-6 sentence keyword-rich description: hook, what is explained, named factual sources or source types, and a clear subscribe/comment CTA. Disclose that visuals may be AI-generated.",
   "tags": ["8 to 12 relevant tags"],
   "hook": "the first 2 spoken sentences, must grab attention immediately",
   "scenes": [
-    {{"narration": "1-3 spoken sentences for this beat", "visual_keyword": "2-4 word stock footage search term matching this beat"}}
-    ... (aim for 18-28 scenes total covering the full script)
+    {{"narration": "2-5 spoken sentences for this beat", "visual_keyword": "2-5 word cinematic car stock-footage search term matching this beat"}}
+    ... (aim for 24-36 varied scenes total; each scene must have a distinct visual idea)
   ]
 }}
 
@@ -161,16 +167,19 @@ no speaker labels, no bracketed notes, no emoji.
 """
 
 SHORTS_PROMPT_TEMPLATE = """
+Channel: evidence-led car explainers
 Niche: {niche}
-Source long-form title for inspiration (do not just repeat it, extract a punchy sub-angle): {longform_title}
+Language: {language}
+Source long-form title for inspiration (do not repeat it; extract a genuinely different sub-angle): {longform_title}
 
-Write ONE YouTube Shorts script: 45-55 seconds spoken (~130-160 words), single
-idea, big hook in first line, fast pacing, a punchy last line that lands.
+Write ONE original YouTube Short: 45-55 seconds spoken (~130-160 words), one
+verifiable car insight, an immediate hook, fast but human pacing, and a memorable
+last line. Never use unsafe driving advice, fabricated specs, or empty hype.
 
 Return STRICT JSON with this exact schema:
 {{
   "title": "under 60 chars, includes a hook word, no hashtags in title",
-  "description": "1 sentence description",
+  "description": "2 short sentences with a factual promise, source cue, CTA, and an AI-visual disclosure",
   "tags": ["6 to 10 relevant tags"],
   "scenes": [
     {{"narration": "1-2 spoken sentences", "visual_keyword": "2-4 word stock footage search term"}}
@@ -252,7 +261,7 @@ def _clean_narration(text: str) -> str:
     return cleaned.strip()
 
 
-def _validate_and_normalise(data: dict, fmt: str, niche: str) -> dict:
+def _validate_and_normalise(data: dict, fmt: str, niche: str, language: str = "English") -> dict:
     """Guarantee the downstream contract instead of failing deep in the render."""
     if not isinstance(data, dict):
         raise ScriptGenerationError(f"model returned {type(data).__name__}, expected an object")
@@ -310,11 +319,16 @@ def _validate_and_normalise(data: dict, fmt: str, niche: str) -> dict:
     description = " ".join(str(data.get("description") or "").split())
     if not description:
         description = f"{title} -- a short look at {niche}."
+    # Make the disclosure consistent even when the model forgets it. This is
+    # transparency, not a substitute for reviewing realistic synthetic scenes.
+    if "ai-generated" not in description.lower() and "ai generated" not in description.lower():
+        description += " Visuals may include AI-generated reconstructions; factual claims are presented for education."
 
     return {
         "id": str(uuid.uuid4()),
         "format": fmt,
         "niche": niche,
+        "language": language,
         "title": title[:100],
         "description": description,
         "tags": clean_tags,
@@ -324,12 +338,12 @@ def _validate_and_normalise(data: dict, fmt: str, niche: str) -> dict:
     }
 
 
-def _generate(prompt: str, fmt: str, niche: str, attempts: int = 3) -> dict:
+def _generate(prompt: str, fmt: str, niche: str, language: str = "English", attempts: int = 3) -> dict:
     last_error = None
     for attempt in range(attempts):
         try:
             raw = _call_llm(prompt)
-            return _validate_and_normalise(_parse_json_response(raw), fmt, niche)
+            return _validate_and_normalise(_parse_json_response(raw), fmt, niche, language)
         except (json.JSONDecodeError, ScriptGenerationError) as exc:
             last_error = exc
             print(f"  [script attempt {attempt + 1}/{attempts} unusable: "
@@ -339,14 +353,15 @@ def _generate(prompt: str, fmt: str, niche: str, attempts: int = 3) -> dict:
     raise ScriptGenerationError(f"could not generate a valid {fmt} script: {last_error}")
 
 
-def generate_longform(niche: str) -> dict:
-    return _generate(LONGFORM_PROMPT_TEMPLATE.format(niche=niche), "longform", niche)
+def generate_longform(niche: str, language: str = "English") -> dict:
+    return _generate(LONGFORM_PROMPT_TEMPLATE.format(niche=niche, language=language),
+                     "longform", niche, language)
 
 
-def generate_short(niche: str, longform_title: str) -> dict:
+def generate_short(niche: str, longform_title: str, language: str = "English") -> dict:
     return _generate(
-        SHORTS_PROMPT_TEMPLATE.format(niche=niche, longform_title=longform_title),
-        "short", niche,
+        SHORTS_PROMPT_TEMPLATE.format(niche=niche, longform_title=longform_title, language=language),
+        "short", niche, language,
     )
 
 
@@ -381,7 +396,10 @@ def refill_queue(niche: str, shorts_per_longform: int = 3):
     longform_title = None
 
     try:
-        longform = generate_longform(niche)
+        # Rotate languages so the channel serves Hindi, English and Hinglish
+        # without translating the same video three times.
+        language = config.CONTENT_LANGUAGES[len(queue) % len(config.CONTENT_LANGUAGES)]
+        longform = generate_longform(niche, language)
         queue.append(longform)
         longform_title = longform["title"]
         print(f"Generated long-form: {longform_title} ({len(longform['scenes'])} scenes)")
