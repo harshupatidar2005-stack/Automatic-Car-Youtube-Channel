@@ -1,115 +1,17 @@
 {
-  "niche": "science experiments explained",
+  "niche": "automotive news and new car launches",
   "momentum": 1.0,
-  "recent_competition": 79055,
-  "typical_recent_views": 235259,
-  "opportunity_score": 1.0967,
-  "chosen_at": "2026-07-25T12:42:44.206668+00:00",
-  "all_scores": [
-    {
-      "niche": "science experiments explained",
-      "momentum": 1.0,
-      "recent_competition": 79055,
-      "typical_recent_views": 235259,
-      "opportunity_score": 1.0967
-    },
-    {
-      "niche": "geography and maps facts",
-      "momentum": 1.0,
-      "recent_competition": 143934,
-      "typical_recent_views": 212097,
-      "opportunity_score": 1.0326
-    },
-    {
-      "niche": "unsolved mysteries",
-      "momentum": 1.0,
-      "recent_competition": 71165,
-      "typical_recent_views": 89316,
-      "opportunity_score": 1.0203
-    },
-    {
-      "niche": "tech gadget reviews",
-      "momentum": 1.0,
-      "recent_competition": 219502,
-      "typical_recent_views": 212145,
-      "opportunity_score": 0.9972
-    },
-    {
-      "niche": "stoic philosophy motivation",
-      "momentum": 1.0,
-      "recent_competition": 91669,
-      "typical_recent_views": 79342,
-      "opportunity_score": 0.9874
-    },
-    {
-      "niche": "productivity and self improvement",
-      "momentum": 1.0,
-      "recent_competition": 211198,
-      "typical_recent_views": 152341,
-      "opportunity_score": 0.9734
-    },
-    {
-      "niche": "health and longevity facts",
-      "momentum": 1.0,
-      "recent_competition": 164924,
-      "typical_recent_views": 21074,
-      "opportunity_score": 0.8288
-    },
-    {
-      "niche": "true crime facts",
-      "momentum": 1.0,
-      "recent_competition": 140840,
-      "typical_recent_views": 15477,
-      "opportunity_score": 0.8138
-    },
-    {
-      "niche": "history mysteries",
-      "momentum": 0.816,
-      "recent_competition": 189653,
-      "typical_recent_views": 177971,
-      "opportunity_score": 0.8117
-    },
-    {
-      "niche": "personal finance tips",
-      "momentum": 0.639,
-      "recent_competition": 99249,
-      "typical_recent_views": 215151,
-      "opportunity_score": 0.682
-    },
-    {
-      "niche": "animal facts",
-      "momentum": 0.592,
-      "recent_competition": 1000000,
-      "typical_recent_views": 2531351,
-      "opportunity_score": 0.6318
-    },
-    {
-      "niche": "psychology facts",
-      "momentum": 0.615,
-      "recent_competition": 268574,
-      "typical_recent_views": 279455,
-      "opportunity_score": 0.617
-    },
-    {
-      "niche": "mythology and folklore",
-      "momentum": 0.781,
-      "recent_competition": 78686,
-      "typical_recent_views": 2843,
-      "opportunity_score": 0.5512
-    },
-    {
-      "niche": "AI news explained",
-      "momentum": 0.68,
-      "recent_competition": 1000000,
-      "typical_recent_views": 58625,
-      "opportunity_score": 0.5404
-    },
-    {
-      "niche": "space and astronomy facts",
-      "momentum": 0.472,
-      "recent_competition": 120386,
-      "typical_recent_views": 74952,
-      "opportunity_score": 0.4529
-    }
+  "recent_competition": 0,
+  "typical_recent_views": 0,
+  "opportunity_score": 1.0,
+  "chosen_at": "2026-07-26T00:00:00+00:00",
+  "pinned": true,
+  "editorial_focus": [
+    "EV technology and charging explained",
+    "supercars and hypercars explained",
+    "self-driving myth vs reality",
+    "Indian car market and future cars",
+    "car engineering and hidden features",
+    "future cars and AI automotive design"
   ]
 }

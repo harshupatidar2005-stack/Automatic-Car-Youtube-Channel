@@ -271,6 +271,11 @@ def choose_best_niche(force: bool = False) -> dict:
         return {"niche": pinned, "chosen_at": _utcnow().isoformat(), "pinned": True}
 
     current = _load_current_niche()
+    # Never let a previously persisted niche leak back into this focused
+    # channel after a migration (for example, old science content).
+    if current and current.get("niche") not in config.CANDIDATE_NICHES:
+        print(f"Ignoring old non-automotive niche: {current.get('niche')!r}")
+        current = None
     if not force and _is_fresh(current):
         print(f"Current niche '{current['niche']}' is still fresh "
               f"(chosen {current['chosen_at']}). Skipping re-research.")

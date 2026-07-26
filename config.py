@@ -1,71 +1,45 @@
-"""
-Central configuration for the YouTube automation pipeline.
-Everything content-related is decided by the code at runtime (niche_research.py)
--- this file only holds structural/operational settings, not the niche itself.
-"""
+"""Central configuration for the car-focused YouTube automation pipeline."""
 
 import os
 
-# ---------------------------------------------------------------------------
-# Secrets (never hardcode these -- pulled from environment / GitHub Actions secrets)
-# ---------------------------------------------------------------------------
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")             # free tier: console.groq.com
-PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "")         # free: pexels.com/api
-PIXABAY_API_KEY = os.environ.get("PIXABAY_API_KEY", "")       # free: pixabay.com/api/docs
+# Secrets are read only from environment / GitHub Actions secrets.
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "")
+PIXABAY_API_KEY = os.environ.get("PIXABAY_API_KEY", "")
 YT_CLIENT_ID = os.environ.get("YOUTUBE_CLIENT_ID", "")
 YT_CLIENT_SECRET = os.environ.get("YOUTUBE_CLIENT_SECRET", "")
 YT_REFRESH_TOKEN = os.environ.get("YOUTUBE_REFRESH_TOKEN", "")
+YOUTUBE_CHANNEL_ID = os.environ.get("YOUTUBE_CHANNEL_ID", "")
+YOUTUBE_DATA_API_KEY = os.environ.get("YOUTUBE_DATA_API_KEY", "")
 
-# ---------------------------------------------------------------------------
-# LLM settings (free tier via Groq, OpenAI-compatible endpoint)
-# ---------------------------------------------------------------------------
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
-GROQ_MODEL = "llama-3.3-70b-versatile"   # check console.groq.com/docs/models for current free model
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
 
-# ---------------------------------------------------------------------------
-# Video format specs
-# ---------------------------------------------------------------------------
-SHORT_RESOLUTION = (1080, 1920)   # 9:16
-LONG_RESOLUTION = (1920, 1080)    # 16:9
+SHORT_RESOLUTION = (1080, 1920)
+LONG_RESOLUTION = (1920, 1080)
 SHORT_MAX_SECONDS = 59
-LONG_TARGET_SECONDS = 8 * 60      # ~8 min sweet spot for mid-roll ads + retention
+LONG_TARGET_SECONDS = 9 * 60  # prompts target 8–12 minutes; narration controls final length
 
-# ---------------------------------------------------------------------------
-# Posting cadence (tune freely -- this is what GitHub Actions cron will trigger)
-# ---------------------------------------------------------------------------
+# Deliberately sustainable rather than spammy. This is within the normal free
+# YouTube API quota and leaves room for retries and metadata calls.
 SHORTS_PER_DAY = 3
 LONGFORM_PER_WEEK = 3
+NICHE_REEVALUATE_DAYS = 30
+CONTENT_LANGUAGES = ["English", "Hindi", "Hinglish"]
 
-# ---------------------------------------------------------------------------
-# Niche re-evaluation cadence
-# ---------------------------------------------------------------------------
-NICHE_REEVALUATE_DAYS = 30   # re-run niche_research.py monthly to catch market shifts
-
-# ---------------------------------------------------------------------------
-# Candidate niche pool the research script scores every cycle.
-# This is a starting seed list, not the final choice -- niche_research.py
-# scores each one against live trend + competition data and picks the winner.
-# Edit this list any time to broaden/narrow what the bot is allowed to consider.
-# ---------------------------------------------------------------------------
+# A single coherent channel focus is more valuable than an automated niche hop.
+# Research may choose among these sub-angles, but never leaves the car space.
 CANDIDATE_NICHES = [
-    "true crime facts",
-    "personal finance tips",
-    "AI news explained",
-    "space and astronomy facts",
-    "psychology facts",
-    "history mysteries",
-    "productivity and self improvement",
-    "tech gadget reviews",
-    "mythology and folklore",
-    "science experiments explained",
-    "stoic philosophy motivation",
-    "health and longevity facts",
-    "unsolved mysteries",
-    "animal facts",
-    "geography and maps facts",
+    "automotive news and new car launches",
+    "EV technology and charging explained",
+    "supercars and hypercars explained",
+    "self driving and car technology myth vs reality",
+    "Indian car market and future cars",
+    "car engineering and hidden features",
+    "car industry comparisons and business strategy",
+    "future cars and AI automotive design",
 ]
 
-# Data file locations
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 CURRENT_NICHE_FILE = os.path.join(DATA_DIR, "current_niche.json")
 CONTENT_QUEUE_FILE = os.path.join(DATA_DIR, "content_queue.json")
