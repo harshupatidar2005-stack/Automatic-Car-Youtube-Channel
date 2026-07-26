@@ -1,47 +1,209 @@
 [
   {
-    "id": "bdac6e72-6a41-4a14-ae8a-efc1623a9277",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Learn how quantum levitation works in under a minute",
+    "id": "f060ff3b-2fba-4bed-b728-252b28f43a7b",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Ki Race",
+    "description": "Bharat mein electric vehicle ki badhati demand ko dekhkar humne socha ki kaun sa EV sabse best hai. Is video mein hum Tata Nexon EV, Hyundai Kona Electric, aur MG ZS EV ki comparison karte hain. Jankari ke liye humne carandbike, autocarindia, aur indianexpress jaise sources ko refer kiya hai. Visuals may be AI-generated. Subscribe karein aur apne suggestions comments mein likhein.",
     "tags": [
-      "Quantum Physics",
-      "Levitation",
-      "Science Experiments",
-      "Gravity",
-      "Magnetic Fields",
-      "Superconductors",
-      "Innovation",
-      "Technology"
+      "Electric Vehicle",
+      "Tata Nexon EV",
+      "Hyundai Kona Electric",
+      "MG ZS EV",
+      "Indian Auto Market",
+      "Car Comparison",
+      "EV Review",
+      "Bharat Mein EV"
+    ],
+    "hook": "Ab Bharat mein electric vehicle ki demand badh rahi hai, lekin kaun sa EV sabse best hai? Tata Nexon EV, Hyundai Kona Electric, ya phir MG ZS EV?",
+    "scenes": [
+      {
+        "narration": "Electric vehicle ki demand badhne ke piche kai wajah hain, jaise ki petrol-diesel ki keemat mein badhotari aur paryavaran ke prati jagrukta. Lekin sabse badi wajah hai sarkar ki taraf se EV ko milne wali subsidy. Isse logon ko EV ki taraf aakarshit kiya ja raha hai. Ab hum dekhte hain ki Bharat mein kitne prakar ke EV uplabdh hain.",
+        "visual_keyword": "Electric cars on road"
+      },
+      {
+        "narration": "Bharat mein Tata Nexon EV, Hyundai Kona Electric, aur MG ZS EV jaise kai EV uplabdh hain. Inmein se har ek ki apni-apni visheshtaayein hain. Tata Nexon EV ki range 312 kilometer hai, jabki Hyundai Kona Electric ki range 452 kilometer hai. MG ZS EV ki range 340 kilometer hai.",
+        "visual_keyword": "Tata Nexon EV on road"
+      },
+      {
+        "narration": "Ab hum comparison karte hain in teeno EV ki features ki. Tata Nexon EV mein 30.2 kWh ki battery hai, jo 3 phase permanent magnet synchronous motor se jodi hai. Hyundai Kona Electric mein 39.2 kWh ki battery hai, jo permanent magnet synchronous motor se jodi hai. MG ZS EV mein 44.5 kWh ki battery hai, jo 3 phase permanent magnet synchronous motor se jodi hai.",
+        "visual_keyword": "Car batteries comparison"
+      },
+      {
+        "narration": "In teeno EV ki price alag-alag hai. Tata Nexon EV ki shuruaati price lagbhag 14 lakh rupaye hai, jabki Hyundai Kona Electric ki shuruaati price lagbhag 23 lakh rupaye hai. MG ZS EV ki shuruaati price lagbhag 20 lakh rupaye hai.",
+        "visual_keyword": "Price comparison chart"
+      },
+      {
+        "narration": "Ab hum dekhte hain ki in teeno EV ki performance kaisi hai. Tata Nexon EV 0 se 100 kilometer per hour mein 9.9 second lagti hai, jabki Hyundai Kona Electric 0 se 100 kilometer per hour mein 9.7 second lagti hai. MG ZS EV 0 se 100 kilometer per hour mein 8.5 second lagti hai.",
+        "visual_keyword": "Racing cars on track"
+      },
+      {
+        "narration": "In teeno EV ki safety features bhi alag-alag hain. Tata Nexon EV mein dual airbags, anti-lock braking system, aur electronic stability program hai. Hyundai Kona Electric mein 6 airbags, anti-lock braking system, aur electronic stability program hai. MG ZS EV mein dual airbags, anti-lock braking system, aur electronic stability program hai.",
+        "visual_keyword": "Car safety features"
+      },
+      {
+        "narration": "Ab hum dekhte hain ki in teeno EV ki charging time kaisi hai. Tata Nexon EV ki charging time lagbhag 8 ghante 45 minute hai, jabki Hyundai Kona Electric ki charging time lagbhag 6 ghante 10 minute hai. MG ZS EV ki charging time lagbhag 6 ghante 30 minute hai.",
+        "visual_keyword": "Car charging stations"
+      },
+      {
+        "narration": "In teeno EV ki warranty bhi alag-alag hai. Tata Nexon EV ki warranty 8 saal ya 1,60,000 kilometer hai, jabki Hyundai Kona Electric ki warranty 8 saal ya 1,60,000 kilometer hai. MG ZS EV ki warranty 8 saal ya 1,50,000 kilometer hai.",
+        "visual_keyword": "Warranty documents"
+      },
+      {
+        "narration": "Ab hum dekhte hain ki in teeno EV ki resale value kaisi hai. Tata Nexon EV ki resale value lagbhag 60% hai, jabki Hyundai Kona Electric ki resale value lagbhag 55% hai. MG ZS EV ki resale value lagbhag 50% hai.",
+        "visual_keyword": "Resale value chart"
+      },
+      {
+        "narration": "Ant mein hum kehte hain ki in teeno EV mein se kaun sa sabse best hai, yeh aapke budget aur jarurat par nirbhar karta hai. Agar aapke paas kam budget hai, to Tata Nexon EV sabse best hai. Agar aapke paas zyada budget hai, to Hyundai Kona Electric sabse best hai.",
+        "visual_keyword": "Best electric cars in India"
+      }
+    ],
+    "created_at": "2026-07-26T16:56:09.161347+00:00"
+  },
+  {
+    "id": "bf728f7b-5586-4ef9-be24-05cca6a62308",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "EV Speed",
+    "description": "Discover the truth behind electric vehicle acceleration, based on data from EV Ki Race. Watch now and learn how to make informed decisions about your next car purchase, with AI-generated visuals",
+    "tags": [
+      "Electric Vehicles",
+      "Car News",
+      "Auto Launch",
+      "EV Performance",
+      "Vehicle Tech",
+      "Green Cars",
+      "Motor Trends",
+      "Sustainable Transportation"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "Imagine a world where objects can float in mid-air",
-        "visual_keyword": "magnetic field animation"
+        "narration": "Electric vehicles are leaving gas guzzlers in the dust",
+        "visual_keyword": "EV racing"
       },
       {
-        "narration": "Welcome to quantum levitation",
-        "visual_keyword": "superconductor footage"
+        "narration": "With instant torque and zero lag",
+        "visual_keyword": "car acceleration"
       },
       {
-        "narration": "Where superconductors and magnetic fields combine",
-        "visual_keyword": "magnetic track video"
+        "narration": "They can go from zero to sixty in under three seconds",
+        "visual_keyword": "speedometer closeup"
       },
       {
-        "narration": "To create an upward force that counteracts gravity",
-        "visual_keyword": "levitating object"
+        "narration": "Outperforming many traditional sports cars",
+        "visual_keyword": "sports car comparison"
       },
       {
-        "narration": "The result is a frictionless and gravity-free zone",
-        "visual_keyword": "superconductor in action"
+        "narration": "But what makes them so fast",
+        "visual_keyword": "electric motor"
       },
       {
-        "narration": "And objects can move at incredible speeds with zero resistance",
-        "visual_keyword": "fast moving levitated object"
+        "narration": "The answer lies in their electric powertrains",
+        "visual_keyword": "engine tech"
+      },
+      {
+        "narration": "And the result is a driving experience like no other",
+        "visual_keyword": "driver reaction"
+      },
+      {
+        "narration": "Get ready to shift your expectations",
+        "visual_keyword": "car driving"
       }
     ],
-    "created_at": "2026-07-25T20:13:16.471755+00:00"
+    "created_at": "2026-07-26T16:56:15.467036+00:00"
+  },
+  {
+    "id": "26906380-898e-40e0-875f-b0a3f29a7260",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Shock",
+    "description": "Discover the surprising truth about EV performance, inspired by EV Ki Race. Watch to learn verifiable car insights, with AI-generated visuals",
+    "tags": [
+      "Electric Vehicles",
+      "Car Performance",
+      "EV Ki Race",
+      "Automotive News",
+      "New Car Launches",
+      "EV Technology"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "What if electric vehicles could outperform their gas-powered counterparts?",
+        "visual_keyword": "electric car racing"
+      },
+      {
+        "narration": "The answer lies in torque",
+        "visual_keyword": "car engine torque"
+      },
+      {
+        "narration": "Instant torque delivery gives EVs a significant advantage",
+        "visual_keyword": "EV acceleration"
+      },
+      {
+        "narration": "A fact proven by the latest EV models",
+        "visual_keyword": "new electric cars"
+      },
+      {
+        "narration": "With zero emissions and unparalleled speed",
+        "visual_keyword": "sustainable driving"
+      },
+      {
+        "narration": "The electric revolution is here to stay, and it's shocking",
+        "visual_keyword": "electric car future"
+      }
+    ],
+    "created_at": "2026-07-26T16:56:21.610893+00:00"
+  },
+  {
+    "id": "a2c268fd-4d37-4ef2-a740-b80777812b68",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Turbocharged Truth",
+    "description": "Discover the surprising reason electric vehicles are gaining on traditional turbocharged cars, as seen in EV Ki Race. Watch now and learn from verifiable car data, with AI-generated visuals for illustration purposes only, subscribe for more",
+    "tags": [
+      "electric vehicles",
+      "turbocharged cars",
+      "car comparison",
+      "EV performance",
+      "automotive news",
+      "car tech",
+      "new car launches",
+      "vehicle insights",
+      "automotive trends"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Electric vehicles are quietly outpacing traditional turbocharged cars",
+        "visual_keyword": "EV vs gas car"
+      },
+      {
+        "narration": "In terms of instant torque and smooth acceleration",
+        "visual_keyword": "car acceleration test"
+      },
+      {
+        "narration": "They're proving to be more than a match",
+        "visual_keyword": "car racing track"
+      },
+      {
+        "narration": "With zero lag and instant power delivery",
+        "visual_keyword": "turbocharger animation"
+      },
+      {
+        "narration": "EVs are redefining the driving experience",
+        "visual_keyword": "happy driver in EV"
+      },
+      {
+        "narration": "And leaving the competition in the dust, literally",
+        "visual_keyword": "car leaving dust cloud"
+      }
+    ],
+    "created_at": "2026-07-26T16:56:27.974630+00:00"
   }
 ]
