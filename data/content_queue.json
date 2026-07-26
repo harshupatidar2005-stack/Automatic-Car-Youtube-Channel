@@ -1,50 +1,5 @@
 [
   {
-    "id": "63a3e18b-a0a2-4fc5-b53e-7a1e72eee574",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Mind-bending quantum levitation explained in under a minute",
-    "tags": [
-      "Quantum Physics",
-      "Levitation",
-      "Science Experiments",
-      "Gravity",
-      "Magnetic Forces",
-      "Superconductors",
-      "Frictionless Motion",
-      "Incredible Tech"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine objects floating in mid-air, defying gravity's pull",
-        "visual_keyword": "magnetic levitation"
-      },
-      {
-        "narration": "This is quantum levitation, where superconductors meet magnetic fields",
-        "visual_keyword": "superconductor materials"
-      },
-      {
-        "narration": "When cooled, these materials expel magnetic fields, creating an upward force",
-        "visual_keyword": "liquid nitrogen cooling"
-      },
-      {
-        "narration": "The result is frictionless motion, with objects floating effortlessly",
-        "visual_keyword": "frictionless motion footage"
-      },
-      {
-        "narration": "A phenomenon that could revolutionize transportation and engineering",
-        "visual_keyword": "futuristic transportation concepts"
-      },
-      {
-        "narration": "And it's all thanks to the incredible power of quantum physics, where the impossible becomes possible",
-        "visual_keyword": "quantum physics equations"
-      }
-    ],
-    "created_at": "2026-07-25T20:12:55.278266+00:00"
-  },
-  {
     "id": "bdac6e72-6a41-4a14-ae8a-efc1623a9277",
     "format": "short",
     "niche": "science experiments explained",
