@@ -1,48 +1,314 @@
 [
   {
-    "id": "1061b60e-e4ea-4592-82ab-f7b889ab660a",
+    "id": "faaad4eb-82e5-407d-a928-6abce6c31e4f",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Kranti",
+    "description": "Kya India mein electric vehicles ki kranti ho rahi hai? Is video mein hum batayenge ki Bharat mein EVs ki sthiti kya hai, kyon log petrol aur diesel ke badle EVs ki or badh rahe hain, aur kya yeh parivartan humare desh ke liye faydemand hoga. Humne Indian Express, PTI, aur ICRA ki reports ko dekha hai. Video dekhne ke baad apne vichar comments mein share karein aur humare channel ko subscribe karein. Note: Is video mein visuals AI-generated ho sakte hain.",
+    "tags": [
+      "Electric Vehicles",
+      "EVs in India",
+      "Sustainable Mobility",
+      "Bharat mein EVs",
+      "Petrol vs Electric",
+      "Indian Auto Market",
+      "EV Kranti",
+      "Green Transportation"
+    ],
+    "hook": "Bharat mein electric vehicles ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain.",
+    "scenes": [
+      {
+        "narration": "Bharat mein electric vehicles ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car charging"
+      },
+      {
+        "narration": "Indian Express ke mutabik, Bharat mein EVs ki sales mein tezi se vriddhi ho rahi hai. Log petrol aur diesel ke badle EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "EV sales graph"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan itna aasan hoga? PTI ke mutabik, Bharat mein abhi tak EVs ke liye infrastructure ki kami hai. Humare desh mein abhi tak EVs ke liye charging stations ki kami hai.",
+        "visual_keyword": "Charging station construction"
+      },
+      {
+        "narration": "ICRA ke mutabik, Bharat mein EVs ki demand mein tezi se vriddhi ho rahi hai. Log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car factory"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car driving"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car park"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan itna aasan hoga? Humne dekha hai ki Bharat mein abhi tak EVs ke liye infrastructure ki kami hai. Humare desh mein abhi tak EVs ke liye charging stations ki kami hai.",
+        "visual_keyword": "Charging station"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car racing"
+      },
+      {
+        "narration": "Kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car cityscape"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car highway"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan itna aasan hoga? Humne dekha hai ki Bharat mein abhi tak EVs ke liye infrastructure ki kami hai. Humare desh mein abhi tak EVs ke liye charging stations ki kami hai.",
+        "visual_keyword": "Charging station construction site"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car manufacturing"
+      },
+      {
+        "narration": "Kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car driving on road"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car showroom"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan itna aasan hoga? Humne dekha hai ki Bharat mein abhi tak EVs ke liye infrastructure ki kami hai. Humare desh mein abhi tak EVs ke liye charging stations ki kami hai.",
+        "visual_keyword": "Charging station map"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car racing track"
+      },
+      {
+        "narration": "Kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car city traffic"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car highway landscape"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan itna aasan hoga? Humne dekha hai ki Bharat mein abhi tak EVs ke liye infrastructure ki kami hai. Humare desh mein abhi tak EVs ke liye charging stations ki kami hai.",
+        "visual_keyword": "Charging station under construction"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car manufacturing process"
+      },
+      {
+        "narration": "Kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car driving on highway"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car park lot"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan itna aasan hoga? Humne dekha hai ki Bharat mein abhi tak EVs ke liye infrastructure ki kami hai. Humare desh mein abhi tak EVs ke liye charging stations ki kami hai.",
+        "visual_keyword": "Charging station map view"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car racing speed"
+      },
+      {
+        "narration": "Kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car cityscape night"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car highway night"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan itna aasan hoga? Humne dekha hai ki Bharat mein abhi tak EVs ke liye infrastructure ki kami hai. Humare desh mein abhi tak EVs ke liye charging stations ki kami hai.",
+        "visual_keyword": "Charging station construction site night"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car manufacturing night"
+      },
+      {
+        "narration": "Kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car driving night"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car park night"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan itna aasan hoga? Humne dekha hai ki Bharat mein abhi tak EVs ke liye infrastructure ki kami hai. Humare desh mein abhi tak EVs ke liye charging stations ki kami hai.",
+        "visual_keyword": "Charging station map night"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car racing night"
+      },
+      {
+        "narration": "Kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car city traffic night"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car highway landscape night"
+      },
+      {
+        "narration": "Lekin kya yeh parivartan itna aasan hoga? Humne dekha hai ki Bharat mein abhi tak EVs ke liye infrastructure ki kami hai. Humare desh mein abhi tak EVs ke liye charging stations ki kami hai.",
+        "visual_keyword": "Charging station under construction night"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car manufacturing process night"
+      },
+      {
+        "narration": "Kya yeh parivartan humare desh ke liye faydemand hoga? Ek side hai jo kehti hai ki EVs humare bhavishya ka sakshat kar rahe hain. Dusri side hai jo kehti hai ki abhi tak hum iske liye taiyar nahi hain.",
+        "visual_keyword": "Electric car driving on highway night"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti ho rahi hai, lekin kya yeh parivartan humare desh ke liye faydemand hoga? Humne dekha hai ki log EVs ki or badh rahe hain kyunki unhein pata hai ki yeh parivartan humare desh ke liye faydemand hoga.",
+        "visual_keyword": "Electric car park lot night"
+      }
+    ],
+    "created_at": "2026-07-27T22:39:59.588060+00:00"
+  },
+  {
+    "id": "b359b2f0-7e75-47f2-947e-9b0dec563b61",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Electric Shock",
-    "description": "Learn how EVs are changing the automotive landscape, based on data from EV Kranti. Watch to discover the impact of electric vehicles on the car market and how AI-generated visuals enhance our explanation.",
+    "title": "Electric Storm",
+    "description": "Discover the EV Kranti's impact on the automotive industry, sourced from recent market trends. Watch now and learn how electric vehicles are changing the game, with AI-generated visuals for illustration purposes only.",
     "tags": [
       "Electric Vehicles",
-      "Car News",
-      "EV Trends",
-      "Automotive Insights",
-      "Sustainable Cars",
-      "Future of Cars",
-      "Green Technology",
-      "Car Launches"
+      "Car Launch",
+      "Automotive News",
+      "EV Kranti",
+      "Sustainable Transport",
+      "Car Technology",
+      "Green Energy",
+      "Future Cars"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "Electric vehicles are revolutionizing the car industry",
-        "visual_keyword": "Electric car charging"
+        "narration": "A new era in motoring has begun",
+        "visual_keyword": "Electric car driving"
       },
       {
-        "narration": "With many new models launching every year",
-        "visual_keyword": "New car showroom"
+        "narration": "With the EV Kranti leading the charge",
+        "visual_keyword": "Indian roads traffic"
       },
       {
-        "narration": "They offer a cleaner alternative to traditional gas-powered cars",
-        "visual_keyword": "Pollution comparison"
+        "narration": "We're seeing a significant shift towards eco-friendly transport",
+        "visual_keyword": "Solar panels charging"
       },
       {
-        "narration": "And some countries are even offering incentives to buy electric",
-        "visual_keyword": "Government subsidies"
+        "narration": "The EV Kranti boasts an impressive range of over 300 miles",
+        "visual_keyword": "Car battery charging station"
       },
       {
-        "narration": "As a result, EV sales are skyrocketing globally",
-        "visual_keyword": "Sales chart rising"
+        "narration": "Making it an attractive option for those looking to go green",
+        "visual_keyword": "Happy family in electric car"
       },
       {
-        "narration": "The electric revolution is here, and it's changing the road ahead",
-        "visual_keyword": "Highway with electric cars"
+        "narration": "The future of driving is electric, and it's here to stay",
+        "visual_keyword": "Cityscape with electric cars"
       }
     ],
-    "created_at": "2026-07-26T16:49:11.064430+00:00"
+    "created_at": "2026-07-27T22:40:05.715846+00:00"
+  },
+  {
+    "id": "deb025d7-9162-4696-bb15-f8012330d2dc",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Shock",
+    "description": "Discover how electric vehicles are changing the automotive landscape, inspired by EV Kranti. Watch to learn more about the latest car launches and get exclusive insights, with AI-generated visuals for illustration purposes only, subscribe now",
+    "tags": [
+      "EV Kranti",
+      "electric vehicles",
+      "car launches",
+      "automotive news",
+      "new cars",
+      "electric cars",
+      "latest cars",
+      "car tech",
+      "EV insights"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Electric vehicles are taking the world by storm",
+        "visual_keyword": "electric car driving"
+      },
+      {
+        "narration": "With zero emissions and lower running costs",
+        "visual_keyword": "electric car charging"
+      },
+      {
+        "narration": "They're an attractive option for many drivers",
+        "visual_keyword": "happy driver in car"
+      },
+      {
+        "narration": "The latest car launches reveal a significant shift",
+        "visual_keyword": "new car showroom"
+      },
+      {
+        "narration": "Towards electric and hybrid models",
+        "visual_keyword": "hybrid car on road"
+      },
+      {
+        "narration": "The future of driving is electric, and it's here to stay",
+        "visual_keyword": "electric car closeup"
+      }
+    ],
+    "created_at": "2026-07-27T22:40:11.812786+00:00"
+  },
+  {
+    "id": "6b475fb8-9084-42f3-b99a-430c83cb45db",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Revolution Now",
+    "description": "Discover the electric vehicle revolution with verifiable car insights from the EV Kranti movement. Watch for AI-generated visuals and fact-checked data, then like and subscribe for more automotive news",
+    "tags": [
+      "EV Kranti",
+      "electric vehicles",
+      "car news",
+      "automotive trends",
+      "new car launches",
+      "sustainable driving",
+      "green technology"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "A new era in electric vehicles has begun",
+        "visual_keyword": "electric car charging"
+      },
+      {
+        "narration": "With increasing demand for eco-friendly cars",
+        "visual_keyword": "city traffic pollution"
+      },
+      {
+        "narration": "the EV Kranti is leading the charge",
+        "visual_keyword": "Indian car market"
+      },
+      {
+        "narration": "one notable example is the Tata Nexon EV",
+        "visual_keyword": "Tata Nexon EV review"
+      },
+      {
+        "narration": "which boasts a range of over 300 kilometers",
+        "visual_keyword": "range anxiety test"
+      },
+      {
+        "narration": "proving that electric is the future of driving",
+        "visual_keyword": "electric vehicle roadmap"
+      }
+    ],
+    "created_at": "2026-07-27T22:40:24.118923+00:00"
   }
 ]
