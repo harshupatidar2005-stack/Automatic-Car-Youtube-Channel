@@ -1,51 +1,5 @@
 [
   {
-    "id": "6dd19b69-4029-4abe-92f1-8b59249a4079",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electrify Now",
-    "description": "Explore the EV revolution with data-driven insights, sourced from EV Kranti. Watch now and discover the latest automotive trends with AI-generated visual explanations.",
-    "tags": [
-      "Electric Vehicles",
-      "Car Launches",
-      "Automotive News",
-      "EV Kranti",
-      "Sustainable Cars",
-      "Innovation",
-      "Green Technology",
-      "Vehicle Trends"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The shift to electric is gaining momentum",
-        "visual_keyword": "Electric Car Charging"
-      },
-      {
-        "narration": "With new models emerging every quarter",
-        "visual_keyword": "New Car Launch Event"
-      },
-      {
-        "narration": "One key factor is driving this change",
-        "visual_keyword": "Increasing Fuel Prices"
-      },
-      {
-        "narration": "Government incentives are also playing a role",
-        "visual_keyword": "Government Subsidies Announcement"
-      },
-      {
-        "narration": "But what does this mean for the industry",
-        "visual_keyword": "Automotive Industry Trends"
-      },
-      {
-        "narration": "As the world electrifies, the future is now",
-        "visual_keyword": "Electric Vehicle Roadmap"
-      }
-    ],
-    "created_at": "2026-07-26T16:48:58.555587+00:00"
-  },
-  {
     "id": "845365bc-8db1-4ef2-9f41-def6ebb75dd0",
     "format": "short",
     "niche": "automotive news and new car launches",
