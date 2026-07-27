@@ -1,49 +1,5 @@
 [
   {
-    "id": "845365bc-8db1-4ef2-9f41-def6ebb75dd0",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Revolutionizing EVs",
-    "description": "Discover the EV Kranti's impact on the automotive industry, based on recent EV trends from reputable sources like Car and Driver. Watch now and explore the future of electric vehicles, with AI-generated visuals for illustration purposes only.",
-    "tags": [
-      "Electric Vehicles",
-      "EV Kranti",
-      "New Car Launches",
-      "Automotive News",
-      "Car Technology",
-      "Sustainable Transport"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The EV Kranti is leading the charge in electric vehicles.",
-        "visual_keyword": "Electric Car Charging"
-      },
-      {
-        "narration": "With its advanced battery technology, it's set to revolutionize the industry.",
-        "visual_keyword": "Battery Manufacturing"
-      },
-      {
-        "narration": "One key insight is its extended range, making long-distance travel possible.",
-        "visual_keyword": "Highway Driving"
-      },
-      {
-        "narration": "The EV Kranti's impact will be felt across the automotive sector.",
-        "visual_keyword": "Car Factory Production"
-      },
-      {
-        "narration": "As the world shifts towards sustainable transport, it's an exciting time for electric vehicles.",
-        "visual_keyword": "Green Energy"
-      },
-      {
-        "narration": "The future of driving is here, and it's electric.",
-        "visual_keyword": "Cityscape EVs"
-      }
-    ],
-    "created_at": "2026-07-26T16:49:04.920895+00:00"
-  },
-  {
     "id": "1061b60e-e4ea-4592-82ab-f7b889ab660a",
     "format": "short",
     "niche": "automotive news and new car launches",
