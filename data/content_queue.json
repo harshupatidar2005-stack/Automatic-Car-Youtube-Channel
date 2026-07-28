@@ -1,52 +1,5 @@
 [
   {
-    "id": "deb025d7-9162-4696-bb15-f8012330d2dc",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Shock",
-    "description": "Discover how electric vehicles are changing the automotive landscape, inspired by EV Kranti. Watch to learn more about the latest car launches and get exclusive insights, with AI-generated visuals for illustration purposes only, subscribe now",
-    "tags": [
-      "EV Kranti",
-      "electric vehicles",
-      "car launches",
-      "automotive news",
-      "new cars",
-      "electric cars",
-      "latest cars",
-      "car tech",
-      "EV insights"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Electric vehicles are taking the world by storm",
-        "visual_keyword": "electric car driving"
-      },
-      {
-        "narration": "With zero emissions and lower running costs",
-        "visual_keyword": "electric car charging"
-      },
-      {
-        "narration": "They're an attractive option for many drivers",
-        "visual_keyword": "happy driver in car"
-      },
-      {
-        "narration": "The latest car launches reveal a significant shift",
-        "visual_keyword": "new car showroom"
-      },
-      {
-        "narration": "Towards electric and hybrid models",
-        "visual_keyword": "hybrid car on road"
-      },
-      {
-        "narration": "The future of driving is electric, and it's here to stay",
-        "visual_keyword": "electric car closeup"
-      }
-    ],
-    "created_at": "2026-07-27T22:40:11.812786+00:00"
-  },
-  {
     "id": "6b475fb8-9084-42f3-b99a-430c83cb45db",
     "format": "short",
     "niche": "automotive news and new car launches",
