@@ -1,50 +1,5 @@
 [
   {
-    "id": "7e23e7be-ad86-43d8-b411-4aa2046d340e",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "EV Boom",
-    "description": "Discover the latest electric vehicle trends in India, based on data from the Society of Manufacturers of Electric Vehicles. Watch now and learn how EVs are changing the automotive landscape, with AI-generated visualizations.",
-    "tags": [
-      "Electric Vehicles",
-      "India",
-      "Automotive News",
-      "Car Launches",
-      "Sustainable Transport",
-      "EV Trends",
-      "Green Technology"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "India is witnessing an electric vehicle boom",
-        "visual_keyword": "electric cars on road"
-      },
-      {
-        "narration": "With over 100000 units sold in 2022",
-        "visual_keyword": "EV sales graph"
-      },
-      {
-        "narration": "The Indian government is offering incentives for EV adoption",
-        "visual_keyword": "government subsidies"
-      },
-      {
-        "narration": "Major players like Tata and Hyundai are launching new EV models",
-        "visual_keyword": "new car launches"
-      },
-      {
-        "narration": "As the market grows, charging infrastructure is expanding rapidly",
-        "visual_keyword": "EV charging stations"
-      },
-      {
-        "narration": "The future of Indian roads is electric, and it's arriving fast",
-        "visual_keyword": "electric cars on highway"
-      }
-    ],
-    "created_at": "2026-07-29T13:11:29.833050+00:00"
-  },
-  {
     "id": "376c3724-cee0-46bc-a5b4-f414bae6b700",
     "format": "short",
     "niche": "automotive news and new car launches",
