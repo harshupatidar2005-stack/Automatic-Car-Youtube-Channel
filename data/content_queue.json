@@ -1,47 +1,195 @@
 [
   {
-    "id": "6b475fb8-9084-42f3-b99a-430c83cb45db",
+    "id": "d5e1269a-ef3b-41b8-98c5-e8e1ca24aceb",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EVs in India",
+    "description": "India mein electric vehicles ki badhti demand, kya ye humari sadakon par successful ho sakte hain? Is video mein hum baat karenge EVs ki visheshataon, unke fayde, aur sarkar ki schemes ke baare mein. Sources: Indian government reports, ICRA research, and industry experts. Visuals may be AI-generated. Subscribe to our channel for more informative videos and comment below with your thoughts.",
+    "tags": [
+      "Electric Vehicles",
+      "EVs in India",
+      "Indian Auto Market",
+      "Sustainable Mobility",
+      "Renewable Energy",
+      "Green Technology",
+      "Automotive News",
+      "New Car Launches"
+    ],
+    "hook": "Aaj kal hum sab electric vehicles ki baat sun rahe hain, lekin kya ye sach mein humari zarurat hai? India mein EVs ki demand itni tezi se badh rahi hai ki humein sochne par majboor kar rahi hai.",
+    "scenes": [
+      {
+        "narration": "Electric vehicles ki baat karte waqt humein pehle ye samajhna hoga ki ye kya hain aur kaise kaam karte hain. EVs mein conventional fuel ki jagah par battery hoti hai jo electric motor ko power deti hai.",
+        "visual_keyword": "Electric car battery pack"
+      },
+      {
+        "narration": "India mein electric vehicles ki demand tezi se badh rahi hai, aur iski wajah hai ki log ab environmental issues ko lekar serious ho rahe hain. Sarkar bhi EVs ko promote karne ke liye schemes lekar aai hai.",
+        "visual_keyword": "Indian government EV incentives"
+      },
+      {
+        "narration": "Lekin EVs ki ek badi problem hai range anxiety, yaani ki driver ko yeh dar hai ki car ka battery raaste mein khatam ho jayega. Is problem ko solve karne ke liye companies charging infrastructure develop kar rahi hain.",
+        "visual_keyword": "Electric car charging station"
+      },
+      {
+        "narration": "EVs ki dusri badi problem hai unki high cost, jo ki middle-class logon ke liye afford nahi hai. Lekin companies ab affordable EVs launch karne lag gayi hain jo ki common man ke liye bhi accessible ho.",
+        "visual_keyword": "Affordable electric cars India"
+      },
+      {
+        "narration": "ICRA research ke mutabik, India mein EVs ki demand 2025 tak 10% tak pahunch sakti hai. Yeh ek bahut bada milestone hoga, lekin iske liye humein abhi bahut kuch karne ki zarurat hai.",
+        "visual_keyword": "Electric vehicle market growth"
+      },
+      {
+        "narration": "EVs ki safety bhi ek important issue hai, kyunki unki battery lagbhag explosive ho sakti hai. Lekin companies ab EVs ki safety par bahut dhyan de rahi hain aur iske liye tests conduct kar rahi hain.",
+        "visual_keyword": "Electric car safety test"
+      },
+      {
+        "narration": "Sarkar ne EVs ko promote karne ke liye FAME scheme launch ki hai, jiske tahat companies ko subsidies di jati hain. Yeh scheme bahut successful rahi hai aur isse EVs ki sales mein bahut growth dekha gaya hai.",
+        "visual_keyword": "FAME India scheme"
+      },
+      {
+        "narration": "Lekin EVs ki ek badi challenge hai unki recycling, kyunki unki battery ko dispose karna bahut mushkil hai. Is problem ko solve karne ke liye companies ab recycling technologies develop kar rahi hain.",
+        "visual_keyword": "Electric car battery recycling"
+      },
+      {
+        "narration": "India mein EVs ki future bahut bright hai, aur humein ummeed hai ki agle kuch saalon mein EVs conventional fuel cars ko replace kar denge. Lekin iske liye humein abhi bahut kuch karne ki zarurat hai.",
+        "visual_keyword": "Electric vehicle future India"
+      }
+    ],
+    "created_at": "2026-07-29T13:11:23.730146+00:00"
+  },
+  {
+    "id": "7e23e7be-ad86-43d8-b411-4aa2046d340e",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Revolution Now",
-    "description": "Discover the electric vehicle revolution with verifiable car insights from the EV Kranti movement. Watch for AI-generated visuals and fact-checked data, then like and subscribe for more automotive news",
+    "title": "EV Boom",
+    "description": "Discover the latest electric vehicle trends in India, based on data from the Society of Manufacturers of Electric Vehicles. Watch now and learn how EVs are changing the automotive landscape, with AI-generated visualizations.",
     "tags": [
-      "EV Kranti",
-      "electric vehicles",
-      "car news",
-      "automotive trends",
-      "new car launches",
-      "sustainable driving",
-      "green technology"
+      "Electric Vehicles",
+      "India",
+      "Automotive News",
+      "Car Launches",
+      "Sustainable Transport",
+      "EV Trends",
+      "Green Technology"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "A new era in electric vehicles has begun",
+        "narration": "India is witnessing an electric vehicle boom",
+        "visual_keyword": "electric cars on road"
+      },
+      {
+        "narration": "With over 100000 units sold in 2022",
+        "visual_keyword": "EV sales graph"
+      },
+      {
+        "narration": "The Indian government is offering incentives for EV adoption",
+        "visual_keyword": "government subsidies"
+      },
+      {
+        "narration": "Major players like Tata and Hyundai are launching new EV models",
+        "visual_keyword": "new car launches"
+      },
+      {
+        "narration": "As the market grows, charging infrastructure is expanding rapidly",
+        "visual_keyword": "EV charging stations"
+      },
+      {
+        "narration": "The future of Indian roads is electric, and it's arriving fast",
+        "visual_keyword": "electric cars on highway"
+      }
+    ],
+    "created_at": "2026-07-29T13:11:29.833050+00:00"
+  },
+  {
+    "id": "376c3724-cee0-46bc-a5b4-f414bae6b700",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "India's EV Surge",
+    "description": "Discover the rapid growth of electric vehicles in India, backed by data from the Society of Manufacturers of Electric Vehicles. Watch now and learn about India's EV market, with AI-generated visuals.",
+    "tags": [
+      "electric vehicles",
+      "India",
+      "EV market",
+      "car news",
+      "automotive trends",
+      "green transportation",
+      "sustainable mobility"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "India is witnessing an electric vehicle revolution",
         "visual_keyword": "electric car charging"
       },
       {
-        "narration": "With increasing demand for eco-friendly cars",
-        "visual_keyword": "city traffic pollution"
+        "narration": "With over 100,000 units sold in 2022",
+        "visual_keyword": "Indian road traffic"
       },
       {
-        "narration": "the EV Kranti is leading the charge",
-        "visual_keyword": "Indian car market"
+        "narration": "The government's FAME II scheme is driving adoption",
+        "visual_keyword": "government subsidy announcement"
       },
       {
-        "narration": "one notable example is the Tata Nexon EV",
+        "narration": "Tata Motors leads the market with its Nexon EV",
         "visual_keyword": "Tata Nexon EV review"
       },
       {
-        "narration": "which boasts a range of over 300 kilometers",
-        "visual_keyword": "range anxiety test"
+        "narration": "As India aims to become a global EV hub",
+        "visual_keyword": "electric vehicle manufacturing plant"
       },
       {
-        "narration": "proving that electric is the future of driving",
-        "visual_keyword": "electric vehicle roadmap"
+        "narration": "The future of transportation is electric, and India is accelerating",
+        "visual_keyword": "electric car speeding"
       }
     ],
-    "created_at": "2026-07-27T22:40:24.118923+00:00"
+    "created_at": "2026-07-29T13:11:35.949240+00:00"
+  },
+  {
+    "id": "cf2c351a-5de1-4942-93a3-7cbaa80eee63",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Shock",
+    "description": "Discover India's EV market growth, backed by data from the Society of Manufacturers of Electric Vehicles. Watch to learn more and see AI-generated visuals",
+    "tags": [
+      "EVs in India",
+      "Electric Cars",
+      "SMEV",
+      "Automotive News",
+      "New Car Launches",
+      "Indian Auto Market",
+      "Electric Vehicle Growth"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "India's electric vehicle market is accelerating fast",
+        "visual_keyword": "Electric car driving"
+      },
+      {
+        "narration": "With over 600,000 EVs sold in 2022",
+        "visual_keyword": "Indian traffic roads"
+      },
+      {
+        "narration": "Tata Motors leads the charge",
+        "visual_keyword": "Tata electric cars"
+      },
+      {
+        "narration": "Accounting for nearly 90% of sales",
+        "visual_keyword": "Electric car sales graph"
+      },
+      {
+        "narration": "As the market expands, competition heats up",
+        "visual_keyword": "New electric car models"
+      },
+      {
+        "narration": "India's EV revolution is just getting started",
+        "visual_keyword": "Electric car factory"
+      }
+    ],
+    "created_at": "2026-07-29T13:11:42.017426+00:00"
   }
 ]
