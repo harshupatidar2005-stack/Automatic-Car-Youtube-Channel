@@ -1,47 +1,220 @@
 [
   {
-    "id": "cf2c351a-5de1-4942-93a3-7cbaa80eee63",
+    "id": "79879e05-d2b1-439f-b507-e0da7694094e",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Revolution",
+    "description": "Electric vehicles are taking over the Indian market, but can they replace traditional cars? This video explains the current state of EVs in India, citing sources like the Society of Manufacturers of Electric Vehicles and a report by BloombergNEF. We compare the latest EV models from Tata and Hyundai, and discuss the counterargument that EVs are not yet affordable for the average consumer. Watch till the end for a conclusion on the future of mobility. Visuals may be AI-generated. Subscribe for more automotive news and comment below with your thoughts. Sources: SMEV, BloombergNEF, and Indian government reports.",
+    "tags": [
+      "EV Revolution",
+      "Indian Auto Market",
+      "Electric Vehicles",
+      "Tata Motors",
+      "Hyundai India",
+      "BloombergNEF",
+      "SMEV",
+      "Automotive News",
+      "Car Launches",
+      "Future of Mobility"
+    ],
+    "hook": "Electric vehicles are no longer a distant dream, with sales skyrocketing in India. But can they really replace our traditional petrol and diesel cars?",
+    "scenes": [
+      {
+        "narration": "The Indian government has set ambitious targets for electric vehicle adoption, with a goal of 30% of new car sales being electric by 2030. But what does this mean for the average consumer? Are EVs affordable and practical for daily use?",
+        "visual_keyword": "Delhi electric vehicle charging station"
+      },
+      {
+        "narration": "Tata Motors has been at the forefront of the EV revolution in India, with models like the Nexon EV and Tigor EV gaining popularity. But how do they compare to their petrol and diesel counterparts?",
+        "visual_keyword": "Tata Nexon EV driving on highway"
+      },
+      {
+        "narration": "Hyundai India has also launched its own EV model, the Kona Electric, which boasts an impressive range of over 400 kilometers. But is it worth the premium price tag?",
+        "visual_keyword": "Hyundai Kona Electric exterior shots"
+      },
+      {
+        "narration": "One of the biggest concerns for potential EV buyers is the lack of charging infrastructure in India. But companies like Tata Power and Fortum are working to change this, with plans to set up thousands of charging stations across the country.",
+        "visual_keyword": "Tata Power electric vehicle charging station"
+      },
+      {
+        "narration": "The Society of Manufacturers of Electric Vehicles has reported a significant increase in EV sales in India, with over 1.5 lakh units sold in the last year alone. But what's driving this growth, and can it be sustained?",
+        "visual_keyword": "SMEV logo and electric vehicle sales graph"
+      },
+      {
+        "narration": "A report by BloombergNEF predicts that EVs will become cheaper than traditional cars by 2025, thanks to declining battery costs. But what does this mean for the Indian auto market, and how will it impact the environment?",
+        "visual_keyword": "BloombergNEF report cover page and electric vehicle cost comparison graph"
+      },
+      {
+        "narration": "The Indian government has announced plans to incentivize EV adoption, with subsidies and tax breaks for buyers. But are these measures enough to drive growth, or is more needed to be done?",
+        "visual_keyword": "Indian government logo and EV subsidy announcement"
+      },
+      {
+        "narration": "While EVs have their advantages, they also have their drawbacks. For example, they can take hours to charge, which can be a major inconvenience for long road trips. But are there any solutions to this problem?",
+        "visual_keyword": "Electric vehicle charging time comparison graph"
+      },
+      {
+        "narration": "Some experts argue that EVs are not yet affordable for the average consumer, with prices significantly higher than their petrol and diesel counterparts. But is this really the case, or are there more affordable options available?",
+        "visual_keyword": "Electric vehicle price comparison graph"
+      },
+      {
+        "narration": "The future of mobility is undoubtedly electric, but what does this mean for traditional car manufacturers? Will they be able to adapt to the changing market, or will they be left behind?",
+        "visual_keyword": "Automotive industry trends graph and electric vehicle concept car"
+      },
+      {
+        "narration": "As the Indian auto market continues to evolve, one thing is clear: electric vehicles are here to stay. But what's next for the industry, and how will it impact the environment and our daily lives?",
+        "visual_keyword": "Indian auto market trends graph and electric vehicle adoption forecast"
+      },
+      {
+        "narration": "In conclusion, the EV revolution is well underway in India, with significant growth and investment in the sector. While there are still challenges to be addressed, the future of mobility is undoubtedly electric.",
+        "visual_keyword": "Electric vehicle adoption graph and Indian auto market forecast"
+      },
+      {
+        "narration": "So what can you do to be a part of this revolution? Consider switching to an EV for your next car purchase, and support companies that are working to promote sustainable mobility. Together, we can create a cleaner, greener future for all.",
+        "visual_keyword": "Electric vehicle and sustainability concept art"
+      },
+      {
+        "narration": "Thanks for watching, and don't forget to subscribe for more automotive news and updates. Join the conversation in the comments below, and let us know what you think about the future of mobility.",
+        "visual_keyword": "Channel logo and subscribe button"
+      }
+    ],
+    "created_at": "2026-07-30T17:10:29.585276+00:00"
+  },
+  {
+    "id": "846ea4d3-377a-4a75-a464-4f696c722ac9",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Electric Shock",
-    "description": "Discover India's EV market growth, backed by data from the Society of Manufacturers of Electric Vehicles. Watch to learn more and see AI-generated visuals",
+    "title": "Rev Up",
+    "description": "Discover the surprising reason electric vehicles are gaining traction, according to recent industry reports. Watch now and learn how EVs are changing the automotive landscape, with AI-generated visuals for illustration purposes only, subscribe for more",
     "tags": [
-      "EVs in India",
-      "Electric Cars",
-      "SMEV",
-      "Automotive News",
-      "New Car Launches",
-      "Indian Auto Market",
-      "Electric Vehicle Growth"
+      "electric vehicles",
+      "EV revolution",
+      "car news",
+      "automotive trends",
+      "sustainable transport",
+      "new car launches",
+      "auto industry",
+      "green technology"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "India's electric vehicle market is accelerating fast",
-        "visual_keyword": "Electric car driving"
+        "narration": "The EV revolution is shifting into high gear",
+        "visual_keyword": "electric car driving"
       },
       {
-        "narration": "With over 600,000 EVs sold in 2022",
-        "visual_keyword": "Indian traffic roads"
+        "narration": "With many countries investing heavily in EV infrastructure",
+        "visual_keyword": "charging stations"
       },
       {
-        "narration": "Tata Motors leads the charge",
-        "visual_keyword": "Tata electric cars"
+        "narration": "One key factor driving adoption is the impressive range of new models",
+        "visual_keyword": "EV car lineup"
       },
       {
-        "narration": "Accounting for nearly 90% of sales",
-        "visual_keyword": "Electric car sales graph"
+        "narration": "For example, the latest Tesla Model can travel over 350 miles on a single charge",
+        "visual_keyword": "Tesla Model"
       },
       {
-        "narration": "As the market expands, competition heats up",
-        "visual_keyword": "New electric car models"
+        "narration": "This has significant implications for the future of transportation",
+        "visual_keyword": "city traffic"
       },
       {
-        "narration": "India's EV revolution is just getting started",
-        "visual_keyword": "Electric car factory"
+        "narration": "As the world accelerates towards a more sustainable future, one thing is clear: EVs are here to stay",
+        "visual_keyword": "earth from space"
       }
     ],
-    "created_at": "2026-07-29T13:11:42.017426+00:00"
+    "created_at": "2026-07-30T17:10:35.855964+00:00"
+  },
+  {
+    "id": "2c67113a-06b4-4cdc-9709-afd92ba9865f",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Revolution Now",
+    "description": "Discover the latest EV trend, backed by data from reputable sources like Car and Driver. Watch to learn more about electric cars and their impact, with AI-generated visuals.",
+    "tags": [
+      "EV cars",
+      "electric vehicles",
+      "car trends",
+      "automotive news",
+      "new car launches",
+      "green tech",
+      "sustainable driving",
+      "auto innovation"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "The EV revolution is no longer a distant future, it's happening now.",
+        "visual_keyword": "electric car factory"
+      },
+      {
+        "narration": "With many countries investing heavily in electric infrastructure.",
+        "visual_keyword": "charging station"
+      },
+      {
+        "narration": "The result is a significant decrease in emissions and operating costs.",
+        "visual_keyword": "eco friendly driving"
+      },
+      {
+        "narration": "For example, the latest models from Tesla and Hyundai.",
+        "visual_keyword": "new car models"
+      },
+      {
+        "narration": "Offer impressive range and performance, making them viable options.",
+        "visual_keyword": "electric car test drive"
+      },
+      {
+        "narration": "Join the revolution and experience the future of driving today.",
+        "visual_keyword": "electric car on the road"
+      }
+    ],
+    "created_at": "2026-07-30T17:10:41.991654+00:00"
+  },
+  {
+    "id": "175c6c57-6ab2-4651-a98f-e018ea5e6788",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Revolution Now",
+    "description": "Discover the latest in electric vehicle technology with data from leading automotive research firms. Watch now and explore the EV market with AI-generated visuals.",
+    "tags": [
+      "Electric Cars",
+      "EV Revolution",
+      "Sustainable Transport",
+      "New Car Launches",
+      "Automotive News",
+      "Green Technology",
+      "Vehicle Innovation",
+      "Future of Cars"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "The EV revolution is gaining speed",
+        "visual_keyword": "electric car highway"
+      },
+      {
+        "narration": "With many countries investing heavily in EV infrastructure",
+        "visual_keyword": "charging stations"
+      },
+      {
+        "narration": "One key insight is that EVs now offer similar range to gas-powered cars",
+        "visual_keyword": "car comparison chart"
+      },
+      {
+        "narration": "The Hyundai Ioniq 5 for example offers up to 303 miles on a single charge",
+        "visual_keyword": "Hyundai Ioniq 5 driving"
+      },
+      {
+        "narration": "As the technology continues to improve, we can expect even more efficient models",
+        "visual_keyword": "EV manufacturing plant"
+      },
+      {
+        "narration": "The future of transportation is electric and it's arriving faster than you think",
+        "visual_keyword": "cityscape with EVs"
+      }
+    ],
+    "created_at": "2026-07-30T17:10:49.274751+00:00"
   }
 ]
