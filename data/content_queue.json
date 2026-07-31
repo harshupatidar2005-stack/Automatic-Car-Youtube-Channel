@@ -1,51 +1,5 @@
 [
   {
-    "id": "2c67113a-06b4-4cdc-9709-afd92ba9865f",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Revolution Now",
-    "description": "Discover the latest EV trend, backed by data from reputable sources like Car and Driver. Watch to learn more about electric cars and their impact, with AI-generated visuals.",
-    "tags": [
-      "EV cars",
-      "electric vehicles",
-      "car trends",
-      "automotive news",
-      "new car launches",
-      "green tech",
-      "sustainable driving",
-      "auto innovation"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The EV revolution is no longer a distant future, it's happening now.",
-        "visual_keyword": "electric car factory"
-      },
-      {
-        "narration": "With many countries investing heavily in electric infrastructure.",
-        "visual_keyword": "charging station"
-      },
-      {
-        "narration": "The result is a significant decrease in emissions and operating costs.",
-        "visual_keyword": "eco friendly driving"
-      },
-      {
-        "narration": "For example, the latest models from Tesla and Hyundai.",
-        "visual_keyword": "new car models"
-      },
-      {
-        "narration": "Offer impressive range and performance, making them viable options.",
-        "visual_keyword": "electric car test drive"
-      },
-      {
-        "narration": "Join the revolution and experience the future of driving today.",
-        "visual_keyword": "electric car on the road"
-      }
-    ],
-    "created_at": "2026-07-30T17:10:41.991654+00:00"
-  },
-  {
     "id": "175c6c57-6ab2-4651-a98f-e018ea5e6788",
     "format": "short",
     "niche": "automotive news and new car launches",
