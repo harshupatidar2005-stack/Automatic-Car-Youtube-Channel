@@ -1,50 +1,5 @@
 [
   {
-    "id": "74a0d9dd-d8ab-420d-8196-98880772766d",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Shock",
-    "description": "Get the inside scoop on the latest EV trends, inspired by the EV Kranti movement. Watch now and learn how electric vehicles are changing the game, with AI-generated visuals to enhance your viewing experience.",
-    "tags": [
-      "Electric Vehicles",
-      "EV Kranti",
-      "Car News",
-      "Automotive Trends",
-      "Sustainable Transport",
-      "Green Cars",
-      "New Car Launches"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The electric revolution is here, and it's accelerating fast.",
-        "visual_keyword": "electric car racing"
-      },
-      {
-        "narration": "With zero emissions and lower running costs, EVs are becoming the smart choice.",
-        "visual_keyword": "city traffic pollution"
-      },
-      {
-        "narration": "But what's driving this change?",
-        "visual_keyword": "electric vehicle manufacturing"
-      },
-      {
-        "narration": "Government incentives and declining battery costs are making EVs more affordable.",
-        "visual_keyword": "electric car charging station"
-      },
-      {
-        "narration": "The result is a surge in demand, with many new models hitting the market.",
-        "visual_keyword": "new car showroom"
-      },
-      {
-        "narration": "The future of driving is electric, and it's arriving sooner than you think.",
-        "visual_keyword": "electric car highway driving"
-      }
-    ],
-    "created_at": "2026-07-31T22:40:19.322826+00:00"
-  },
-  {
     "id": "fb98529d-dc58-4a80-98f7-16c11af09c37",
     "format": "short",
     "niche": "automotive news and new car launches",
