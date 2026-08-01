@@ -1,51 +1,5 @@
 [
   {
-    "id": "84d7cdd8-5ea7-46f3-a33f-8541572825a8",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Revolutionize",
-    "description": "Discover the latest electric vehicle trends, inspired by EV Kranti insights. Watch now and learn about the future of cars, with AI-generated visuals",
-    "tags": [
-      "Electric Cars",
-      "New Car Launches",
-      "Automotive News",
-      "EV Kranti",
-      "Sustainable Transport",
-      "Car Technology",
-      "Innovation",
-      "Vehicle Trends"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The electric vehicle market is changing fast",
-        "visual_keyword": "electric car charging"
-      },
-      {
-        "narration": "With new models launching every month",
-        "visual_keyword": "new car showroom"
-      },
-      {
-        "narration": "One key factor is driving this growth",
-        "visual_keyword": "increasing demand graph"
-      },
-      {
-        "narration": "Government incentives and falling battery costs",
-        "visual_keyword": "government subsidy news"
-      },
-      {
-        "narration": "Make electric cars more affordable than ever",
-        "visual_keyword": "happy car owner"
-      },
-      {
-        "narration": "The future of transport is electric, and it's arriving now",
-        "visual_keyword": "city electric transportation"
-      }
-    ],
-    "created_at": "2026-07-31T22:40:13.118932+00:00"
-  },
-  {
     "id": "74a0d9dd-d8ab-420d-8196-98880772766d",
     "format": "short",
     "niche": "automotive news and new car launches",
