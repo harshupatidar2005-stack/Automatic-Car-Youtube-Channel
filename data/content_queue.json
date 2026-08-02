@@ -1,49 +1,198 @@
 [
   {
-    "id": "fb98529d-dc58-4a80-98f7-16c11af09c37",
+    "id": "3cc13756-430e-4cff-9b51-bc0ce4e543e6",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Kranti",
+    "description": "Kya Bharat mein electric vehicle kranti aa rahi hai? Is video mein hum jaanenge ki kaise Indian auto market mein EVs ki demand badh rahi hai, aur kaise global car manufacturers Bharat mein apne EV models launch kar rahe hain. Jankari ke liye humne ET Auto, Auto Expo, aur ICRA jaise credible sources ki madad li hai. Video mein visuals AI-generated ho sakte hain. Agar aapko yeh video pasand aaye to humein subscribe karein aur apne vichar comment section mein likhein. Is channel par hum aapko automotive news, new car launches, aur motorsport technology ke baare mein jaankari dete hain.",
+    "tags": [
+      "Electric Vehicles",
+      "Indian Auto Market",
+      "Global Car Manufacturers",
+      "EV Demand",
+      "Auto Expo",
+      "ICRA",
+      "ET Auto",
+      "Motorsport Technology"
+    ],
+    "hook": "Bharat mein electric vehicle kranti ki shuruaat ho chuki hai, lekin kya hum taiyar hain? Desh mein EVs ki badhti demand ke peeche kya wajah hai?",
+    "scenes": [
+      {
+        "narration": "Bharat mein electric vehicle kranti ki shuruaat ho chuki hai, lekin kya hum taiyar hain? Desh mein EVs ki badhti demand ke peeche kya wajah hai? Kya yeh sirf ek trend hai ya sach mein humara bhavishya badalne wala hai? Bharat mein ab tak kai global car manufacturers apne EV models launch kar chuke hain, lekin kya wo sabhi successful honge?",
+        "visual_keyword": "Electric cars on Indian roads"
+      },
+      {
+        "narration": "Indian auto market mein EVs ki demand badhne ke peeche kayi wajah hain, jaise ki petrol aur diesel ki keematon mein izzafa, pollution ke kaaran hone wali samasyaen, aur sarkar ki taraf se di ja rahi subsidies. Lekin kya yeh sabhi kaafi hain? Kya humein aur kuchh karna hoga?",
+        "visual_keyword": "Petrol pump and pollution"
+      },
+      {
+        "narration": "Global car manufacturers jaise ki Tesla, Hyundai, aur Nissan Bharat mein apne EV models launch kar rahe hain. Lekin kya Bharatiya consumer inhe apnayenge? Kya unke paas itni keemat dena ka samarthya hai?",
+        "visual_keyword": "Tesla and Hyundai electric cars"
+      },
+      {
+        "narration": "Bharat mein EVs ki infrastructure abhi tak poori tarah se viksit nahin hai. Charging stations ki kami aur public transport mein EVs ki uplabdhata nahin hona ek bada samasya hai. Kya hum is samasya ko hal kar sakte hain?",
+        "visual_keyword": "EV charging stations in India"
+      },
+      {
+        "narration": "Motorsport technology bhi EVs ki taraf badh raha hai. Formula E jaise tournaments EVs ki takat ko dikhate hain. Kya yeh bhi Bharatiya consumer ko attract kar sakta hai?",
+        "visual_keyword": "Formula E racing cars"
+      },
+      {
+        "narration": "ICRA ke mutabik, Bharat mein EVs ki demand 2025 tak 10% tak pahunch sakti hai. Lekin kya hum itne jaldi taiyar ho sakte hain? Kya humein aur kuchh karna hoga?",
+        "visual_keyword": "ICRA report and graph"
+      },
+      {
+        "narration": "ET Auto ke mutabik, Bharat mein EVs ki keemat abhi tak bahut zyada hai. Lekin kya yeh keemat ghat sakti hai? Kya humein aur kuchh karna hoga?",
+        "visual_keyword": "ET Auto news and articles"
+      },
+      {
+        "narration": "Auto Expo jaise events EVs ki takat ko dikhate hain. Kya yeh events Bharatiya consumer ko attract kar sakte hain? Kya hum is tarah se aur logon ko jod sakte hain?",
+        "visual_keyword": "Auto Expo and electric cars"
+      },
+      {
+        "narration": "Bharat mein EVs ki kranti sirf ek trend nahin hai, balki yeh sach mein humara bhavishya badalne wala hai. Kya hum is kranti ka hissa banne ke liye taiyar hain? Kya humein aur kuchh karna hoga?",
+        "visual_keyword": "Electric cars in Indian cities"
+      },
+      {
+        "narration": "Agar aapko yeh video pasand aaya to humein subscribe karein aur apne vichar comment section mein likhein. Is channel par hum aapko automotive news, new car launches, aur motorsport technology ke baare mein jaankari dete hain.",
+        "visual_keyword": "Subscribe and comment"
+      }
+    ],
+    "created_at": "2026-08-02T11:08:28.130686+00:00"
+  },
+  {
+    "id": "b38fe362-8339-4cb1-9a4b-93ace1519179",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Electric Revolution",
-    "description": "Discover the latest in electric vehicle technology, inspired by EV Kranti. Watch now for data-driven insights and AI-generated visuals.",
+    "title": "Electric Storm",
+    "description": "Discover the latest EV trends inspired by the EV Kranti. Watch now and learn how AI-generated visuals enhance our car explainers, then like and subscribe for more evidence-led content",
     "tags": [
-      "EV cars",
-      "electric vehicles",
-      "car tech",
-      "auto news",
-      "new car launches",
-      "sustainable transport",
-      "electric revolution",
-      "green cars",
-      "future cars"
+      "Electric Vehicles",
+      "EV Kranti",
+      "Car Launches",
+      "Automotive News",
+      "Sustainable Cars",
+      "Green Technology",
+      "New Cars",
+      "EV Trends"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "Electric cars are changing the game",
-        "visual_keyword": "EV car driving"
+        "narration": "A new era of electric vehicles is upon us, transforming the automotive landscape",
+        "visual_keyword": "Electric car charging"
       },
       {
-        "narration": "With zero tailpipe emissions",
-        "visual_keyword": "emissions comparison graph"
+        "narration": "With the EV Kranti leading the charge, we're seeing a significant shift towards sustainable cars",
+        "visual_keyword": "Green cityscape"
       },
       {
-        "narration": "They reduce greenhouse gases significantly",
-        "visual_keyword": "pollution reduction animation"
+        "narration": "One notable insight is the rapid improvement in EV range and efficiency",
+        "visual_keyword": "Car range comparison"
       },
       {
-        "narration": "One key player is the Nissan Leaf",
-        "visual_keyword": "Nissan Leaf exterior"
+        "narration": "As the industry continues to innovate, we can expect even more exciting developments in the near future",
+        "visual_keyword": "Future city traffic"
       },
       {
-        "narration": "It boasts an impressive range of over 200 miles",
-        "visual_keyword": "range comparison chart"
-      },
-      {
-        "narration": "Join the electric revolution and drive change",
-        "visual_keyword": "sustainable driving landscape"
+        "narration": "The electric storm is coming, and it's changing the way we think about cars forever",
+        "visual_keyword": "Electric car speeding"
       }
     ],
-    "created_at": "2026-07-31T22:40:25.357084+00:00"
+    "created_at": "2026-08-02T11:08:34.363707+00:00"
+  },
+  {
+    "id": "9d4a1d42-e768-4c62-842b-0876b572f6dc",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Turbocharged Future",
+    "description": "Discover the latest EV innovations inspired by the EV Kranti movement. Watch now and learn about the impact of electric vehicles on the automotive industry, with AI-generated visuals for illustration purposes only, subscribe for more",
+    "tags": [
+      "Electric Vehicles",
+      "Car Launch",
+      "EV Kranti",
+      "Automotive News",
+      "Turbocharged",
+      "Future Cars",
+      "Green Technology",
+      "Sustainable Mobility"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "The electric vehicle revolution is gaining momentum",
+        "visual_keyword": "Electric Car Charging"
+      },
+      {
+        "narration": "With countries investing heavily in EV infrastructure",
+        "visual_keyword": "Highway EV Charging Stations"
+      },
+      {
+        "narration": "The future of transportation is being rewritten",
+        "visual_keyword": "Self Driving Cars"
+      },
+      {
+        "narration": "And car manufacturers are shifting gears",
+        "visual_keyword": "Automated Car Factory"
+      },
+      {
+        "narration": "To produce more efficient and environmentally friendly vehicles",
+        "visual_keyword": "Green Car Assembly Line"
+      },
+      {
+        "narration": "The turbocharged future of cars is electric",
+        "visual_keyword": "Turbocharged Electric Car"
+      }
+    ],
+    "created_at": "2026-08-02T11:08:40.402713+00:00"
+  },
+  {
+    "id": "b882610a-ee91-4c11-b382-b302647980d4",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Revolution",
+    "description": "Discover the impact of EVs on traditional car sales, inspired by EV Kranti. Watch now and learn how electric vehicles are changing the automotive landscape, with AI-generated visuals.",
+    "tags": [
+      "EV news",
+      "car launches",
+      "electric vehicles",
+      "automotive trends",
+      "sustainable transport",
+      "green technology",
+      "new car models",
+      "industry insights"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Electric vehicles are transforming the car industry",
+        "visual_keyword": "Electric car factory"
+      },
+      {
+        "narration": "With many new models launching every year",
+        "visual_keyword": "New car showroom"
+      },
+      {
+        "narration": "Traditional car sales are feeling the heat",
+        "visual_keyword": "Declining car sales graph"
+      },
+      {
+        "narration": "As consumers increasingly opt for sustainable transport",
+        "visual_keyword": "Happy family in electric car"
+      },
+      {
+        "narration": "The future of driving is going electric",
+        "visual_keyword": "Charging station montage"
+      },
+      {
+        "narration": "Join the electric revolution",
+        "visual_keyword": "Electric vehicle on the road"
+      }
+    ],
+    "created_at": "2026-08-02T11:08:46.373598+00:00"
   }
 ]
