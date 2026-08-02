@@ -1,47 +1,5 @@
 [
   {
-    "id": "b38fe362-8339-4cb1-9a4b-93ace1519179",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Storm",
-    "description": "Discover the latest EV trends inspired by the EV Kranti. Watch now and learn how AI-generated visuals enhance our car explainers, then like and subscribe for more evidence-led content",
-    "tags": [
-      "Electric Vehicles",
-      "EV Kranti",
-      "Car Launches",
-      "Automotive News",
-      "Sustainable Cars",
-      "Green Technology",
-      "New Cars",
-      "EV Trends"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "A new era of electric vehicles is upon us, transforming the automotive landscape",
-        "visual_keyword": "Electric car charging"
-      },
-      {
-        "narration": "With the EV Kranti leading the charge, we're seeing a significant shift towards sustainable cars",
-        "visual_keyword": "Green cityscape"
-      },
-      {
-        "narration": "One notable insight is the rapid improvement in EV range and efficiency",
-        "visual_keyword": "Car range comparison"
-      },
-      {
-        "narration": "As the industry continues to innovate, we can expect even more exciting developments in the near future",
-        "visual_keyword": "Future city traffic"
-      },
-      {
-        "narration": "The electric storm is coming, and it's changing the way we think about cars forever",
-        "visual_keyword": "Electric car speeding"
-      }
-    ],
-    "created_at": "2026-08-02T11:08:34.363707+00:00"
-  },
-  {
     "id": "9d4a1d42-e768-4c62-842b-0876b572f6dc",
     "format": "short",
     "niche": "automotive news and new car launches",
