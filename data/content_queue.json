@@ -1,51 +1,5 @@
 [
   {
-    "id": "9d4a1d42-e768-4c62-842b-0876b572f6dc",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Turbocharged Future",
-    "description": "Discover the latest EV innovations inspired by the EV Kranti movement. Watch now and learn about the impact of electric vehicles on the automotive industry, with AI-generated visuals for illustration purposes only, subscribe for more",
-    "tags": [
-      "Electric Vehicles",
-      "Car Launch",
-      "EV Kranti",
-      "Automotive News",
-      "Turbocharged",
-      "Future Cars",
-      "Green Technology",
-      "Sustainable Mobility"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The electric vehicle revolution is gaining momentum",
-        "visual_keyword": "Electric Car Charging"
-      },
-      {
-        "narration": "With countries investing heavily in EV infrastructure",
-        "visual_keyword": "Highway EV Charging Stations"
-      },
-      {
-        "narration": "The future of transportation is being rewritten",
-        "visual_keyword": "Self Driving Cars"
-      },
-      {
-        "narration": "And car manufacturers are shifting gears",
-        "visual_keyword": "Automated Car Factory"
-      },
-      {
-        "narration": "To produce more efficient and environmentally friendly vehicles",
-        "visual_keyword": "Green Car Assembly Line"
-      },
-      {
-        "narration": "The turbocharged future of cars is electric",
-        "visual_keyword": "Turbocharged Electric Car"
-      }
-    ],
-    "created_at": "2026-08-02T11:08:40.402713+00:00"
-  },
-  {
     "id": "b882610a-ee91-4c11-b382-b302647980d4",
     "format": "short",
     "niche": "automotive news and new car launches",
