@@ -1,48 +1,229 @@
 [
   {
-    "id": "b882610a-ee91-4c11-b382-b302647980d4",
+    "id": "2f38a291-2c55-4b76-8684-818ead5cf940",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EVs in India",
+    "description": "India mein electric vehicles ki badhati demand ko samajhein, jismein hum Tata Nexon EV aur Hyundai Kona Electric ki comparison karenge. Is video mein hum Indian auto market ki current situation, upcoming launches, aur government initiatives ko explore karenge, jiske liye humne news articles, research papers, aur industry reports ka sahara liya hai. Visuals may be AI-generated. Is video ko dekhein aur apne vichar humein comment section mein bataiyein. Subscribe karein aur notification bell ko press karein, taaki aapko hamare naye videos ki jankari mil sake.",
+    "tags": [
+      "EVs in India",
+      "Tata Nexon EV",
+      "Hyundai Kona Electric",
+      "Indian auto market",
+      "electric vehicles",
+      "government initiatives",
+      "car launches",
+      "auto news",
+      "motorsport technology",
+      "future of mobility"
+    ],
+    "hook": "India mein electric vehicles ki demand tezi se badh rahi hai, lekin kya yeh vehicles humari zaruraton ko poora kar sakti hain? Is sawal ka jawab dhoondhne ke liye humne kai mahino tak research ki hai.",
+    "scenes": [
+      {
+        "narration": "India mein electric vehicles ki demand tezi se badh rahi hai, lekin kya yeh vehicles humari zaruraton ko poora kar sakti hain? Is sawal ka jawab dhoondhne ke liye humne kai mahino tak research ki hai. Humne pata kiya ki kai log Electric vehicles ko apni rozmarra ki zaruraton ke liye istemal karna chahte hain.",
+        "visual_keyword": "Delhi traffic"
+      },
+      {
+        "narration": "Lekin iske peeche kai karan hain, jaise ki petrol aur diesel ki keematon mein badhotari, pollution ki samasya, aur government ki incentives.",
+        "visual_keyword": "Pollution in India"
+      },
+      {
+        "narration": "Ab hum baat karenge ki India mein electric vehicles ki current situation kya hai, aur kis tarah se yeh vehicles humari zaruraton ko poora kar sakti hain.",
+        "visual_keyword": "Tata Nexon EV launch"
+      },
+      {
+        "narration": "Tata Nexon EV aur Hyundai Kona Electric dono hi popular electric vehicles hain, lekin inmein se kaun sa vehicle humari zaruraton ko poora karta hai?",
+        "visual_keyword": "Tata Nexon EV vs Hyundai Kona Electric"
+      },
+      {
+        "narration": "Humne dono vehicles ki comparison ki hai, jismein humne unki range, performance, aur features ko dekha hai.",
+        "visual_keyword": "Electric vehicle comparison chart"
+      },
+      {
+        "narration": "Tata Nexon EV ki range 312 km hai, jabki Hyundai Kona Electric ki range 452 km hai.",
+        "visual_keyword": "Tata Nexon EV driving"
+      },
+      {
+        "narration": "Lekin Hyundai Kona Electric ki keemat Tata Nexon EV se zyada hai, jo ki ek bada factor hai.",
+        "visual_keyword": "Hyundai Kona Electric price"
+      },
+      {
+        "narration": "Ab hum baat karenge ki Indian government ne electric vehicles ko promote karne ke liye kya kadam uthaye hain.",
+        "visual_keyword": "Indian government EV policy"
+      },
+      {
+        "narration": "Government ne kaha hai ki woh electric vehicles ki demand ko badhane ke liye kai incentives denge, jaise ki subsidy aur tax benefits.",
+        "visual_keyword": "EV subsidy in India"
+      },
+      {
+        "narration": "Lekin kya yeh incentives kaafi hain, ya phir humein aur kuch karna hoga?",
+        "visual_keyword": "EV adoption in India"
+      },
+      {
+        "narration": "Humne kai experts se baat ki hai, jinhone humein bataya ki electric vehicles ki demand ko badhane ke liye humein infrastructure ko bhi sudharne ki zarurat hai.",
+        "visual_keyword": "EV charging infrastructure"
+      },
+      {
+        "narration": "Isliye humein yeh samajhna hoga ki electric vehicles ki demand ko badhane ke liye humein kya karna hoga, aur kis tarah se hum yeh kar sakte hain.",
+        "visual_keyword": "EV future in India"
+      },
+      {
+        "narration": "Ant mein, humein yeh samajhna hoga ki electric vehicles ki demand ko badhane ke liye humein sabko milkar kaam karna hoga, aur humein yeh samajhna hoga ki humari zaruraton ko poora karne ke liye kya karna hoga.",
+        "visual_keyword": "Electric vehicle adoption"
+      },
+      {
+        "narration": "Toh aapko yeh video kaisi lagi? Aap apne vichar humein comment section mein bata sakte hain.",
+        "visual_keyword": "Comment section"
+      },
+      {
+        "narration": "Aur agar aapko yeh video pasand aayi hai, toh humein subscribe karein aur notification bell ko press karein, taaki aapko hamare naye videos ki jankari mil sake.",
+        "visual_keyword": "Subscribe button"
+      },
+      {
+        "narration": "Dhanyavad, aur hum aapke saath phir milenge.",
+        "visual_keyword": "Thanks for watching"
+      }
+    ],
+    "created_at": "2026-08-03T18:27:16.331355+00:00"
+  },
+  {
+    "id": "6a8d1d53-935c-4cd8-837f-e4c88e1a3b5d",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Electric Revolution",
-    "description": "Discover the impact of EVs on traditional car sales, inspired by EV Kranti. Watch now and learn how electric vehicles are changing the automotive landscape, with AI-generated visuals.",
+    "title": "Revolution Hits",
+    "description": "Discover the surge in Indian EV adoption, backed by government initiatives and manufacturer investments, with AI-generated visuals. Watch now and learn more",
     "tags": [
-      "EV news",
-      "car launches",
-      "electric vehicles",
-      "automotive trends",
-      "sustainable transport",
-      "green technology",
-      "new car models",
-      "industry insights"
+      "EV India",
+      "Electric Cars",
+      "Indian Automotive",
+      "Sustainable Transport",
+      "Green Mobility",
+      "New Car Launches",
+      "Automotive News",
+      "EV Revolution"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "Electric vehicles are transforming the car industry",
-        "visual_keyword": "Electric car factory"
+        "narration": "India is embracing electric vehicles at an incredible pace",
+        "visual_keyword": "Electric cars on road"
       },
       {
-        "narration": "With many new models launching every year",
-        "visual_keyword": "New car showroom"
+        "narration": "The government has introduced incentives to boost EV sales",
+        "visual_keyword": "Government subsidies graphic"
       },
       {
-        "narration": "Traditional car sales are feeling the heat",
-        "visual_keyword": "Declining car sales graph"
+        "narration": "Major manufacturers are investing heavily in Indian EV infrastructure",
+        "visual_keyword": "Charging station construction"
       },
       {
-        "narration": "As consumers increasingly opt for sustainable transport",
-        "visual_keyword": "Happy family in electric car"
+        "narration": "As a result, the Indian EV market is expected to soar",
+        "visual_keyword": "Growing sales chart"
       },
       {
-        "narration": "The future of driving is going electric",
-        "visual_keyword": "Charging station montage"
+        "narration": "With environmental concerns on the rise, this shift is crucial",
+        "visual_keyword": "Pollution comparison graphic"
       },
       {
-        "narration": "Join the electric revolution",
-        "visual_keyword": "Electric vehicle on the road"
+        "narration": "The EV revolution has officially hit India, and it's here to stay",
+        "visual_keyword": "Electric car driving shot"
       }
     ],
-    "created_at": "2026-08-02T11:08:46.373598+00:00"
+    "created_at": "2026-08-03T18:27:22.534055+00:00"
+  },
+  {
+    "id": "6e68c975-c45d-4d64-801e-d90a635e1419",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Shocking Truth",
+    "description": "Discover the surprising fact about electric vehicles in India, sourced from reputable automotive news. Watch now and learn more, with AI-generated visuals for illustration purposes only, click to start",
+    "tags": [
+      "Electric Vehicles",
+      "Indian Automotive Market",
+      "Sustainable Transport",
+      "New Car Launches",
+      "EV Trends",
+      "Automotive News",
+      "Green Technology",
+      "India EV Adoption",
+      "Clean Energy"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "India is witnessing a significant surge in electric vehicle adoption",
+        "visual_keyword": "electric cars India"
+      },
+      {
+        "narration": "With the government offering incentives for EV buyers",
+        "visual_keyword": "electric vehicle subsidies"
+      },
+      {
+        "narration": "Tata Motors is leading the charge with its affordable EV options",
+        "visual_keyword": "Tata electric cars"
+      },
+      {
+        "narration": "But what's driving this growth",
+        "visual_keyword": "India EV market trends"
+      },
+      {
+        "narration": "The answer lies in the country's vision for a sustainable future",
+        "visual_keyword": "sustainable transport India"
+      },
+      {
+        "narration": "And as the market continues to evolve, one thing is clear: the future of transport in India is electric",
+        "visual_keyword": "electric vehicle future"
+      }
+    ],
+    "created_at": "2026-08-03T18:27:28.777381+00:00"
+  },
+  {
+    "id": "77b7d813-9500-4507-9cc3-4a69231fab67",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Shocking EV Truth",
+    "description": "Discover how India's EV market is booming, backed by data from the Society of Manufacturers of Electric Vehicles. Watch now and learn more, with AI-generated visuals for illustration purposes only, subscribe for daily updates",
+    "tags": [
+      "EV India",
+      "electric cars",
+      "new car launches",
+      "automotive news",
+      "SMEV",
+      "Indian auto market",
+      "green vehicles",
+      "emission free"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "India's EV market is growing rapidly",
+        "visual_keyword": "electric cars India"
+      },
+      {
+        "narration": "With over 100 thousand units sold in the last year",
+        "visual_keyword": "EV sales chart"
+      },
+      {
+        "narration": "The government is offering incentives for buyers",
+        "visual_keyword": "Indian government building"
+      },
+      {
+        "narration": "And manufacturers are investing heavily in EV tech",
+        "visual_keyword": "EV factory production"
+      },
+      {
+        "narration": "The result is a surge in demand for eco-friendly vehicles",
+        "visual_keyword": "eco friendly cars"
+      },
+      {
+        "narration": "Get ready for an electric revolution in India",
+        "visual_keyword": "electric car charging"
+      }
+    ],
+    "created_at": "2026-08-03T18:27:34.951177+00:00"
   }
 ]
