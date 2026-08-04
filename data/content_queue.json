@@ -1,52 +1,5 @@
 [
   {
-    "id": "6e68c975-c45d-4d64-801e-d90a635e1419",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Shocking Truth",
-    "description": "Discover the surprising fact about electric vehicles in India, sourced from reputable automotive news. Watch now and learn more, with AI-generated visuals for illustration purposes only, click to start",
-    "tags": [
-      "Electric Vehicles",
-      "Indian Automotive Market",
-      "Sustainable Transport",
-      "New Car Launches",
-      "EV Trends",
-      "Automotive News",
-      "Green Technology",
-      "India EV Adoption",
-      "Clean Energy"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "India is witnessing a significant surge in electric vehicle adoption",
-        "visual_keyword": "electric cars India"
-      },
-      {
-        "narration": "With the government offering incentives for EV buyers",
-        "visual_keyword": "electric vehicle subsidies"
-      },
-      {
-        "narration": "Tata Motors is leading the charge with its affordable EV options",
-        "visual_keyword": "Tata electric cars"
-      },
-      {
-        "narration": "But what's driving this growth",
-        "visual_keyword": "India EV market trends"
-      },
-      {
-        "narration": "The answer lies in the country's vision for a sustainable future",
-        "visual_keyword": "sustainable transport India"
-      },
-      {
-        "narration": "And as the market continues to evolve, one thing is clear: the future of transport in India is electric",
-        "visual_keyword": "electric vehicle future"
-      }
-    ],
-    "created_at": "2026-08-03T18:27:28.777381+00:00"
-  },
-  {
     "id": "77b7d813-9500-4507-9cc3-4a69231fab67",
     "format": "short",
     "niche": "automotive news and new car launches",
