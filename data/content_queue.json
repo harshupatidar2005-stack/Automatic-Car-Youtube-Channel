@@ -1,51 +1,5 @@
 [
   {
-    "id": "6a8d1d53-935c-4cd8-837f-e4c88e1a3b5d",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Revolution Hits",
-    "description": "Discover the surge in Indian EV adoption, backed by government initiatives and manufacturer investments, with AI-generated visuals. Watch now and learn more",
-    "tags": [
-      "EV India",
-      "Electric Cars",
-      "Indian Automotive",
-      "Sustainable Transport",
-      "Green Mobility",
-      "New Car Launches",
-      "Automotive News",
-      "EV Revolution"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "India is embracing electric vehicles at an incredible pace",
-        "visual_keyword": "Electric cars on road"
-      },
-      {
-        "narration": "The government has introduced incentives to boost EV sales",
-        "visual_keyword": "Government subsidies graphic"
-      },
-      {
-        "narration": "Major manufacturers are investing heavily in Indian EV infrastructure",
-        "visual_keyword": "Charging station construction"
-      },
-      {
-        "narration": "As a result, the Indian EV market is expected to soar",
-        "visual_keyword": "Growing sales chart"
-      },
-      {
-        "narration": "With environmental concerns on the rise, this shift is crucial",
-        "visual_keyword": "Pollution comparison graphic"
-      },
-      {
-        "narration": "The EV revolution has officially hit India, and it's here to stay",
-        "visual_keyword": "Electric car driving shot"
-      }
-    ],
-    "created_at": "2026-08-03T18:27:22.534055+00:00"
-  },
-  {
     "id": "6e68c975-c45d-4d64-801e-d90a635e1419",
     "format": "short",
     "niche": "automotive news and new car launches",
