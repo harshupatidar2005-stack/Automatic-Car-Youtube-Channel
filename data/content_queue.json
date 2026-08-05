@@ -1,51 +1,5 @@
 [
   {
-    "id": "6f7b626b-5870-4215-a248-be5c1f199b72",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Shock",
-    "description": "Discover the surprising truth about electric vehicle range, from the Electric Kaun Jeetega report. Watch now and learn how to optimize your EV's battery life, with AI-generated visuals.",
-    "tags": [
-      "electric cars",
-      "EV range",
-      "car tech",
-      "auto news",
-      "new car launches",
-      "vehicle reviews",
-      "sustainable driving",
-      "electric vehicle"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "What if your electric car could go further than you think?",
-        "visual_keyword": "electric car driving"
-      },
-      {
-        "narration": "A recent study reveals that EV range anxiety is often misplaced",
-        "visual_keyword": "range anxiety graph"
-      },
-      {
-        "narration": "By optimizing your driving habits and route planning",
-        "visual_keyword": "GPS navigation"
-      },
-      {
-        "narration": "you can squeeze up to 20% more miles from a single charge",
-        "visual_keyword": "battery level display"
-      },
-      {
-        "narration": "The key is to understand how your car's battery works",
-        "visual_keyword": "electric car battery"
-      },
-      {
-        "narration": "So, drive smart and go the extra mile, every time",
-        "visual_keyword": "electric car on the road"
-      }
-    ],
-    "created_at": "2026-08-04T22:43:21.161483+00:00"
-  },
-  {
     "id": "f7d59ec1-3856-4def-9d73-ce93bf0cce28",
     "format": "short",
     "niche": "automotive news and new car launches",
