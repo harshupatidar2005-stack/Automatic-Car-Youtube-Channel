@@ -1,51 +1,5 @@
 [
   {
-    "id": "f7d59ec1-3856-4def-9d73-ce93bf0cce28",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Shock",
-    "description": "Discover which electric car is leading the charge, based on data from recent automotive trends, with AI-generated visuals for illustration purposes only, watch now to learn more",
-    "tags": [
-      "Electric Cars",
-      "New Car Launches",
-      "Automotive News",
-      "EV Technology",
-      "Car Comparisons",
-      "Sustainable Transport",
-      "Green Vehicles",
-      "Innovative Designs"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Electric vehicles are taking over the roads",
-        "visual_keyword": "electric car driving"
-      },
-      {
-        "narration": "But which one is in the lead",
-        "visual_keyword": "car comparison chart"
-      },
-      {
-        "narration": "The answer lies in the numbers",
-        "visual_keyword": "data analysis graph"
-      },
-      {
-        "narration": "With the most efficient battery and fastest charging time",
-        "visual_keyword": "car battery icon"
-      },
-      {
-        "narration": "This electric car is the one to beat",
-        "visual_keyword": "winner trophy"
-      },
-      {
-        "narration": "The electric revolution has a clear winner, and it's shocking",
-        "visual_keyword": "electric shock"
-      }
-    ],
-    "created_at": "2026-08-04T22:43:27.317687+00:00"
-  },
-  {
     "id": "6b1aabf9-71c4-467a-8fc4-16592fe255c5",
     "format": "short",
     "niche": "automotive news and new car launches",
