@@ -1,52 +1,250 @@
 [
   {
-    "id": "6b1aabf9-71c4-467a-8fc4-16592fe255c5",
+    "id": "435ee4d9-a983-4ad7-bd36-1dbcc5ee3bf4",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Tez",
+    "description": "Kya Bharat mein electric vehicles ki agami hai? Is video mein hum batting de rahe hain ki India mein EVs ki badhati kaise global auto market ko prabhavit kar rahi hai. Humne Altigreen, Ather Energy, jaise sthano se jaankari ikattha ki hai. Video mein visuals AI-generated ho sakte hain. Humari channel par sabse naye automotive news aur new car launches ke liye subscribe karein aur apne sujhav hamare comments mein de. Yeh video aapko EVs ke bhavishya ke baare mein jaankari dega aur aapko sochne par majboor karega.",
+    "tags": [
+      "EV",
+      "India",
+      "Electric Vehicles",
+      "Auto Market",
+      "Ather Energy",
+      "Altigreen",
+      "Bharat Mein EV",
+      "New Car Launches"
+    ],
+    "hook": "Bharat mein electric vehicles ki agami shuru ho chuki hai, lekin kya hum iski tayyari kar chuke hain? Bharat ki sadkein jaldi hi EVs se bhari ho sakti hain.",
+    "scenes": [
+      {
+        "narration": "Bharat mein electric vehicles ki agami shuru ho chuki hai, lekin kya hum iski tayyari kar chuke hain? Bharat ki sadkein jaldi hi EVs se bhari ho sakti hain. Iski wajah yeh hai ki Bharat mein petrol aur diesel ki keematein badh rahi hain. Log ab electric vehicles ki or badh rahe hain.",
+        "visual_keyword": "Electric Car Charging"
+      },
+      {
+        "narration": "Iski ek wajah yeh bhi hai ki Bharat sarkar ne EVs ki badhati ke liye kai yojnayein shuru ki hain. Jaise ki FAME yojna, jiska uddeshya hai ki Bharat mein adhik se adhik log electric vehicles kharidein.",
+        "visual_keyword": "Indian Government Office"
+      },
+      {
+        "narration": "Aur iski ek wajah yeh bhi hai ki Bharat mein electric vehicles ki keematein bhi kam ho rahi hain. Jaise ki Ather Energy ki scooters, jo ki bahut kam keematon mein uplabdh hain.",
+        "visual_keyword": "Ather Energy Scooter"
+      },
+      {
+        "narration": "Lekin kya hum iski tayyari kar chuke hain? Kya humare paas iske liye sahi infrastructure hai? Yeh sawal abhi bhi uthaye ja rahe hain.",
+        "visual_keyword": "Electric Car Charging Station"
+      },
+      {
+        "narration": "Bharat mein electric vehicles ki badhati ke liye kai companies kaam kar rahi hain. Jaise ki Altigreen, jo ki electric commercial vehicles banati hai.",
+        "visual_keyword": "Altigreen Electric Truck"
+      },
+      {
+        "narration": "Aur iske alawa, kai aur companies bhi hain jo ki electric vehicles ki badhati ke liye kaam kar rahi hain. Jaise ki Tata Motors, jo ki electric cars banati hai.",
+        "visual_keyword": "Tata Electric Car"
+      },
+      {
+        "narration": "Lekin kya hum iski tayyari kar chuke hain? Yeh sawal abhi bhi uthaye ja rahe hain. Kya humare paas iske liye sahi infrastructure hai?",
+        "visual_keyword": "Electric Vehicle Manufacturing"
+      },
+      {
+        "narration": "Bharat mein electric vehicles ki badhati ke liye kai challenges bhi hain. Jaise ki charging infrastructure ki kami, jo ki ek bada challenge hai.",
+        "visual_keyword": "Electric Car Charging Problem"
+      },
+      {
+        "narration": "Aur iske alawa, kai aur challenges bhi hain. Jaise ki battery ki keemat, jo ki abhi bhi bahut jyada hai.",
+        "visual_keyword": "Electric Vehicle Battery"
+      },
+      {
+        "narration": "Lekin kya hum iski tayyari kar chuke hain? Yeh sawal abhi bhi uthaye ja rahe hain. Kya humare paas iske liye sahi infrastructure hai?",
+        "visual_keyword": "Indian City Traffic"
+      },
+      {
+        "narration": "Bharat mein electric vehicles ki badhati ke liye kai opportunities bhi hain. Jaise ki nayi jobs ki sambhavana, jo ki is se paida ho sakti hai.",
+        "visual_keyword": "Electric Vehicle Jobs"
+      },
+      {
+        "narration": "Aur iske alawa, kai aur opportunities bhi hain. Jaise ki clean environment, jo ki is se milega.",
+        "visual_keyword": "Clean Environment"
+      },
+      {
+        "narration": "To kya hum iski tayyari kar chuke hain? Yeh sawal abhi bhi uthaye ja rahe hain. Lekin ek baat pakki hai ki Bharat mein electric vehicles ki agami shuru ho chuki hai.",
+        "visual_keyword": "Electric Vehicle Future"
+      },
+      {
+        "narration": "Aur humein iski tayyari karni chahiye. Humien iske liye sahi infrastructure banana chahiye. Tabhi hum Bharat mein electric vehicles ki badhati ko dekh sakte hain.",
+        "visual_keyword": "Electric Vehicle Charging Station"
+      },
+      {
+        "narration": "To aaiye, hum iski tayyari karte hain. Hum iske liye sahi infrastructure banate hain. Aur hum Bharat mein electric vehicles ki badhati ko dekhne ke liye taiyar hote hain.",
+        "visual_keyword": "Indian City Electric Vehicles"
+      },
+      {
+        "narration": "Kya aap iski tayyari kar chuke hain? Kya aapne apni electric vehicle kharidi hai? Humein apne comments mein bataiye.",
+        "visual_keyword": "Electric Vehicle Owner"
+      },
+      {
+        "narration": "Aur agar aapne abhi tak apni electric vehicle nahi kharidi hai, to kya aap iske liye soch rahe hain? Humein apne comments mein bataiye.",
+        "visual_keyword": "Electric Vehicle Buyer"
+      },
+      {
+        "narration": "To aaiye, hum iski tayyari karte hain. Hum iske liye sahi infrastructure banate hain. Aur hum Bharat mein electric vehicles ki badhati ko dekhne ke liye taiyar hote hain.",
+        "visual_keyword": "Electric Vehicle Future"
+      },
+      {
+        "narration": "Bharat mein electric vehicles ki agami shuru ho chuki hai. Aur hum iski tayyari karte hain. Hum iske liye sahi infrastructure banate hain.",
+        "visual_keyword": "Indian Electric Vehicle Market"
+      },
+      {
+        "narration": "To aaiye, hum iski tayyari karte hain. Hum iske liye sahi infrastructure banate hain. Aur hum Bharat mein electric vehicles ki badhati ko dekhne ke liye taiyar hote hain.",
+        "visual_keyword": "Electric Vehicle Charging Station"
+      },
+      {
+        "narration": "Kya aap iski tayyari kar chuke hain? Kya aapne apni electric vehicle kharidi hai? Humein apne comments mein bataiye.",
+        "visual_keyword": "Electric Vehicle Owner"
+      },
+      {
+        "narration": "Aur agar aapne abhi tak apni electric vehicle nahi kharidi hai, to kya aap iske liye soch rahe hain? Humein apne comments mein bataiye.",
+        "visual_keyword": "Electric Vehicle Buyer"
+      }
+    ],
+    "created_at": "2026-08-06T12:31:31.283074+00:00"
+  },
+  {
+    "id": "30cdd857-2f6f-4ae6-830f-1f75f76768ea",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Electric Wins?",
-    "description": "Discover the surprising winner in the electric vehicle market. Check out our source from recent automotive news and watch now with AI-generated visuals",
+    "title": "Turbocharging Tez",
+    "description": "Learn the surprising truth about EV Tez range anxiety, sourced from automotive industry reports. Watch now and discover the facts, with AI-generated visuals for illustration purposes only, and subscribe for more car insights",
     "tags": [
-      "Electric Vehicles",
-      "Car Launches",
-      "Automotive News",
-      "EV Comparison",
-      "New Cars",
-      "Sustainability",
-      "Green Technology",
-      "Vehicle Reviews"
+      "EV Tez",
+      "electric vehicles",
+      "car tech",
+      "turbocharging",
+      "range anxiety",
+      "automotive news",
+      "car launches",
+      "vehicle performance"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "The electric vehicle market is heating up",
-        "visual_keyword": "Electric cars racing"
+        "narration": "What if your electric car could charge faster than you think?",
+        "visual_keyword": "EV charging station"
       },
       {
-        "narration": "With new models launching every month",
-        "visual_keyword": "Car factory production line"
+        "narration": "The EV Tez is leading the charge",
+        "visual_keyword": "EV Tez exterior"
       },
       {
-        "narration": "But which one comes out on top",
-        "visual_keyword": "Comparison chart"
+        "narration": "With advanced turbocharging technology",
+        "visual_keyword": "turbocharger animation"
       },
       {
-        "narration": "The answer may surprise you",
-        "visual_keyword": "Shock expression"
+        "narration": "it can recharge up to 80 percent in under 20 minutes",
+        "visual_keyword": "charging speed comparison"
       },
       {
-        "narration": "It's not the one with the longest range",
-        "visual_keyword": "Battery charging"
+        "narration": "making range anxiety a thing of the past",
+        "visual_keyword": "road trip scenery"
       },
       {
-        "narration": "But the one with the best overall package",
-        "visual_keyword": "Award trophy"
-      },
-      {
-        "narration": "The electric Kaun Jeetega winner is the Hyundai Ioniq 5",
-        "visual_keyword": "Hyundai Ioniq 5 exterior"
+        "narration": "The future of electric is here, and it's turbocharged",
+        "visual_keyword": "EV Tez driving"
       }
     ],
-    "created_at": "2026-08-04T22:43:33.415273+00:00"
+    "created_at": "2026-08-06T12:31:38.034582+00:00"
+  },
+  {
+    "id": "611d782f-bd90-4592-92e8-4605fc0ae868",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Turbocharged Truth",
+    "description": "Discover the surprising impact of turbocharging on fuel efficiency, inspired by EV Tez. Watch now and learn more, with AI-generated visuals for illustration purposes only",
+    "tags": [
+      "turbocharged engines",
+      "fuel efficiency",
+      "car technology",
+      "EV Tez",
+      "automotive news",
+      "new car launches",
+      "car explainers",
+      "evidence-led"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Turbocharging is not just for speed",
+        "visual_keyword": "Car Engine Bay"
+      },
+      {
+        "narration": "It can also reduce fuel consumption",
+        "visual_keyword": "Fuel Gauge"
+      },
+      {
+        "narration": "By forcing air into the engine",
+        "visual_keyword": "Turbocharger Animation"
+      },
+      {
+        "narration": "A smaller engine can produce more power",
+        "visual_keyword": "City Driving"
+      },
+      {
+        "narration": "Resulting in lower emissions and better mileage",
+        "visual_keyword": "Eco Friendly Badge"
+      },
+      {
+        "narration": "The turbocharged truth is clear: smaller can be better",
+        "visual_keyword": "Car Comparison Chart"
+      }
+    ],
+    "created_at": "2026-08-06T12:31:44.141099+00:00"
+  },
+  {
+    "id": "b50c05ed-217d-4a6c-9861-a62365980046",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Turbocharged Truth",
+    "description": "Discover the surprising reason electric vehicles are adopting turbocharging technology, inspired by the EV Tez. Watch now and learn about the latest automotive innovations, with AI-generated visuals for illustration purposes only, subscribe for more evidence-led car explainers",
+    "tags": [
+      "EV Technology",
+      "Turbocharging",
+      "Electric Vehicles",
+      "Car Innovations",
+      "Automotive News",
+      "New Car Launches",
+      "Sustainable Cars",
+      "EV Performance"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "What if electric vehicles could be even faster",
+        "visual_keyword": "Electric Car Racing"
+      },
+      {
+        "narration": "Turbocharging is being adopted by some EV manufacturers",
+        "visual_keyword": "Turbocharger Animation"
+      },
+      {
+        "narration": "This surprising move is all about efficiency",
+        "visual_keyword": "Engine Efficiency Diagram"
+      },
+      {
+        "narration": "By reducing weight and increasing power",
+        "visual_keyword": "Car Weight Reduction"
+      },
+      {
+        "narration": "These EVs can travel further on a single charge",
+        "visual_keyword": "Electric Car Charging"
+      },
+      {
+        "narration": "The turbocharged truth is, EVs just got a whole lot faster",
+        "visual_keyword": "Electric Car Speedometer"
+      }
+    ],
+    "created_at": "2026-08-06T12:31:50.345127+00:00"
   }
 ]
