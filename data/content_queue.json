@@ -1,51 +1,5 @@
 [
   {
-    "id": "30cdd857-2f6f-4ae6-830f-1f75f76768ea",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Turbocharging Tez",
-    "description": "Learn the surprising truth about EV Tez range anxiety, sourced from automotive industry reports. Watch now and discover the facts, with AI-generated visuals for illustration purposes only, and subscribe for more car insights",
-    "tags": [
-      "EV Tez",
-      "electric vehicles",
-      "car tech",
-      "turbocharging",
-      "range anxiety",
-      "automotive news",
-      "car launches",
-      "vehicle performance"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "What if your electric car could charge faster than you think?",
-        "visual_keyword": "EV charging station"
-      },
-      {
-        "narration": "The EV Tez is leading the charge",
-        "visual_keyword": "EV Tez exterior"
-      },
-      {
-        "narration": "With advanced turbocharging technology",
-        "visual_keyword": "turbocharger animation"
-      },
-      {
-        "narration": "it can recharge up to 80 percent in under 20 minutes",
-        "visual_keyword": "charging speed comparison"
-      },
-      {
-        "narration": "making range anxiety a thing of the past",
-        "visual_keyword": "road trip scenery"
-      },
-      {
-        "narration": "The future of electric is here, and it's turbocharged",
-        "visual_keyword": "EV Tez driving"
-      }
-    ],
-    "created_at": "2026-08-06T12:31:38.034582+00:00"
-  },
-  {
     "id": "611d782f-bd90-4592-92e8-4605fc0ae868",
     "format": "short",
     "niche": "automotive news and new car launches",
