@@ -1,51 +1,5 @@
 [
   {
-    "id": "611d782f-bd90-4592-92e8-4605fc0ae868",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Turbocharged Truth",
-    "description": "Discover the surprising impact of turbocharging on fuel efficiency, inspired by EV Tez. Watch now and learn more, with AI-generated visuals for illustration purposes only",
-    "tags": [
-      "turbocharged engines",
-      "fuel efficiency",
-      "car technology",
-      "EV Tez",
-      "automotive news",
-      "new car launches",
-      "car explainers",
-      "evidence-led"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Turbocharging is not just for speed",
-        "visual_keyword": "Car Engine Bay"
-      },
-      {
-        "narration": "It can also reduce fuel consumption",
-        "visual_keyword": "Fuel Gauge"
-      },
-      {
-        "narration": "By forcing air into the engine",
-        "visual_keyword": "Turbocharger Animation"
-      },
-      {
-        "narration": "A smaller engine can produce more power",
-        "visual_keyword": "City Driving"
-      },
-      {
-        "narration": "Resulting in lower emissions and better mileage",
-        "visual_keyword": "Eco Friendly Badge"
-      },
-      {
-        "narration": "The turbocharged truth is clear: smaller can be better",
-        "visual_keyword": "Car Comparison Chart"
-      }
-    ],
-    "created_at": "2026-08-06T12:31:44.141099+00:00"
-  },
-  {
     "id": "b50c05ed-217d-4a6c-9861-a62365980046",
     "format": "short",
     "niche": "automotive news and new car launches",
