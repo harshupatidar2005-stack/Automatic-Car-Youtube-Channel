@@ -1,48 +1,194 @@
 [
   {
-    "id": "b50c05ed-217d-4a6c-9861-a62365980046",
+    "id": "0fadf022-0b50-4c40-83a2-a2df5ac81cb3",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Kranti",
+    "description": "India mein electric vehicle ki kranti kaise aa rahi hai, is video mein hum baat karenge ki Bharat mein EV ki badhati demand ki wajah kya hai, aur iski future ki samabhavanaon ko dekhnge. Jankari ke liye humne Autocar India, Carwale, aur Indian Express ki reports ka sahara liya hai. Video mein visuals AI-generated ho sakte hain. Agar aapko yeh video pasand aaye to humein subscribe karein aur apne vichar comments mein likhein. Humari channel par aapko milengi sabse latest automotive news aur new car launches ki jaankari.",
+    "tags": [
+      "Electric Vehicle",
+      "EV India",
+      "Automotive News",
+      "New Car Launches",
+      "Indian Auto Market",
+      "EV Kranti",
+      "Bharat mein EV",
+      "Electric Cars"
+    ],
+    "hook": "Bharat mein electric vehicle ki badhati demand ne puri duniya ko chaukaya hai, lekin kya hum sach mein EV ki kranti ke karib hain? Pichhle saalon mein EV ki sales mein tezi se vriddhi dekhi gayi hai.",
+    "scenes": [
+      {
+        "narration": "Pichhle saalon mein EV ki sales mein tezi se vriddhi dekhi gayi hai, aur iski wajah hai sarkar ki EV ko badhava dene wali neetiyan. Sarkar ne EV ki khareed par subsidy di hai, jisse logon ko EV khareedne mein madad mili hai. Iske alawa, sarkar ne EV charging infrastructure ko bhi badhaya hai.",
+        "visual_keyword": "Electric car sales graph"
+      },
+      {
+        "narration": "Lekin EV ki kranti ke peeche kya wajah hai? Kya yeh sirf sarkar ki neetiyon ki wajah se hai, ya kuch aur bhi hai? Humne iska jawab dhoondha hai, aur humne paya hai ki log ab environment ki fikr karne lage hain.",
+        "visual_keyword": "People holding save earth placards"
+      },
+      {
+        "narration": "Ab environment ki fikr karne wale logon ki sankhya badh rahi hai, aur ve petrol aur diesel ke bajay electric vehicle ko prefer kar rahe hain. Iske alawa, EV ki maintenance cost bhi kam hai, jisse logon ko paisa bachta hai.",
+        "visual_keyword": "Electric car maintenance"
+      },
+      {
+        "narration": "Lekin EV ki kranti ke kai faayde hain, lekin kuch nuksaan bhi hain. Ek badi samasya hai EV ki range aur charging time ki. Agar aapko long drive par jana hai, to EV ki range ki samasya aa sakti hai.",
+        "visual_keyword": "Electric car range anxiety"
+      },
+      {
+        "narration": "Iske alawa, EV ki charging time bhi bahut zyada hai. Agar aapko jaldi mein hai, to EV ki charging time aapko pareshaan kar sakti hai. Lekin sarkar aur companies ne is samasya ka samadhan dhoondh liya hai.",
+        "visual_keyword": "Fast charging station"
+      },
+      {
+        "narration": "Sarkar aur companies ne fast charging stations lagaye hain, jahan aap apni EV ko jaldi se charge kar sakte hain. Iske alawa, kai companies ne wireless charging ki technology bhi develop ki hai.",
+        "visual_keyword": "Wireless charging technology"
+      },
+      {
+        "narration": "Ab Bharat mein EV ki kranti aa rahi hai, aur humein ummeed hai ki yeh kranti jaldi hi puri duniya mein phail jayegi. Hum sabko apni environment ki fikr karni chahiye, aur EV ki or badhna chahiye.",
+        "visual_keyword": "World map with electric cars"
+      },
+      {
+        "narration": "To agar aapko yeh video pasand aaya hai, to humein subscribe karein aur apne vichar comments mein likhein. Hum aapke saath jaldi hi ek naye video mein milenge, jismein hum baat karenge Bharat mein automotive ki latest news ki.",
+        "visual_keyword": "Subscribe button"
+      }
+    ],
+    "created_at": "2026-08-07T21:20:49.692072+00:00"
+  },
+  {
+    "id": "87923e2b-c2ad-4063-be10-fac55fe574e9",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Turbocharged Truth",
-    "description": "Discover the surprising reason electric vehicles are adopting turbocharging technology, inspired by the EV Tez. Watch now and learn about the latest automotive innovations, with AI-generated visuals for illustration purposes only, subscribe for more evidence-led car explainers",
+    "title": "Revolutionary EV",
+    "description": "Discover the latest electric vehicle insights, inspired by EV Kranti trends, with AI-generated visuals. Watch now and learn about the future of automotive technology",
     "tags": [
-      "EV Technology",
-      "Turbocharging",
       "Electric Vehicles",
-      "Car Innovations",
+      "Car Launches",
       "Automotive News",
-      "New Car Launches",
+      "EV Kranti",
       "Sustainable Cars",
-      "EV Performance"
+      "Future Cars",
+      "Green Technology",
+      "Innovative Designs"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "What if electric vehicles could be even faster",
-        "visual_keyword": "Electric Car Racing"
+        "narration": "A new era in electric vehicles has begun",
+        "visual_keyword": "Car Launch Event"
       },
       {
-        "narration": "Turbocharging is being adopted by some EV manufacturers",
-        "visual_keyword": "Turbocharger Animation"
+        "narration": "With improved range and efficiency",
+        "visual_keyword": "EV Charging Station"
       },
       {
-        "narration": "This surprising move is all about efficiency",
-        "visual_keyword": "Engine Efficiency Diagram"
+        "narration": "The latest EV models are a game changer",
+        "visual_keyword": "Electric Car Interior"
       },
       {
-        "narration": "By reducing weight and increasing power",
-        "visual_keyword": "Car Weight Reduction"
+        "narration": "Offering a smoother and quieter ride",
+        "visual_keyword": "City Traffic Footage"
       },
       {
-        "narration": "These EVs can travel further on a single charge",
-        "visual_keyword": "Electric Car Charging"
+        "narration": "And a significant reduction in emissions",
+        "visual_keyword": "Pollution Free City"
       },
       {
-        "narration": "The turbocharged truth is, EVs just got a whole lot faster",
-        "visual_keyword": "Electric Car Speedometer"
+        "narration": "The future of driving is electric and it's here to stay",
+        "visual_keyword": "Electric Car Driving On Highway"
       }
     ],
-    "created_at": "2026-08-06T12:31:50.345127+00:00"
+    "created_at": "2026-08-07T21:20:55.858801+00:00"
+  },
+  {
+    "id": "4e545a4b-45c7-4a12-bc84-550b79716910",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Storm",
+    "description": "Discover the latest EV trends inspired by the EV Kranti. Watch to learn more about car launches and get the facts, with AI-generated visuals for illustration purposes only, subscribe now",
+    "tags": [
+      "EV Kranti",
+      "Electric Cars",
+      "New Car Launches",
+      "Automotive News",
+      "Car Trends",
+      "Electric Vehicles",
+      "Sustainable Transport",
+      "Green Tech",
+      "Eco Friendly"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "A new era of electric cars is here",
+        "visual_keyword": "Electric car driving"
+      },
+      {
+        "narration": "With the EV Kranti sparking change",
+        "visual_keyword": "Car battery charging"
+      },
+      {
+        "narration": "Did you know many new EVs now come with",
+        "visual_keyword": "Electric motor closeup"
+      },
+      {
+        "narration": "advanced regenerative braking systems",
+        "visual_keyword": "Brake pads closeup"
+      },
+      {
+        "narration": "increasing their range and efficiency",
+        "visual_keyword": "Range display on dashboard"
+      },
+      {
+        "narration": "making them a more viable option for all",
+        "visual_keyword": "Happy driver in electric car"
+      }
+    ],
+    "created_at": "2026-08-07T21:21:02.050122+00:00"
+  },
+  {
+    "id": "5166c16f-5b4d-43ff-a13c-ccb0aea6ed3f",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Shock",
+    "description": "Discover how EVs are changing the automotive landscape, inspired by EV Kranti. Watch for data-driven insights and AI-generated visuals, then subscribe for more evidence-led car explainers",
+    "tags": [
+      "electric vehicles",
+      "automotive news",
+      "car launches",
+      "EV technology",
+      "sustainable driving",
+      "green cars",
+      "auto industry trends"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Electric cars are no longer a novelty",
+        "visual_keyword": "EV charging station"
+      },
+      {
+        "narration": "They're becoming the norm",
+        "visual_keyword": "Tesla factory"
+      },
+      {
+        "narration": "With many models offering over 300 miles on a single charge",
+        "visual_keyword": "electric car range comparison"
+      },
+      {
+        "narration": "The Hyundai Ioniq 5 is a prime example",
+        "visual_keyword": "Ioniq 5 exterior"
+      },
+      {
+        "narration": "Its 77.4 kWh battery provides an estimated 303 miles of range",
+        "visual_keyword": "battery specs comparison"
+      },
+      {
+        "narration": "Making electric vehicles a viable option for many drivers",
+        "visual_keyword": "happy driver in EV"
+      }
+    ],
+    "created_at": "2026-08-07T21:21:08.287704+00:00"
   }
 ]
