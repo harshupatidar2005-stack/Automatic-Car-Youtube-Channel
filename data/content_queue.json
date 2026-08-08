@@ -1,59 +1,5 @@
 [
   {
-    "id": "0fadf022-0b50-4c40-83a2-a2df5ac81cb3",
-    "format": "longform",
-    "niche": "automotive news and new car launches",
-    "language": "Hindi",
-    "title": "EV Kranti",
-    "description": "India mein electric vehicle ki kranti kaise aa rahi hai, is video mein hum baat karenge ki Bharat mein EV ki badhati demand ki wajah kya hai, aur iski future ki samabhavanaon ko dekhnge. Jankari ke liye humne Autocar India, Carwale, aur Indian Express ki reports ka sahara liya hai. Video mein visuals AI-generated ho sakte hain. Agar aapko yeh video pasand aaye to humein subscribe karein aur apne vichar comments mein likhein. Humari channel par aapko milengi sabse latest automotive news aur new car launches ki jaankari.",
-    "tags": [
-      "Electric Vehicle",
-      "EV India",
-      "Automotive News",
-      "New Car Launches",
-      "Indian Auto Market",
-      "EV Kranti",
-      "Bharat mein EV",
-      "Electric Cars"
-    ],
-    "hook": "Bharat mein electric vehicle ki badhati demand ne puri duniya ko chaukaya hai, lekin kya hum sach mein EV ki kranti ke karib hain? Pichhle saalon mein EV ki sales mein tezi se vriddhi dekhi gayi hai.",
-    "scenes": [
-      {
-        "narration": "Pichhle saalon mein EV ki sales mein tezi se vriddhi dekhi gayi hai, aur iski wajah hai sarkar ki EV ko badhava dene wali neetiyan. Sarkar ne EV ki khareed par subsidy di hai, jisse logon ko EV khareedne mein madad mili hai. Iske alawa, sarkar ne EV charging infrastructure ko bhi badhaya hai.",
-        "visual_keyword": "Electric car sales graph"
-      },
-      {
-        "narration": "Lekin EV ki kranti ke peeche kya wajah hai? Kya yeh sirf sarkar ki neetiyon ki wajah se hai, ya kuch aur bhi hai? Humne iska jawab dhoondha hai, aur humne paya hai ki log ab environment ki fikr karne lage hain.",
-        "visual_keyword": "People holding save earth placards"
-      },
-      {
-        "narration": "Ab environment ki fikr karne wale logon ki sankhya badh rahi hai, aur ve petrol aur diesel ke bajay electric vehicle ko prefer kar rahe hain. Iske alawa, EV ki maintenance cost bhi kam hai, jisse logon ko paisa bachta hai.",
-        "visual_keyword": "Electric car maintenance"
-      },
-      {
-        "narration": "Lekin EV ki kranti ke kai faayde hain, lekin kuch nuksaan bhi hain. Ek badi samasya hai EV ki range aur charging time ki. Agar aapko long drive par jana hai, to EV ki range ki samasya aa sakti hai.",
-        "visual_keyword": "Electric car range anxiety"
-      },
-      {
-        "narration": "Iske alawa, EV ki charging time bhi bahut zyada hai. Agar aapko jaldi mein hai, to EV ki charging time aapko pareshaan kar sakti hai. Lekin sarkar aur companies ne is samasya ka samadhan dhoondh liya hai.",
-        "visual_keyword": "Fast charging station"
-      },
-      {
-        "narration": "Sarkar aur companies ne fast charging stations lagaye hain, jahan aap apni EV ko jaldi se charge kar sakte hain. Iske alawa, kai companies ne wireless charging ki technology bhi develop ki hai.",
-        "visual_keyword": "Wireless charging technology"
-      },
-      {
-        "narration": "Ab Bharat mein EV ki kranti aa rahi hai, aur humein ummeed hai ki yeh kranti jaldi hi puri duniya mein phail jayegi. Hum sabko apni environment ki fikr karni chahiye, aur EV ki or badhna chahiye.",
-        "visual_keyword": "World map with electric cars"
-      },
-      {
-        "narration": "To agar aapko yeh video pasand aaya hai, to humein subscribe karein aur apne vichar comments mein likhein. Hum aapke saath jaldi hi ek naye video mein milenge, jismein hum baat karenge Bharat mein automotive ki latest news ki.",
-        "visual_keyword": "Subscribe button"
-      }
-    ],
-    "created_at": "2026-08-07T21:20:49.692072+00:00"
-  },
-  {
     "id": "87923e2b-c2ad-4063-be10-fac55fe574e9",
     "format": "short",
     "niche": "automotive news and new car launches",
