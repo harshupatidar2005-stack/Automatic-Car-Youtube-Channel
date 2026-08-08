@@ -1,51 +1,5 @@
 [
   {
-    "id": "87923e2b-c2ad-4063-be10-fac55fe574e9",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Revolutionary EV",
-    "description": "Discover the latest electric vehicle insights, inspired by EV Kranti trends, with AI-generated visuals. Watch now and learn about the future of automotive technology",
-    "tags": [
-      "Electric Vehicles",
-      "Car Launches",
-      "Automotive News",
-      "EV Kranti",
-      "Sustainable Cars",
-      "Future Cars",
-      "Green Technology",
-      "Innovative Designs"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "A new era in electric vehicles has begun",
-        "visual_keyword": "Car Launch Event"
-      },
-      {
-        "narration": "With improved range and efficiency",
-        "visual_keyword": "EV Charging Station"
-      },
-      {
-        "narration": "The latest EV models are a game changer",
-        "visual_keyword": "Electric Car Interior"
-      },
-      {
-        "narration": "Offering a smoother and quieter ride",
-        "visual_keyword": "City Traffic Footage"
-      },
-      {
-        "narration": "And a significant reduction in emissions",
-        "visual_keyword": "Pollution Free City"
-      },
-      {
-        "narration": "The future of driving is electric and it's here to stay",
-        "visual_keyword": "Electric Car Driving On Highway"
-      }
-    ],
-    "created_at": "2026-08-07T21:20:55.858801+00:00"
-  },
-  {
     "id": "4e545a4b-45c7-4a12-bc84-550b79716910",
     "format": "short",
     "niche": "automotive news and new car launches",
