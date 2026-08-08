@@ -1,52 +1,5 @@
 [
   {
-    "id": "4e545a4b-45c7-4a12-bc84-550b79716910",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Storm",
-    "description": "Discover the latest EV trends inspired by the EV Kranti. Watch to learn more about car launches and get the facts, with AI-generated visuals for illustration purposes only, subscribe now",
-    "tags": [
-      "EV Kranti",
-      "Electric Cars",
-      "New Car Launches",
-      "Automotive News",
-      "Car Trends",
-      "Electric Vehicles",
-      "Sustainable Transport",
-      "Green Tech",
-      "Eco Friendly"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "A new era of electric cars is here",
-        "visual_keyword": "Electric car driving"
-      },
-      {
-        "narration": "With the EV Kranti sparking change",
-        "visual_keyword": "Car battery charging"
-      },
-      {
-        "narration": "Did you know many new EVs now come with",
-        "visual_keyword": "Electric motor closeup"
-      },
-      {
-        "narration": "advanced regenerative braking systems",
-        "visual_keyword": "Brake pads closeup"
-      },
-      {
-        "narration": "increasing their range and efficiency",
-        "visual_keyword": "Range display on dashboard"
-      },
-      {
-        "narration": "making them a more viable option for all",
-        "visual_keyword": "Happy driver in electric car"
-      }
-    ],
-    "created_at": "2026-08-07T21:21:02.050122+00:00"
-  },
-  {
     "id": "5166c16f-5b4d-43ff-a13c-ccb0aea6ed3f",
     "format": "short",
     "niche": "automotive news and new car launches",
