@@ -1,51 +1,5 @@
 [
   {
-    "id": "3b1d0fe4-fe63-4286-81de-2faad9d756ae",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Storm",
-    "description": "Learn about the latest electric vehicle trends, inspired by EV Kranti. Watch for a fact-based analysis and AI-generated visuals.",
-    "tags": [
-      "Electric Cars",
-      "New Car Launches",
-      "EV Kranti",
-      "Automotive News",
-      "Car Technology",
-      "Sustainable Transport",
-      "Vehicle Innovation",
-      "Green Cars"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The electric revolution is transforming the automotive industry.",
-        "visual_keyword": "Electric cars driving"
-      },
-      {
-        "narration": "With many manufacturers investing heavily in EV tech, range anxiety is becoming a thing of the past.",
-        "visual_keyword": "EV charging stations"
-      },
-      {
-        "narration": "One key insight is that EVs now offer similar performance to their petrol counterparts.",
-        "visual_keyword": "Electric car acceleration"
-      },
-      {
-        "narration": "For example, the latest electric models can go from 0 to 60 in under 3 seconds.",
-        "visual_keyword": "Speedometer closeup"
-      },
-      {
-        "narration": "Governments are also offering incentives for consumers to make the switch to electric.",
-        "visual_keyword": "Government subsidies"
-      },
-      {
-        "narration": "As the world moves towards a more sustainable future, one thing is clear: the electric storm is here to stay.",
-        "visual_keyword": "Electric car on the road"
-      }
-    ],
-    "created_at": "2026-08-09T08:10:23.679856+00:00"
-  },
-  {
     "id": "b872aaf8-b9f6-446f-b16c-abea3dfcac39",
     "format": "short",
     "niche": "automotive news and new car launches",
