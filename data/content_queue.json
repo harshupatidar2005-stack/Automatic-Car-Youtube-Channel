@@ -1,47 +1,217 @@
 [
   {
-    "id": "5166c16f-5b4d-43ff-a13c-ccb0aea6ed3f",
+    "id": "71bd475a-229f-4a8b-bd0c-af7a872299bc",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Kranti",
+    "description": "India mein electric vehicle ki kranti kaise aayi, ismein hum EV policy, FAME scheme, aur Tata Nexon EV jaise models ko detail mein samjhein. Bharatiya auto bazaar mein EV ki sthiti ko samajhne ke liye humne ICRA, Society of Manufacturers of Electric Vehicles (SMEV) aur Autocar India ke data ka adhyayan kiya. Visuals AI-generated ho sakti hain. Subscribe karein aur apne vichar comments mein share karein.",
+    "tags": [
+      "EV Kranti",
+      "Electric Vehicle",
+      "FAME Scheme",
+      "Tata Nexon EV",
+      "Indian Auto Market",
+      "SMEV",
+      "ICRA",
+      "Autocar India"
+    ],
+    "hook": "Ab India mein petrol aur diesel ki gadiyon ki jagah electric vehicle le rahi hain. Lekin kya humari infrastructure iske liye taiyaar hai?",
+    "scenes": [
+      {
+        "narration": "Electric vehicle ki kranti poore desh mein mach rahi hai, log petrol aur diesel ki jagah electric car ko prefer karne lage hain. Iske peeche kai wajah hain, jaise ki garmi aur pradushan kam karna. Lekin kya humari infrastructure iske liye taiyaar hai?",
+        "visual_keyword": "Electric cars on road"
+      },
+      {
+        "narration": "FAME scheme ke tehat sarkar ne electric vehicle ko badhava dena shuru kiya, jiske antargat subsidy di ja rahi hai. Isse logon ko electric vehicle kharidne ke liye protsahit kiya ja raha hai.",
+        "visual_keyword": "FAME scheme logo"
+      },
+      {
+        "narration": "Tata Nexon EV ek aisi gadi hai jo desh mein electric vehicle ki kranti ko aage badhane mein mahatvapurn bhumika nibha rahi hai. Iski range aur features ne logon ko attract kiya hai.",
+        "visual_keyword": "Tata Nexon EV review"
+      },
+      {
+        "narration": "ICRA ke mutabiq, agle 5 saal mein electric vehicle ki bikri mein tezi se vriddhi hogi. Isse auto sector mein naye avasar khulenge.",
+        "visual_keyword": "ICRA report"
+      },
+      {
+        "narration": "Society of Manufacturers of Electric Vehicles ke anusaar, desh mein ab tak 10 lakh se adhik electric vehicle register ho chuke hain. Yeh ek naya record hai.",
+        "visual_keyword": "SMEV data"
+      },
+      {
+        "narration": "Autocar India ke ek survey ke anusaar, 70% log electric vehicle ko apni agla gadi ke roop mein dekh rahe hain. Logon ki soch badal rahi hai.",
+        "visual_keyword": "Autocar India survey"
+      },
+      {
+        "narration": "Lekin kya humari charging infrastructure iske liye taiyaar hai? Abhi bhi desh mein charging points ki kami hai, jo logon ko pareshan kar rahi hai.",
+        "visual_keyword": "Charging points map"
+      },
+      {
+        "narration": "Government ne charging infrastructure ko badhane ke liye kai yojnayein shuru ki hain, jaise ki highway par charging points lagane ki yojna. Yeh ek sakaratmak kadam hai.",
+        "visual_keyword": "Government initiatives"
+      },
+      {
+        "narration": "Private companies bhi ismein apna yogdan de rahi hain, jaise ki Tata Power aur Fortum. Ve desh bhar mein charging points lagane ka kaam kar rahe hain.",
+        "visual_keyword": "Tata Power charging points"
+      },
+      {
+        "narration": "Ab India mein electric vehicle ki kranti ko rokna mushkil hai, kyunki logon ki soch badal gayi hai. Humen bas apni infrastructure ko iske anusaar badalna hoga.",
+        "visual_keyword": "Electric vehicle future"
+      },
+      {
+        "narration": "Agar hum apni infrastructure ko theek se develop kar lein, to hum electric vehicle ki kranti ko aur bhi tez kar sakte hain. Yeh humari jarurat bhi hai aur humari zimmedari bhi.",
+        "visual_keyword": "Sustainable transportation"
+      },
+      {
+        "narration": "To kya aap taiyaar hain electric vehicle ki kranti ke liye? Agar haan, to humen comment mein batayein ki aapko is video mein kya pasand aaya.",
+        "visual_keyword": "Electric vehicle owners"
+      },
+      {
+        "narration": "Aur agar aapko yeh video pasand aaya, to please like aur subscribe karein. Hum aapke liye aise hi informative videos banate rahenge.",
+        "visual_keyword": "Subscribe button"
+      },
+      {
+        "narration": "Dhanyavad, aur humen milte hain agle video mein. Tab tak ke liye, electric vehicle ki kranti ko badhane ke liye hum sab milkar kaam karte rahenge.",
+        "visual_keyword": "Electric cars driving away"
+      }
+    ],
+    "created_at": "2026-08-09T08:10:17.560649+00:00"
+  },
+  {
+    "id": "3b1d0fe4-fe63-4286-81de-2faad9d756ae",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Electric Shock",
-    "description": "Discover how EVs are changing the automotive landscape, inspired by EV Kranti. Watch for data-driven insights and AI-generated visuals, then subscribe for more evidence-led car explainers",
+    "title": "Electric Storm",
+    "description": "Learn about the latest electric vehicle trends, inspired by EV Kranti. Watch for a fact-based analysis and AI-generated visuals.",
     "tags": [
-      "electric vehicles",
-      "automotive news",
-      "car launches",
-      "EV technology",
-      "sustainable driving",
-      "green cars",
-      "auto industry trends"
+      "Electric Cars",
+      "New Car Launches",
+      "EV Kranti",
+      "Automotive News",
+      "Car Technology",
+      "Sustainable Transport",
+      "Vehicle Innovation",
+      "Green Cars"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "Electric cars are no longer a novelty",
+        "narration": "The electric revolution is transforming the automotive industry.",
+        "visual_keyword": "Electric cars driving"
+      },
+      {
+        "narration": "With many manufacturers investing heavily in EV tech, range anxiety is becoming a thing of the past.",
+        "visual_keyword": "EV charging stations"
+      },
+      {
+        "narration": "One key insight is that EVs now offer similar performance to their petrol counterparts.",
+        "visual_keyword": "Electric car acceleration"
+      },
+      {
+        "narration": "For example, the latest electric models can go from 0 to 60 in under 3 seconds.",
+        "visual_keyword": "Speedometer closeup"
+      },
+      {
+        "narration": "Governments are also offering incentives for consumers to make the switch to electric.",
+        "visual_keyword": "Government subsidies"
+      },
+      {
+        "narration": "As the world moves towards a more sustainable future, one thing is clear: the electric storm is here to stay.",
+        "visual_keyword": "Electric car on the road"
+      }
+    ],
+    "created_at": "2026-08-09T08:10:23.679856+00:00"
+  },
+  {
+    "id": "b872aaf8-b9f6-446f-b16c-abea3dfcac39",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Revolutionize",
+    "description": "Discover the EV Kranti's impact on the automotive industry, based on recent findings. Watch now and learn more about electric vehicles, with AI-generated visuals.",
+    "tags": [
+      "EV Kranti",
+      "Electric Cars",
+      "Automotive News",
+      "New Car Launches",
+      "Sustainable Vehicles",
+      "Green Technology",
+      "Vehicle Innovation",
+      "Electric Vehicle Trends"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Electric vehicles are transforming the automotive landscape",
+        "visual_keyword": "Electric car factory"
+      },
+      {
+        "narration": "The EV Kranti is at the forefront of this revolution",
+        "visual_keyword": "Indian roads EV"
+      },
+      {
+        "narration": "With a range of over 300 miles on a single charge",
+        "visual_keyword": "Range anxiety map"
+      },
+      {
+        "narration": "it's changing the way we think about transportation",
+        "visual_keyword": "City traffic congestion"
+      },
+      {
+        "narration": "The future of driving is electric",
         "visual_keyword": "EV charging station"
       },
       {
-        "narration": "They're becoming the norm",
-        "visual_keyword": "Tesla factory"
-      },
-      {
-        "narration": "With many models offering over 300 miles on a single charge",
-        "visual_keyword": "electric car range comparison"
-      },
-      {
-        "narration": "The Hyundai Ioniq 5 is a prime example",
-        "visual_keyword": "Ioniq 5 exterior"
-      },
-      {
-        "narration": "Its 77.4 kWh battery provides an estimated 303 miles of range",
-        "visual_keyword": "battery specs comparison"
-      },
-      {
-        "narration": "Making electric vehicles a viable option for many drivers",
-        "visual_keyword": "happy driver in EV"
+        "narration": "And it's arriving faster than you think",
+        "visual_keyword": "New EV model reveal"
       }
     ],
-    "created_at": "2026-08-07T21:21:08.287704+00:00"
+    "created_at": "2026-08-09T08:10:29.711636+00:00"
+  },
+  {
+    "id": "1fa2876a-3099-4288-a3fe-d4190595e190",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Storm",
+    "description": "Discover the latest EV trends inspired by EV Kranti, with data from leading automotive news sources. Watch now and learn how electric cars are changing the game, with AI-generated visuals for illustration purposes only, subscribe for more",
+    "tags": [
+      "EV news",
+      "electric cars",
+      "new car launches",
+      "auto trends",
+      "green vehicles",
+      "sustainable driving",
+      "electric vehicle"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "A new era of electric vehicles is here",
+        "visual_keyword": "electric car driving"
+      },
+      {
+        "narration": "With EV Kranti as a catalyst, manufacturers are shifting gears",
+        "visual_keyword": "car factory production"
+      },
+      {
+        "narration": "One key insight is the significant reduction in emissions",
+        "visual_keyword": "emissions comparison graph"
+      },
+      {
+        "narration": "As the world moves towards a greener future",
+        "visual_keyword": "green earth from space"
+      },
+      {
+        "narration": "Electric cars are leading the charge",
+        "visual_keyword": "electric car charging station"
+      },
+      {
+        "narration": "Join the electric revolution, it's just getting started",
+        "visual_keyword": "electric car on the road"
+      }
+    ],
+    "created_at": "2026-08-09T08:10:35.948360+00:00"
   }
 ]
