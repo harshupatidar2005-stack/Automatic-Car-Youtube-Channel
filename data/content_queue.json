@@ -1,51 +1,5 @@
 [
   {
-    "id": "b872aaf8-b9f6-446f-b16c-abea3dfcac39",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Revolutionize",
-    "description": "Discover the EV Kranti's impact on the automotive industry, based on recent findings. Watch now and learn more about electric vehicles, with AI-generated visuals.",
-    "tags": [
-      "EV Kranti",
-      "Electric Cars",
-      "Automotive News",
-      "New Car Launches",
-      "Sustainable Vehicles",
-      "Green Technology",
-      "Vehicle Innovation",
-      "Electric Vehicle Trends"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Electric vehicles are transforming the automotive landscape",
-        "visual_keyword": "Electric car factory"
-      },
-      {
-        "narration": "The EV Kranti is at the forefront of this revolution",
-        "visual_keyword": "Indian roads EV"
-      },
-      {
-        "narration": "With a range of over 300 miles on a single charge",
-        "visual_keyword": "Range anxiety map"
-      },
-      {
-        "narration": "it's changing the way we think about transportation",
-        "visual_keyword": "City traffic congestion"
-      },
-      {
-        "narration": "The future of driving is electric",
-        "visual_keyword": "EV charging station"
-      },
-      {
-        "narration": "And it's arriving faster than you think",
-        "visual_keyword": "New EV model reveal"
-      }
-    ],
-    "created_at": "2026-08-09T08:10:29.711636+00:00"
-  },
-  {
     "id": "1fa2876a-3099-4288-a3fe-d4190595e190",
     "format": "short",
     "niche": "automotive news and new car launches",
