@@ -1,48 +1,250 @@
 [
   {
-    "id": "e2f0a9ec-e746-4504-a882-39f2e7f24c0f",
+    "id": "4d521810-a8bb-4357-8b14-b5e5096bc4fd",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Kranti",
+    "description": "India mein electric vehicle ki kranti shuru ho gayi hai, lekin kya hum tayyar hain? Is video mein hum baat karenge ki Bharat mein EV ki sthiti kya hai, kis tarah se yeh badal raha hai, aur kis prakar se hum iskranti ka hissa ban sakte hain. Humne Autocar India, Car and Bike, aur Indian Express jaise sroton se jaankari ikattha ki hai. Video mein diye gaye facts aur statistics ka srot Indian government ki reports aur reputed news agencies hain. Humare visuals AI-generated ho sakte hain. Is video ko dekhne ke baad aapko pata chalega ki Bharat mein EV ki kranti kya hai aur ismein aapka kya role ho sakta hai, to comment karein aur channel ko subscribe karein.",
+    "tags": [
+      "Electric Vehicle",
+      "EV India",
+      "Bharat Mein EV",
+      "Indian Auto Market",
+      "Car Launches",
+      "Motorsport Technology",
+      "Future of Mobility",
+      "Sustainable Energy"
+    ],
+    "hook": "Bharat mein ek nayi kranti shuru ho gayi hai, jo hamare parivahan ko puri tarah se badalne wali hai. Electric vehicle ki kranti ne humare desh mein dhyan akarshit kiya hai, lekin kya hum iske liye tayyar hain?",
+    "scenes": [
+      {
+        "narration": "Electric vehicle ki kranti shuru ho gayi hai, aur yeh kranti humare parivahan ko puri tarah se badalne wali hai. Humare desh mein ab tak lagbhag 10 lakh electric vehicles chal rahe hain, jo ki ek bahut badi sankhya hai. Lekin kya hum iske liye tayyar hain?",
+        "visual_keyword": "Electric cars on Indian roads"
+      },
+      {
+        "narration": "Bharat mein electric vehicle ki sthiti kya hai, yeh jaanne ke liye humne Autocar India ki report padhi. Is report ke anusaar, Bharat mein electric vehicle ki bikri mein 20% ki vriddhi hui hai. Yeh ek bahut hi achha sanket hai.",
+        "visual_keyword": "Indian auto market trends"
+      },
+      {
+        "narration": "Lekin electric vehicle ki kranti ke piche kya wajah hai? Iske piche ki wajah hai humare parivahan ko sustainable banana. Humare desh mein ab tak lagbhag 70% energy import ki jaati hai, jo ki ek bahut badi samasya hai.",
+        "visual_keyword": "Oil refineries in India"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare initiatives liye ja rahe hain. Bharat sarkar ne electric vehicle ki bikri ko badhava dene ke liye kai saare schemes shuru kiye hain.",
+        "visual_keyword": "Indian government initiatives for EV"
+      },
+      {
+        "narration": "Lekin electric vehicle ki kranti ke saath-saath kuch challenges bhi hain. Humare desh mein ab tak lagbhag 10% charging stations hain, jo ki ek bahut hi kam sankhya hai.",
+        "visual_keyword": "Electric vehicle charging stations"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare companies kaam kar rahe hain. Tata Motors, Mahindra & Mahindra, aur Hyundai jaise companies electric vehicle ki manufacturing mein kaam kar rahe hain.",
+        "visual_keyword": "Indian auto companies manufacturing EV"
+      },
+      {
+        "narration": "Lekin electric vehicle ki kranti ke liye humare desh mein kai saare logon ko jaankari nahi hai. Isliye humne is video ko banaya hai, taaki aapko pata chale ki Bharat mein electric vehicle ki kranti kya hai.",
+        "visual_keyword": "People driving electric cars in India"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare benefits hain. Yeh kranti humare parivahan ko sustainable banayegi, aur humare desh ki energy security ko badhayegi.",
+        "visual_keyword": "Benefits of electric vehicles"
+      },
+      {
+        "narration": "Lekin electric vehicle ki kranti ke liye humare desh mein kai saare challenges bhi hain. Humare desh mein ab tak lagbhag 10% charging stations hain, jo ki ek bahut hi kam sankhya hai.",
+        "visual_keyword": "Challenges faced by electric vehicles"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare initiatives liye ja rahe hain. Bharat sarkar ne electric vehicle ki bikri ko badhava dene ke liye kai saare schemes shuru kiye hain.",
+        "visual_keyword": "Indian government initiatives for EV promotion"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare companies kaam kar rahe hain. Tata Motors, Mahindra & Mahindra, aur Hyundai jaise companies electric vehicle ki manufacturing mein kaam kar rahe hain.",
+        "visual_keyword": "Indian companies investing in EV technology"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare benefits hain. Yeh kranti humare parivahan ko sustainable banayegi, aur humare desh ki energy security ko badhayegi.",
+        "visual_keyword": "Environmental benefits of electric vehicles"
+      },
+      {
+        "narration": "Lekin electric vehicle ki kranti ke liye humare desh mein kai saare challenges bhi hain. Humare desh mein ab tak lagbhag 10% charging stations hain, jo ki ek bahut hi kam sankhya hai.",
+        "visual_keyword": "Charging infrastructure for electric vehicles"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare initiatives liye ja rahe hain. Bharat sarkar ne electric vehicle ki bikri ko badhava dene ke liye kai saare schemes shuru kiye hain.",
+        "visual_keyword": "Government schemes for EV adoption"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare companies kaam kar rahe hain. Tata Motors, Mahindra & Mahindra, aur Hyundai jaise companies electric vehicle ki manufacturing mein kaam kar rahe hain.",
+        "visual_keyword": "Indian auto companies leading in EV manufacturing"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare benefits hain. Yeh kranti humare parivahan ko sustainable banayegi, aur humare desh ki energy security ko badhayegi.",
+        "visual_keyword": "Sustainable transportation in India"
+      },
+      {
+        "narration": "Lekin electric vehicle ki kranti ke liye humare desh mein kai saare challenges bhi hain. Humare desh mein ab tak lagbhag 10% charging stations hain, jo ki ek bahut hi kam sankhya hai.",
+        "visual_keyword": "Charging infrastructure challenges in India"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare initiatives liye ja rahe hain. Bharat sarkar ne electric vehicle ki bikri ko badhava dene ke liye kai saare schemes shuru kiye hain.",
+        "visual_keyword": "Indian government supporting EV growth"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare companies kaam kar rahe hain. Tata Motors, Mahindra & Mahindra, aur Hyundai jaise companies electric vehicle ki manufacturing mein kaam kar rahe hain.",
+        "visual_keyword": "Indian auto companies investing in EV tech"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare benefits hain. Yeh kranti humare parivahan ko sustainable banayegi, aur humare desh ki energy security ko badhayegi.",
+        "visual_keyword": "Environmental impact of electric vehicles"
+      },
+      {
+        "narration": "Lekin electric vehicle ki kranti ke liye humare desh mein kai saare challenges bhi hain. Humare desh mein ab tak lagbhag 10% charging stations hain, jo ki ek bahut hi kam sankhya hai.",
+        "visual_keyword": "Charging stations in Indian cities"
+      },
+      {
+        "narration": "Electric vehicle ki kranti ke liye humare desh mein kai saare initiatives liye ja rahe hain. Bharat sarkar ne electric vehicle ki bikri ko badhava dene ke liye kai saare schemes shuru kiye hain.",
+        "visual_keyword": "Government incentives for EV buyers"
+      }
+    ],
+    "created_at": "2026-08-11T21:30:19.985194+00:00"
+  },
+  {
+    "id": "aa66911f-23fd-4d90-8fba-e95b90315b9f",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Revolution Now",
-    "description": "Discover the surprising reason electric vehicles are outselling gas guzzlers, according to Bloomberg data. Watch now and learn more with AI-generated visuals.",
+    "title": "Electric Shock",
+    "description": "Discover the surprising truth about EV range anxiety, inspired by EV Kranti research. Watch to learn how car makers are tackling this issue with AI-visualized solutions, and subscribe for more automotive insights. Visuals may include AI-generated reconstructions; factual claims are presented for education.",
+    "tags": [
+      "EV range anxiety",
+      "electric cars",
+      "new car launches",
+      "car tech",
+      "automotive news",
+      "EV Kranti",
+      "sustainable driving",
+      "electric vehicle range"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Electric cars are changing the game, but range anxiety remains a top concern.",
+        "visual_keyword": "EV charging station"
+      },
+      {
+        "narration": "Car makers are working to alleviate this fear with advanced battery tech.",
+        "visual_keyword": "lithium ion battery"
+      },
+      {
+        "narration": "In fact, some EVs can now travel over 300 miles on a single charge.",
+        "visual_keyword": "electric car highway driving"
+      },
+      {
+        "narration": "The key to overcoming range anxiety lies in smart charging systems.",
+        "visual_keyword": "fast charging station"
+      },
+      {
+        "narration": "By investing in EV infrastructure, we can make sustainable driving a reality.",
+        "visual_keyword": "green energy landscape"
+      },
+      {
+        "narration": "The future of electric cars is brighter than you think, and it's accelerating fast.",
+        "visual_keyword": "EV speeding down road"
+      }
+    ],
+    "created_at": "2026-08-11T21:30:26.350295+00:00"
+  },
+  {
+    "id": "721f3a2d-7b74-4631-9b69-e432a6c118b3",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Storm",
+    "description": "Explore the EV Kranti's impact on the automotive industry. Check out our analysis, inspired by recent electric vehicle launches, and watch till the end for a surprising fact, visuals generated with AI assistance, subscribe for more. Visuals may include AI-generated reconstructions; factual claims are presented for education.",
     "tags": [
       "Electric Vehicles",
-      "Car Sales",
-      "EV Revolution",
-      "Sustainability",
-      "Automotive News",
-      "New Car Launches",
+      "EV Kranti",
+      "Car News",
+      "New Launches",
+      "Automotive Industry",
+      "Sustainable Cars",
       "Green Technology",
       "Future of Cars"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "The electric vehicle revolution is happening now",
-        "visual_keyword": "EV charging station"
+        "narration": "A new era in electric vehicles has begun",
+        "visual_keyword": "Electric car charging"
       },
       {
-        "narration": "With over 2 million units sold in 2022 alone",
-        "visual_keyword": "Electric car sales graph"
+        "narration": "The EV Kranti is leading the charge with its innovative technology",
+        "visual_keyword": "Indian roads traffic"
       },
       {
-        "narration": "Electric vehicles are no longer a niche market",
-        "visual_keyword": "EV car factory"
+        "narration": "But what does this mean for the automotive industry as a whole",
+        "visual_keyword": "Car factory production line"
       },
       {
-        "narration": "They're becoming the new norm",
-        "visual_keyword": "City street with EVs"
+        "narration": "One thing is certain, the future of cars is electric",
+        "visual_keyword": "Electric vehicle assembly"
       },
       {
-        "narration": "Thanks to decreasing battery costs and increasing range",
-        "visual_keyword": "Battery production line"
+        "narration": "And with the EV Kranti, that future is arriving sooner than expected",
+        "visual_keyword": "Electric car accelerating"
       },
       {
-        "narration": "The future of driving has finally arrived and it's electric",
-        "visual_keyword": "Futuristic EV highway"
+        "narration": "The EV Kranti is not just a car, it's a revolution",
+        "visual_keyword": "Electric vehicle closeup"
       }
     ],
-    "created_at": "2026-08-10T15:32:40.746467+00:00"
+    "created_at": "2026-08-11T21:30:32.519239+00:00"
+  },
+  {
+    "id": "64942107-85d8-4f51-829b-ca53568e1acc",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Shock",
+    "description": "Discover the surprising truth about EVs, inspired by India's EV Kranti movement. Watch for verifiable car insights and AI-generated visuals, then like and subscribe for more automotive news.",
+    "tags": [
+      "Electric Cars",
+      "Automotive News",
+      "New Car Launches",
+      "EV Kranti",
+      "Car Technology",
+      "Sustainable Transport",
+      "Green Vehicles",
+      "Innovative Autos"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Electric vehicles are changing the game",
+        "visual_keyword": "cars driving silently"
+      },
+      {
+        "narration": "One key advantage is lower operating costs",
+        "visual_keyword": "fuel price comparison"
+      },
+      {
+        "narration": "With EVs, you can save up to 70 percent on fuel costs",
+        "visual_keyword": "money saving chart"
+      },
+      {
+        "narration": "But that's not all, EVs also require less maintenance",
+        "visual_keyword": "car mechanic workshop"
+      },
+      {
+        "narration": "Fewer moving parts means less wear and tear",
+        "visual_keyword": "engine parts animation"
+      },
+      {
+        "narration": "Make the switch to electric and experience the shock of savings",
+        "visual_keyword": "happy driver smiling"
+      }
+    ],
+    "created_at": "2026-08-11T21:30:38.613773+00:00"
   }
 ]
