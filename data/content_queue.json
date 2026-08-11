@@ -1,50 +1,5 @@
 [
   {
-    "id": "ae55a873-601e-4ae2-9e94-8e12239956d3",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Shocking EV Fact",
-    "description": "Discover a surprising truth about electric vehicles, sourced from industry reports. Watch now and learn more, with AI-generated visuals",
-    "tags": [
-      "EV Revolution",
-      "Electric Cars",
-      "Car News",
-      "Automotive",
-      "Sustainability",
-      "Green Tech",
-      "New Car Launches"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The EV revolution is gaining speed",
-        "visual_keyword": "Electric car driving"
-      },
-      {
-        "narration": "But did you know that most EVs have a secret advantage",
-        "visual_keyword": "Car battery comparison"
-      },
-      {
-        "narration": "They can recover up to 30% of their energy",
-        "visual_keyword": "Regenerative braking animation"
-      },
-      {
-        "narration": "Through regenerative braking alone",
-        "visual_keyword": "City traffic footage"
-      },
-      {
-        "narration": "This means less wear on the brakes and more miles per charge",
-        "visual_keyword": "Car maintenance cost graph"
-      },
-      {
-        "narration": "The future of driving just got a whole lot brighter",
-        "visual_keyword": "Sustainable energy landscape"
-      }
-    ],
-    "created_at": "2026-08-10T15:32:28.540470+00:00"
-  },
-  {
     "id": "59b4118a-2fff-4e1c-b4a1-0e3f6468b553",
     "format": "short",
     "niche": "automotive news and new car launches",
