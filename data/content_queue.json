@@ -1,51 +1,5 @@
 [
   {
-    "id": "59b4118a-2fff-4e1c-b4a1-0e3f6468b553",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Shock",
-    "description": "Learn how EVs are changing the automotive landscape with verifiable data from leading sources. Watch now and discover the surprising truth about EV performance, with AI-generated visualizations for illustrative purposes only, subscribe for more",
-    "tags": [
-      "electric vehicles",
-      "EV revolution",
-      "car news",
-      "automotive innovation",
-      "green technology",
-      "sustainable driving",
-      "new car launches",
-      "electric car benefits"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The electric car market is booming",
-        "visual_keyword": "EV charging station"
-      },
-      {
-        "narration": "With many countries investing heavily in EV infrastructure",
-        "visual_keyword": "electric highway"
-      },
-      {
-        "narration": "One key advantage of EVs is their instant torque",
-        "visual_keyword": "car acceleration test"
-      },
-      {
-        "narration": "Allowing for faster acceleration than traditional gas-powered cars",
-        "visual_keyword": "speedometer closeup"
-      },
-      {
-        "narration": "In fact, the Tesla Model S can go from 0 to 60 in just 2.5 seconds",
-        "visual_keyword": "Tesla Model S driving"
-      },
-      {
-        "narration": "Making electric vehicles a thrilling choice for driving enthusiasts, and the future is looking charged",
-        "visual_keyword": "electric car driving on road"
-      }
-    ],
-    "created_at": "2026-08-10T15:32:34.695447+00:00"
-  },
-  {
     "id": "e2f0a9ec-e746-4504-a882-39f2e7f24c0f",
     "format": "short",
     "niche": "automotive news and new car launches",
