@@ -1,51 +1,5 @@
 [
   {
-    "id": "721f3a2d-7b74-4631-9b69-e432a6c118b3",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Storm",
-    "description": "Explore the EV Kranti's impact on the automotive industry. Check out our analysis, inspired by recent electric vehicle launches, and watch till the end for a surprising fact, visuals generated with AI assistance, subscribe for more. Visuals may include AI-generated reconstructions; factual claims are presented for education.",
-    "tags": [
-      "Electric Vehicles",
-      "EV Kranti",
-      "Car News",
-      "New Launches",
-      "Automotive Industry",
-      "Sustainable Cars",
-      "Green Technology",
-      "Future of Cars"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "A new era in electric vehicles has begun",
-        "visual_keyword": "Electric car charging"
-      },
-      {
-        "narration": "The EV Kranti is leading the charge with its innovative technology",
-        "visual_keyword": "Indian roads traffic"
-      },
-      {
-        "narration": "But what does this mean for the automotive industry as a whole",
-        "visual_keyword": "Car factory production line"
-      },
-      {
-        "narration": "One thing is certain, the future of cars is electric",
-        "visual_keyword": "Electric vehicle assembly"
-      },
-      {
-        "narration": "And with the EV Kranti, that future is arriving sooner than expected",
-        "visual_keyword": "Electric car accelerating"
-      },
-      {
-        "narration": "The EV Kranti is not just a car, it's a revolution",
-        "visual_keyword": "Electric vehicle closeup"
-      }
-    ],
-    "created_at": "2026-08-11T21:30:32.519239+00:00"
-  },
-  {
     "id": "64942107-85d8-4f51-829b-ca53568e1acc",
     "format": "short",
     "niche": "automotive news and new car launches",
