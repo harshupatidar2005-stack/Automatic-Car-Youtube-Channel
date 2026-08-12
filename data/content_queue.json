@@ -1,51 +1,5 @@
 [
   {
-    "id": "aa66911f-23fd-4d90-8fba-e95b90315b9f",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Shock",
-    "description": "Discover the surprising truth about EV range anxiety, inspired by EV Kranti research. Watch to learn how car makers are tackling this issue with AI-visualized solutions, and subscribe for more automotive insights. Visuals may include AI-generated reconstructions; factual claims are presented for education.",
-    "tags": [
-      "EV range anxiety",
-      "electric cars",
-      "new car launches",
-      "car tech",
-      "automotive news",
-      "EV Kranti",
-      "sustainable driving",
-      "electric vehicle range"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Electric cars are changing the game, but range anxiety remains a top concern.",
-        "visual_keyword": "EV charging station"
-      },
-      {
-        "narration": "Car makers are working to alleviate this fear with advanced battery tech.",
-        "visual_keyword": "lithium ion battery"
-      },
-      {
-        "narration": "In fact, some EVs can now travel over 300 miles on a single charge.",
-        "visual_keyword": "electric car highway driving"
-      },
-      {
-        "narration": "The key to overcoming range anxiety lies in smart charging systems.",
-        "visual_keyword": "fast charging station"
-      },
-      {
-        "narration": "By investing in EV infrastructure, we can make sustainable driving a reality.",
-        "visual_keyword": "green energy landscape"
-      },
-      {
-        "narration": "The future of electric cars is brighter than you think, and it's accelerating fast.",
-        "visual_keyword": "EV speeding down road"
-      }
-    ],
-    "created_at": "2026-08-11T21:30:26.350295+00:00"
-  },
-  {
     "id": "721f3a2d-7b74-4631-9b69-e432a6c118b3",
     "format": "short",
     "niche": "automotive news and new car launches",
