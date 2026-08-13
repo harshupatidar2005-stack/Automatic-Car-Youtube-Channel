@@ -1,48 +1,214 @@
 [
   {
-    "id": "64942107-85d8-4f51-829b-ca53568e1acc",
+    "id": "df22be8f-a62a-41c1-b46c-6509f779223d",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Launches",
+    "description": "India mein electric vehicle launches ki badhati dar par ek nazariya. Hum baat karenge Tata, Hyundai, aur MG Motors ki latest EV launches ke baare mein, aur unke features aur pricing ke comparison. India mein EV infrastructure ki sthiti par bhi charcha karenge, jismein government ki initiatives aur private sector ki bhoomika shaamil hai. Visuals may be AI-generated. Sources: Autocar India, Carwale, aur Govt. of India reports. Subscribe karein aur apne sujhav comments mein share karein.",
+    "tags": [
+      "EV Launches",
+      "Indian Auto Market",
+      "Tata EV",
+      "Hyundai EV",
+      "MG Motors EV",
+      "Electric Vehicle",
+      "Sustainable Mobility",
+      "Auto News",
+      "Car Launches"
+    ],
+    "hook": "Ab India mein electric vehicle launches ki dar tezi se badh rahi hai, lekin kya humari infrastructure in naye vehicles ko support karne ke liye taiyaar hai? Is sawal ka jawab dhundhne ke liye humne kuch mahatvapoorn data collect kiya hai.",
+    "scenes": [
+      {
+        "narration": "India mein electric vehicle launches ki badhati dar par ek nazariya. Hum baat karenge Tata, Hyundai, aur MG Motors ki latest EV launches ke baare mein. In launches ke peeche kaafi saari planning aur research hai.",
+        "visual_keyword": "India roads traffic"
+      },
+      {
+        "narration": "Tata ki latest EV launch, Nexon EV, mein kai naye features hain. Ismein 312 km ka range aur 3 phase permanent magnet synchronous motor hai.",
+        "visual_keyword": "Tata Nexon EV exterior"
+      },
+      {
+        "narration": "Hyundai ki Kona Electric mein bhi bahut saare impressive features hain. Ismein 452 km ka range aur 39.2 kWh ki battery hai.",
+        "visual_keyword": "Hyundai Kona Electric interior"
+      },
+      {
+        "narration": "MG Motors ki ZS EV mein bhi kaafi saare naye features hain. Ismein 340 km ka range aur 44.5 kWh ki battery hai.",
+        "visual_keyword": "MG ZS EV driving"
+      },
+      {
+        "narration": "India mein EV infrastructure ki sthiti abhi tak bahut behatar nahi hai. Government ne kuch initiatives li hai, lekin abhi bhi bahut kuch karna baaki hai.",
+        "visual_keyword": "India charging stations"
+      },
+      {
+        "narration": "Private sector bhi EV infrastructure ko develop karne mein mahatvapoorna bhoomika nibha raha hai. Companies jaise Tata, Hyundai, aur MG Motors apne charging networks ko expand kar rahe hain.",
+        "visual_keyword": "Tata charging station"
+      },
+      {
+        "narration": "Lekin EV launches ke saath-saath, humein is baat ka bhi dhyaan rakhna hoga ki infrastructure bhi usi hisaab se develop ho. Nahi toh, ye vehicles apni puri kshamata ko nahi dikha paayenge.",
+        "visual_keyword": "India roads construction"
+      },
+      {
+        "narration": "Ab hum dekhte hain ki agle kuch saalon mein India mein EV launches ki dar kaise badhti hai, aur kya humari infrastructure in naye vehicles ko support karne ke liye taiyaar ho paati hai.",
+        "visual_keyword": "India future cityscape"
+      },
+      {
+        "narration": "Ek aur mahatvapoorna baat, jo humein dhyaan mein rakhni hai, wo hai ki EV launches ke saath-saath, humein sustainable mobility ke baare mein bhi sochna hoga. Aur iske liye humein apni driving habits ko bhi badalna hoga.",
+        "visual_keyword": "eco-friendly driving"
+      },
+      {
+        "narration": "Toh doston, yeh thi humari aaj ki video mein baat. Agar aapko ye video pasand aayi, toh please subscribe karein aur apne sujhav comments mein share karein.",
+        "visual_keyword": "subscribe button"
+      },
+      {
+        "narration": "Aur agar aapko koi question hai, toh woh bhi comments mein puch sakte hain. Hum aapki sahayata ke liye hamesha tayyar hain.",
+        "visual_keyword": "comment section"
+      },
+      {
+        "narration": "Dhanyavaad, aur hum aapke saath phir milenge ek naye video mein.",
+        "visual_keyword": "channel logo"
+      },
+      {
+        "narration": "Autocar India, Carwale, aur Govt. of India reports ke saath milkar humne is video ko banaya hai. In sources ki madad se humne is video ko aur bhi informative banaya hai.",
+        "visual_keyword": "source links"
+      }
+    ],
+    "created_at": "2026-08-13T09:47:44.293198+00:00"
+  },
+  {
+    "id": "35b2f47e-729b-4a5c-8f71-2c48644b414e",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
     "title": "Electric Shock",
-    "description": "Discover the surprising truth about EVs, inspired by India's EV Kranti movement. Watch for verifiable car insights and AI-generated visuals, then like and subscribe for more automotive news.",
+    "description": "Discover the latest electric vehicle trends, backed by data from reputable sources like Car and Driver. Watch now and learn how to make informed decisions about your next car purchase, with AI-generated visuals for illustration purposes only.",
     "tags": [
-      "Electric Cars",
-      "Automotive News",
-      "New Car Launches",
-      "EV Kranti",
-      "Car Technology",
-      "Sustainable Transport",
-      "Green Vehicles",
-      "Innovative Autos"
+      "EV launches",
+      "electric cars",
+      "automotive news",
+      "new car launches",
+      "car trends",
+      "electric vehicle trends",
+      "car tech",
+      "green cars",
+      "sustainable driving"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "Electric vehicles are changing the game",
-        "visual_keyword": "cars driving silently"
+        "narration": "The electric vehicle market is booming, with new models launching every month.",
+        "visual_keyword": "electric cars on road"
       },
       {
-        "narration": "One key advantage is lower operating costs",
-        "visual_keyword": "fuel price comparison"
+        "narration": "But what sets them apart from their gas-powered counterparts?",
+        "visual_keyword": "car comparison chart"
       },
       {
-        "narration": "With EVs, you can save up to 70 percent on fuel costs",
-        "visual_keyword": "money saving chart"
+        "narration": "One key factor is range anxiety, which is decreasing with advances in battery technology.",
+        "visual_keyword": "battery charging station"
       },
       {
-        "narration": "But that's not all, EVs also require less maintenance",
-        "visual_keyword": "car mechanic workshop"
+        "narration": "In fact, some electric vehicles can now travel over 300 miles on a single charge.",
+        "visual_keyword": "car driving on highway"
       },
       {
-        "narration": "Fewer moving parts means less wear and tear",
-        "visual_keyword": "engine parts animation"
+        "narration": "This increased range, combined with lower operating costs, makes electric vehicles an attractive option.",
+        "visual_keyword": "car owner smiling"
       },
       {
-        "narration": "Make the switch to electric and experience the shock of savings",
-        "visual_keyword": "happy driver smiling"
+        "narration": "So, is it time to make the switch to electric?",
+        "visual_keyword": "car keys in hand"
       }
     ],
-    "created_at": "2026-08-11T21:30:38.613773+00:00"
+    "created_at": "2026-08-13T09:47:50.570722+00:00"
+  },
+  {
+    "id": "55fad289-6d02-4436-9851-0d2c65baf6c4",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Revolution Now",
+    "description": "Discover the latest EV launches and their impact on the automotive industry, sourced from reputable car news outlets. Watch now and learn more, with AI-generated visual enhancements.",
+    "tags": [
+      "EV Launches",
+      "New Car Launches",
+      "Electric Vehicles",
+      "Automotive News",
+      "Car Tech",
+      "Sustainable Transport"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "The electric vehicle revolution is gaining momentum",
+        "visual_keyword": "electric car highway"
+      },
+      {
+        "narration": "with many new models launching this year",
+        "visual_keyword": "new car showroom"
+      },
+      {
+        "narration": "The Audi e-tron is one such example",
+        "visual_keyword": "Audi e-tron driving"
+      },
+      {
+        "narration": "offering a range of over 250 miles",
+        "visual_keyword": "car range display"
+      },
+      {
+        "narration": "and a charging time of under 30 minutes",
+        "visual_keyword": "fast charging station"
+      },
+      {
+        "narration": "The future of driving is electric, and it's here now",
+        "visual_keyword": "electric car sunset"
+      }
+    ],
+    "created_at": "2026-08-13T09:47:56.656683+00:00"
+  },
+  {
+    "id": "378b60cd-2cc9-4a26-b10b-caff417fa033",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Storm",
+    "description": "Learn about the latest EV launches and their impact on the automotive industry, sourced from leading car manufacturers. Watch now and discover the future of driving with AI-generated visual insights",
+    "tags": [
+      "EV launches",
+      "new car releases",
+      "electric vehicles",
+      "automotive news",
+      "car tech",
+      "sustainable driving",
+      "future of driving",
+      "green cars"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "A new era of electric vehicles is upon us",
+        "visual_keyword": "Electric car driving"
+      },
+      {
+        "narration": "With launches like the Tesla Model S Plaid",
+        "visual_keyword": "Tesla car exterior"
+      },
+      {
+        "narration": "and the Porsche Taycan Turbo S",
+        "visual_keyword": "Porsche car racing"
+      },
+      {
+        "narration": "the EV market is gaining momentum",
+        "visual_keyword": "EV charging station"
+      },
+      {
+        "narration": "and changing the face of the automotive industry",
+        "visual_keyword": "Car factory production"
+      },
+      {
+        "narration": "the future of driving is electric and it's here to stay",
+        "visual_keyword": "Cityscape with electric cars"
+      }
+    ],
+    "created_at": "2026-08-13T09:48:02.787614+00:00"
   }
 ]
