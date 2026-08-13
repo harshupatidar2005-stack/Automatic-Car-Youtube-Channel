@@ -1,52 +1,5 @@
 [
   {
-    "id": "35b2f47e-729b-4a5c-8f71-2c48644b414e",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Shock",
-    "description": "Discover the latest electric vehicle trends, backed by data from reputable sources like Car and Driver. Watch now and learn how to make informed decisions about your next car purchase, with AI-generated visuals for illustration purposes only.",
-    "tags": [
-      "EV launches",
-      "electric cars",
-      "automotive news",
-      "new car launches",
-      "car trends",
-      "electric vehicle trends",
-      "car tech",
-      "green cars",
-      "sustainable driving"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The electric vehicle market is booming, with new models launching every month.",
-        "visual_keyword": "electric cars on road"
-      },
-      {
-        "narration": "But what sets them apart from their gas-powered counterparts?",
-        "visual_keyword": "car comparison chart"
-      },
-      {
-        "narration": "One key factor is range anxiety, which is decreasing with advances in battery technology.",
-        "visual_keyword": "battery charging station"
-      },
-      {
-        "narration": "In fact, some electric vehicles can now travel over 300 miles on a single charge.",
-        "visual_keyword": "car driving on highway"
-      },
-      {
-        "narration": "This increased range, combined with lower operating costs, makes electric vehicles an attractive option.",
-        "visual_keyword": "car owner smiling"
-      },
-      {
-        "narration": "So, is it time to make the switch to electric?",
-        "visual_keyword": "car keys in hand"
-      }
-    ],
-    "created_at": "2026-08-13T09:47:50.570722+00:00"
-  },
-  {
     "id": "55fad289-6d02-4436-9851-0d2c65baf6c4",
     "format": "short",
     "niche": "automotive news and new car launches",
