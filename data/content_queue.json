@@ -1,51 +1,5 @@
 [
   {
-    "id": "1c82a1da-0ebb-43f2-8e0e-7f6ee26c65f8",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Revolution Hits Roads",
-    "description": "Discover the EV trend transforming the automotive industry, inspired by EV Kranti. Watch now and learn how electric vehicles are changing the game, with AI-generated visuals.",
-    "tags": [
-      "Electric Vehicles",
-      "Car Launches",
-      "Automotive News",
-      "EV Trends",
-      "Sustainable Transport",
-      "Green Technology",
-      "Innovation",
-      "Future Cars"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "A silent revolution is taking over the roads",
-        "visual_keyword": "Electric car driving"
-      },
-      {
-        "narration": "Electric vehicles are no longer a niche",
-        "visual_keyword": "EV charging station"
-      },
-      {
-        "narration": "They're outselling traditional cars in many markets",
-        "visual_keyword": "Car sales chart"
-      },
-      {
-        "narration": "With zero emissions and lower running costs",
-        "visual_keyword": "EV battery comparison"
-      },
-      {
-        "narration": "It's a game changer for commuters and the environment",
-        "visual_keyword": "City traffic reduction"
-      },
-      {
-        "narration": "The EV kranti is here to stay, and it's just getting started",
-        "visual_keyword": "Electric car factory production"
-      }
-    ],
-    "created_at": "2026-08-14T15:07:49.127491+00:00"
-  },
-  {
     "id": "6c51563e-89c6-460b-943c-392db6a88f67",
     "format": "short",
     "niche": "automotive news and new car launches",
