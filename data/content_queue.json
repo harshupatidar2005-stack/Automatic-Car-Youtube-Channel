@@ -1,51 +1,5 @@
 [
   {
-    "id": "6c51563e-89c6-460b-943c-392db6a88f67",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Shock",
-    "description": "Discover how EVs are revolutionizing the automotive industry, based on data from EV Kranti. Watch now and explore the future of electric vehicles with AI-generated visual insights.",
-    "tags": [
-      "Electric Vehicles",
-      "Car Launches",
-      "EV News",
-      "Automotive Technology",
-      "Sustainable Energy",
-      "Future Cars",
-      "EV Kranti",
-      "Green Transportation"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "The electric vehicle revolution is here",
-        "visual_keyword": "Electric car driving"
-      },
-      {
-        "narration": "With many countries investing heavily in EV infrastructure",
-        "visual_keyword": "Charging stations"
-      },
-      {
-        "narration": "One key factor driving this growth is the decreasing cost of batteries",
-        "visual_keyword": "Battery production line"
-      },
-      {
-        "narration": "In fact, EVs are now competitive with gas-powered cars in many markets",
-        "visual_keyword": "Car comparison chart"
-      },
-      {
-        "narration": "As the world shifts towards sustainable energy, the future of transportation is electric",
-        "visual_keyword": "Cityscape with EVs"
-      },
-      {
-        "narration": "And the shockwave of this change will be felt for generations to come",
-        "visual_keyword": "Electric car speeding"
-      }
-    ],
-    "created_at": "2026-08-14T15:07:55.256999+00:00"
-  },
-  {
     "id": "1855f3c2-f603-4afa-964a-c97c6c2d5c04",
     "format": "short",
     "niche": "automotive news and new car launches",
