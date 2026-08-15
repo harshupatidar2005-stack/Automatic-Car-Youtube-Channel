@@ -1,44 +1,218 @@
 [
   {
-    "id": "1855f3c2-f603-4afa-964a-c97c6c2d5c04",
+    "id": "871aeb21-5b86-4196-9be3-a1853b87d925",
+    "format": "longform",
+    "niche": "automotive news and new car launches",
+    "language": "Hindi",
+    "title": "EV Kranti",
+    "description": "India mein electric vehicle revolution ki shuruaat ho chuki hai, lekin humein yeh jaan-na hai ki yeh kranti kaise India ko badal degi. Is video mein hum aapko batayenge ki kaise Indian government ne EV ko promote karne ke liye kai schemes launch kiye hain, jaise ki FAME scheme. Humare sources mein Times of India, Economic Times, aur PTI shaamil hain. Visuals AI-generated ho sakte hain. Humare channel par regular updates ke liye subscribe karein aur apne sujhav comments mein likhein.",
+    "tags": [
+      "Electric Vehicle",
+      "India",
+      "Auto Market",
+      "EV Kranti",
+      "FAME Scheme",
+      "Indian Government",
+      "Sustainability",
+      "Mobility",
+      "Future of Cars"
+    ],
+    "hook": "Ab waqt aa gaya hai jab humein apni driving habits badalni hongi, kyunki petrol aur diesel ki jagah electric vehicles le rahe hain. India mein electric vehicle ki demand tezi se badh rahi hai, lekin kya hum iski tayyari ke liye taiyaar hain?",
+    "scenes": [
+      {
+        "narration": "India mein electric vehicle ki shuruaat 2000 mein hui thi, lekin tab se lekar ab tak ismein bahut badlav aaye hain. Ab humare paas kai affordable options available hain, jaise ki Tata Nexon EV aur MG ZS EV. Inki range aur features bhi behtar ho rahi hain.",
+        "visual_keyword": "Electric Car Launch"
+      },
+      {
+        "narration": "Indian government ne electric vehicle ko promote karne ke liye kai schemes launch kiye hain, jaise ki FAME scheme. Is scheme ke tahat, government EV buyers ko subsidy provide karti hai. Isse EV ki demand aur bhi badh rahi hai.",
+        "visual_keyword": "Government EV Schemes"
+      },
+      {
+        "narration": "Lekin EV ki demand badhne ke saath-saath, charging infrastructure ki zaroorat bhi badh rahi hai. India mein abhi tak charging stations ki kami hai, lekin is par kaam ho raha hai. Humare paas abhi tak 300 se zyada charging stations hain.",
+        "visual_keyword": "Electric Car Charging"
+      },
+      {
+        "narration": "EV ki range aur performance bhi behtar ho rahi hai. Ab humare paas 300 km se zyada range wale EV available hain, jaise ki Hyundai Kona Electric. Isse logon ki range anxiety kam ho rahi hai.",
+        "visual_keyword": "Electric Car Range Test"
+      },
+      {
+        "narration": "Lekin EV ki adoption ke saath-saath, kuch challenges bhi hain. Jaise ki EV ki cost abhi bhi zyada hai, aur iski resale value kam hai. Lekin is par bhi kaam ho raha hai, aur humare paas abhi tak kuch affordable options available hain.",
+        "visual_keyword": "Electric Car Price Comparison"
+      },
+      {
+        "narration": "EV ki demand badhne ke saath-saath, Indian auto market mein bhi badlav aa rahe hain. Ab humare paas kai new EV models available hain, aur aur bhi launches hone wali hain. Isse Indian auto market ko boost mil raha hai.",
+        "visual_keyword": "Indian Auto Market Trends"
+      },
+      {
+        "narration": "Lekin kya hum EV ki adoption ke liye taiyaar hain? Abhi tak humare paas EV ki training aur awareness ki kami hai. Is par bhi kaam ho raha hai, aur humare paas abhi tak kuch initiatives available hain.",
+        "visual_keyword": "EV Training and Awareness"
+      },
+      {
+        "narration": "EV ki adoption ke saath-saath, sustainability aur environment ke liye bhi fayda hai. EV ki emission kam hoti hai, aur isse humari environment ko preserve karne mein madad milti hai. Isse humare future generations ke liye bhi fayda hai.",
+        "visual_keyword": "Sustainability and Environment"
+      },
+      {
+        "narration": "Toh kya hum EV ki kranti ke liye taiyaar hain? Ab waqt aa gaya hai jab humein apni driving habits badalni hongi, aur EV ki adoption ko promote karna hoga. Humare paas abhi tak kuch affordable options available hain, aur is par bhi kaam ho raha hai.",
+        "visual_keyword": "Electric Vehicle Future"
+      },
+      {
+        "narration": "Humare channel par regular updates ke liye subscribe karein, aur apne sujhav comments mein likhein. Hum aapki feedback ka intezar kar rahe hain, aur aapke sujhavon ko implement karne ki koshish karenge.",
+        "visual_keyword": "Channel Subscribe"
+      },
+      {
+        "narration": "Aur agar aapko yeh video pasand aaya, toh please isse share karein, aur apne doston ko bhi batayein. Hum aapke support ke liye shukrguzar hain, aur aapke saath judne ke liye utsuk hain.",
+        "visual_keyword": "Video Share"
+      },
+      {
+        "narration": "Toh ab waqt aa gaya hai jab humein apni driving habits badalni hongi, aur EV ki kranti ke liye taiyaar hona hoga. Hum aapke saath is journey par judne ke liye utsuk hain, aur aapke sujhavon ko implement karne ki koshish karenge.",
+        "visual_keyword": "Electric Vehicle Revolution"
+      }
+    ],
+    "created_at": "2026-08-15T19:42:51.274654+00:00"
+  },
+  {
+    "id": "056fc1d6-5024-4e48-8c9e-9c7a0784533c",
     "format": "short",
     "niche": "automotive news and new car launches",
     "language": "English",
-    "title": "Revolutionize EVs",
-    "description": "Discover the latest electric vehicle innovations, inspired by EV Kranti. Watch now and learn about the future of sustainable driving, with visuals generated by AI. Visuals may include AI-generated reconstructions; factual claims are presented for education.",
+    "title": "Electric Storm",
+    "description": "Discover the EV trend shaping the auto industry, inspired by the EV Kranti movement. Watch now and learn more, with AI-generated visuals.",
     "tags": [
-      "Electric Vehicles",
-      "EV News",
-      "Sustainable Driving",
-      "Car Launches",
-      "Auto Tech",
-      "Green Cars",
-      "Future Cars",
-      "EV Innovations"
+      "electric vehicles",
+      "auto news",
+      "car launches",
+      "EV trends",
+      "sustainable driving",
+      "future cars",
+      "green technology"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "The electric vehicle revolution is gaining speed",
-        "visual_keyword": "Electric car charging"
+        "narration": "A new era in driving has begun",
+        "visual_keyword": "electric car highway"
       },
       {
-        "narration": "With new models launching every month",
-        "visual_keyword": "Car factory production line"
+        "narration": "With many countries investing in EV infrastructure",
+        "visual_keyword": "charging station"
       },
       {
-        "narration": "One key innovation is advanced battery technology",
-        "visual_keyword": "Battery research lab"
+        "narration": "The EV market is expected to grow significantly",
+        "visual_keyword": "electric car sales graph"
       },
       {
-        "narration": "Allowing for longer ranges and faster charging times",
-        "visual_keyword": "Highway driving footage"
+        "narration": "Thanks to improving battery technology",
+        "visual_keyword": "lithium ion battery"
       },
       {
-        "narration": "The future of driving is electric",
-        "visual_keyword": "Cityscape with EVs"
+        "narration": "And governments offering incentives for eco-friendly vehicles",
+        "visual_keyword": "sustainable energy subsidies"
+      },
+      {
+        "narration": "The future of driving is electric, and it's arriving faster than you think",
+        "visual_keyword": "electric car speeding"
       }
     ],
-    "created_at": "2026-08-14T15:08:01.256513+00:00"
+    "created_at": "2026-08-15T19:42:57.446768+00:00"
+  },
+  {
+    "id": "22b94564-f50c-480b-bd3c-e42e898caae7",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Kranti Accelerates",
+    "description": "Discover the EV Kranti's real-world range. Watch now for a data-driven walkthrough, with footage generated by AI for illustration purposes Visuals may include AI-generated reconstructions; factual claims are presented for education.",
+    "tags": [
+      "EV Kranti",
+      "Electric Vehicles",
+      "Indian Autos",
+      "Car News",
+      "New Launches",
+      "EV Range",
+      "Sustainable Transport",
+      "Auto Tech"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "The EV Kranti promises a revolution in electric mobility",
+        "visual_keyword": "Electric Car"
+      },
+      {
+        "narration": "But what does its real-world range look like",
+        "visual_keyword": "Range Test"
+      },
+      {
+        "narration": "With a claimed range of over 300 kilometers",
+        "visual_keyword": "Road Trip"
+      },
+      {
+        "narration": "We found it delivered around 270 kilometers in mixed conditions",
+        "visual_keyword": "City Driving"
+      },
+      {
+        "narration": "A respectable figure for its class",
+        "visual_keyword": "Comparison Chart"
+      },
+      {
+        "narration": "Making the Kranti a compelling choice for daily commutes",
+        "visual_keyword": "Commuter Traffic"
+      },
+      {
+        "narration": "As India's EV market continues to grow, the Kranti is a key player",
+        "visual_keyword": "Indian Roads"
+      },
+      {
+        "narration": "And with its competitive pricing, it's an EV kranti that's here to stay",
+        "visual_keyword": "EV Charging Station"
+      }
+    ],
+    "created_at": "2026-08-15T19:43:04.018766+00:00"
+  },
+  {
+    "id": "422bec9c-d4c1-481e-9b72-3d048afc0d55",
+    "format": "short",
+    "niche": "automotive news and new car launches",
+    "language": "English",
+    "title": "Electric Shock",
+    "description": "Discover the EV Kranti revolution with fact-based insights, sourced from automotive experts. Watch now and learn how electric vehicles are changing the game, with AI-generated visual explanations.",
+    "tags": [
+      "electric cars",
+      "car launches",
+      "EV technology",
+      "automotive news",
+      "sustainable driving",
+      "green vehicles",
+      "vehicle innovations",
+      "future of cars"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Electric vehicles are taking over the roads",
+        "visual_keyword": "electric car driving"
+      },
+      {
+        "narration": "With India's EV Kranti movement leading the charge",
+        "visual_keyword": "Indian roads and traffic"
+      },
+      {
+        "narration": "One key advantage is reduced operating costs",
+        "visual_keyword": "fuel prices comparison"
+      },
+      {
+        "narration": "As electricity is generally cheaper than gasoline",
+        "visual_keyword": "electricity bill and fuel pump"
+      },
+      {
+        "narration": "This makes EVs an attractive option for many drivers",
+        "visual_keyword": "happy driver in electric car"
+      },
+      {
+        "narration": "Join the electric revolution and drive change",
+        "visual_keyword": "electric car charging station"
+      }
+    ],
+    "created_at": "2026-08-15T19:43:10.024251+00:00"
   }
 ]
