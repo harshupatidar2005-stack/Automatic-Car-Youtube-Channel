@@ -1,50 +1,5 @@
 [
   {
-    "id": "056fc1d6-5024-4e48-8c9e-9c7a0784533c",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Storm",
-    "description": "Discover the EV trend shaping the auto industry, inspired by the EV Kranti movement. Watch now and learn more, with AI-generated visuals.",
-    "tags": [
-      "electric vehicles",
-      "auto news",
-      "car launches",
-      "EV trends",
-      "sustainable driving",
-      "future cars",
-      "green technology"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "A new era in driving has begun",
-        "visual_keyword": "electric car highway"
-      },
-      {
-        "narration": "With many countries investing in EV infrastructure",
-        "visual_keyword": "charging station"
-      },
-      {
-        "narration": "The EV market is expected to grow significantly",
-        "visual_keyword": "electric car sales graph"
-      },
-      {
-        "narration": "Thanks to improving battery technology",
-        "visual_keyword": "lithium ion battery"
-      },
-      {
-        "narration": "And governments offering incentives for eco-friendly vehicles",
-        "visual_keyword": "sustainable energy subsidies"
-      },
-      {
-        "narration": "The future of driving is electric, and it's arriving faster than you think",
-        "visual_keyword": "electric car speeding"
-      }
-    ],
-    "created_at": "2026-08-15T19:42:57.446768+00:00"
-  },
-  {
     "id": "22b94564-f50c-480b-bd3c-e42e898caae7",
     "format": "short",
     "niche": "automotive news and new car launches",
