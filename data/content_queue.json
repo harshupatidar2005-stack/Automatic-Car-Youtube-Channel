@@ -1,51 +1,5 @@
 [
   {
-    "id": "bd536b5d-53dd-47c4-ace9-8d236bdb983c",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Storm",
-    "description": "Discover the game-changing tech behind India's EV revolution, sourced from EV Kranti research. Watch now and learn how electric vehicles are transforming the automotive landscape, with AI-generated visual aids.",
-    "tags": [
-      "EV Kranti",
-      "electric vehicles",
-      "automotive news",
-      "new car launches",
-      "Indian auto market",
-      "sustainable transport",
-      "green technology",
-      "auto innovation"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "A new era is dawning on the Indian automotive scene",
-        "visual_keyword": "Indian cityscape"
-      },
-      {
-        "narration": "With electric vehicles taking center stage",
-        "visual_keyword": "EV charging station"
-      },
-      {
-        "narration": "Thanks to advancements in battery tech",
-        "visual_keyword": "lithium ion battery"
-      },
-      {
-        "narration": "Range anxiety is becoming a thing of the past",
-        "visual_keyword": "electric car driving"
-      },
-      {
-        "narration": "And with governments offering incentives",
-        "visual_keyword": "government subsidy graph"
-      },
-      {
-        "narration": "The future of transport has never looked brighter, electric is the new normal",
-        "visual_keyword": "sustainable transport logo"
-      }
-    ],
-    "created_at": "2026-08-17T08:08:23.094937+00:00"
-  },
-  {
     "id": "817a6334-f095-4f4d-b424-483f9ac1ac95",
     "format": "short",
     "niche": "automotive news and new car launches",
