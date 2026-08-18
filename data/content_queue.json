@@ -1,51 +1,5 @@
 [
   {
-    "id": "817a6334-f095-4f4d-b424-483f9ac1ac95",
-    "format": "short",
-    "niche": "automotive news and new car launches",
-    "language": "English",
-    "title": "Electric Shock",
-    "description": "Discover the surprising truth about electric vehicles, based on data from EV Kranti. Watch now and learn how to make an informed decision, with AI-generated visuals.",
-    "tags": [
-      "electric cars",
-      "EV Kranti",
-      "new car launches",
-      "automotive news",
-      "sustainable vehicles",
-      "car explainers",
-      "vehicle technology",
-      "green cars"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Electric cars are not just a fad, they're the future.",
-        "visual_keyword": "EV charging station"
-      },
-      {
-        "narration": "With many countries investing heavily in EV infrastructure, it's an exciting time for the industry.",
-        "visual_keyword": "electric car factory"
-      },
-      {
-        "narration": "One key benefit of electric vehicles is their lower operating costs.",
-        "visual_keyword": "car maintenance"
-      },
-      {
-        "narration": "In fact, studies have shown that EVs can save owners thousands of dollars per year.",
-        "visual_keyword": "money saving"
-      },
-      {
-        "narration": "As technology continues to improve, we can expect even more efficient and affordable electric vehicles.",
-        "visual_keyword": "car research lab"
-      },
-      {
-        "narration": "The electric revolution is here to stay, and it's time to get charged up.",
-        "visual_keyword": "electric car driving"
-      }
-    ],
-    "created_at": "2026-08-17T08:08:30.312187+00:00"
-  },
-  {
     "id": "729767df-0030-4758-932f-8ab18657cbc9",
     "format": "short",
     "niche": "automotive news and new car launches",
